@@ -1,0 +1,66 @@
+name: 每日信号抓取与到期复查
+
+# 每天 09:00（北京时间）抓 3 个公开信号写入 data/metrics.json，
+# 并检查风口雷达里有没有行业到期，到期就开一个 Issue 提醒（GitHub 会发邮件）。
+# 也可在 Actions 页面手动触发。
+
+on:
+  schedule:
+    - cron: '0 1 * * *'    # 每天 01:00 UTC = 09:00 北京时间：抓取 + 到期检查
+    - cron: '0 2 * * 1'    # 每周一 02:00 UTC = 10:00 北京时间：兜底重抓（schedule 偶发被跳过时补一次）
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+# 同一时刻只允许一个任务落地，避免并发重入互相覆盖提交
+concurrency:
+  group: trend-atlas-daily
+  cancel-in-progress: false
+
+jobs:
+  fetch-and-check:
+    name: 抓取信号 -> 提交 -> 到期复查
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 抓取公开信号并生成 data/due.md（仅 Python 标准库）
+        run: |
+          set -euo pipefail
+          mkdir -p data
+          python3 fetch_metrics.py
+
+      - name: 提交 data/metrics.json（无变化则跳过）
+        run: |
+          set -euo pipefail
+          if [ -z "$(git status --porcelain data/metrics.json)" ]; then
+            echo "data/metrics.json 无变化，跳过提交"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/metrics.json
+          git commit -m "chore(metrics): 更新公开信号 $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push
+
+      - name: 到期条目 -> 开 Issue 提醒
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          if [ ! -s data/due.md ]; then
+            echo "data/due.md 为空：今天没有到期条目，跳过"
+            exit 0
+          fi
+          total=$(grep -c '^- ' data/due.md || true)
+          today=$(TZ=Asia/Shanghai date +%F)
+          title="风口雷达 · ${today} 有 ${total} 条该复查了"
+          existing=$(gh issue list --state open --limit 200 --json title --jq '.[].title')
+          if printf '%s\n' "$existing" | grep -Fqx "$title"; then
+            echo "已存在同名 open Issue，跳过：${title}"
+            exit 0
+          fi
+          gh issue create --title "$title" --body-file data/due.md
