@@ -35,7 +35,15 @@ _STARTED = datetime.now(timezone.utc)
 
 # 定位仓库根目录，不引入 os.path：__file__ 可能是相对路径
 _SCRIPT = str(__file__).replace("\\", "/")
-_ROOT = _SCRIPT.rsplit("/", 2)[0] if _SCRIPT.count("/") >= 2 else "."
+_DIR = _SCRIPT.rsplit("/", 1)[0] if "/" in _SCRIPT else ""
+if _DIR == "scripts":
+    _ROOT = "."
+elif _DIR.endswith("/scripts"):
+    _ROOT = _DIR.rsplit("/", 1)[0]
+elif _DIR:
+    _ROOT = _DIR
+else:
+    _ROOT = "."
 DEFAULT_OUT = _ROOT + "/data/metrics.json"
 # 页面文件在不同仓库里可能叫 index.html（GitHub Pages 根）或中文原名，按顺序取第一个能读到的
 HTML_CANDIDATES = ("index.html", "风口雷达-合并版.html")
