@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-02T19:39:29Z",
+  "probes": [
+    {
+      "id": "hackernews",
+      "label": "Hacker News 首页热榜",
+      "status": "ok",
+      "fetchedAt": "2026-11-02T19:39:27Z",
+      "error": null,
+      "highlights": [
+        {
+          "text": "Astra can read and write weights to improve Qwen",
+          "value": 452,
+          "url": "https://rikiyat.github.io/blog/weight-space-programming/"
+        },
+        {
+          "text": "Show HN: Subvocal – Talk to your computer without making noise",
+          "value": 276,
+          "url": "https://subvocal.company/"
+        },
+        {
+          "text": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
+          "value": 70,
+          "url": "https://momentic.ai/"
+        },
+        {
+          "text": "Agentic Backdoors via Pretraining Poisoning",
+          "value": 37,
+          "url": "https://arxiv.org/abs/2610.37741"
+        },
+        {
+          "text": "US boy names that became girl names and vice versa",
+          "value": 133,
+          "url": "https://namedaisy.com/blog/boy-names-that-became-girl-names"
+        },
+        {
+          "text": "Let Me Ch...",
+          "value": 98,
+          "url": "https://blog.alxgsv.com/let-me-check/"
+        },
+        {
+          "text": "Egoless Mathematics in the AI Era",
+          "value": 20,
+          "url": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/"
+        },
+        {
+          "text": "Show HN: Warsaw in voxels – an interactive 3D map of the city centre",
+          "value": 118,
+          "url": "https://p.migdal.pl/warsaw-vibe-voxel/"
+        },
+        {
+          "text": "Ask HN: Who is hiring? (November 2026)",
+          "value": 114,
+          "url": "https://news.ycombinator.com/item?id=50338728"
+        },
+        {
+          "text": "If you love a website, back it up",
+          "value": 217,
+          "url": "https://blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up/"
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "label": "GitHub 近 45 天新建高星仓库",
+      "status": "ok",
+      "fetchedAt": "2026-11-02T19:39:28Z",
+      "error": null,
+      "highlights": [
+        {
+          "text": "storytold/photocraft: PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
+          "value": 76166,
+          "url": "https://github.com/storytold/photocraft"
+        },
+        {
+          "text": "Ebony-Vinyl/dsh-our-free-model: 在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh",
+          "value": 57218,
+          "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model"
+        },
+        {
+          "text": "Gathin23/cleanyourtv: Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
+          "value": 50233,
+          "url": "https://github.com/Gathin23/cleanyourtv"
+        },
+        {
+          "text": "Niko1221/Strata: Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost,",
+          "value": 38322,
+          "url": "https://github.com/Niko1221/Strata"
+        },
+        {
+          "text": "yetone/magpie: Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+          "value": 28363,
+          "url": "https://github.com/yetone/magpie"
+        },
+        {
+          "text": "deepseek-ai/DeepInfer: DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
+          "value": 25015,
+          "url": "https://github.com/deepseek-ai/DeepInfer"
+        },
+        {
+          "text": "wheresryan22/anatomy: An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished S",
+          "value": 24067,
+          "url": "https://github.com/wheresryan22/anatomy"
+        },
+        {
+          "text": "google-research/harness2:",
+          "value": 22083,
+          "url": "https://github.com/google-research/harness2"
+        },
+        {
+          "text": "KnifeLemon/Filee: Free, open-source file converter. Convert 263 formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e",
+          "value": 20665,
+          "url": "https://github.com/KnifeLemon/Filee"
+        },
+        {
+          "text": "storytold/pdfcraft: PdfCraft: An open-source PDF reader and editor written by scratch in pure Rust",
+          "value": 19216,
+          "url": "https://github.com/storytold/pdfcraft"
+        }
+      ]
+    },
+    {
+      "id": "wikipedia",
+      "label": "Wikipedia 英文站每日浏览量榜",
+      "status": "ok",
+      "fetchedAt": "2026-11-02T19:39:29Z",
+      "error": null,
+      "highlights": [
+        {
+          "text": "Haley Stevens",
+          "value": 360148,
+          "url": "https://en.wikipedia.org/wiki/Haley_Stevens"
+        },
+        {
+          "text": "Patrick Stewart",
+          "value": 205436,
+          "url": "https://en.wikipedia.org/wiki/Patrick_Stewart"
+        },
+        {
+          "text": ".xxx",
+          "value": 197312,
+          "url": "https://en.wikipedia.org/wiki/.xxx"
+        },
+        {
+          "text": "Tung Tung Tung Sahur",
+          "value": 192363,
+          "url": "https://en.wikipedia.org/wiki/Tung_Tung_Tung_Sahur"
+        },
+        {
+          "text": "Nidhi Razdan",
+          "value": 187499,
+          "url": "https://en.wikipedia.org/wiki/Nidhi_Razdan"
+        },
+        {
+          "text": "Gabby Williams",
+          "value": 180204,
+          "url": "https://en.wikipedia.org/wiki/Gabby_Williams"
+        },
+        {
+          "text": "Inde Navarrette",
+          "value": 142063,
+          "url": "https://en.wikipedia.org/wiki/Inde_Navarrette"
+        },
+        {
+          "text": "Heidi Klum",
+          "value": 141812,
+          "url": "https://en.wikipedia.org/wiki/Heidi_Klum"
+        },
+        {
+          "text": "Ciara Mageean",
+          "value": 138465,
+          "url": "https://en.wikipedia.org/wiki/Ciara_Mageean"
+        },
+        {
+          "text": "Elizabeth Holmes",
+          "value": 135985,
+          "url": "https://en.wikipedia.org/wiki/Elizabeth_Holmes"
+        }
+      ]
+    }
+  ]
+}
