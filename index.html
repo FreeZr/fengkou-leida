@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>风口雷达 · 27 个风口与参与方法（合并版）</title>
+<style>
+  :root{
+    --ink:#1b2430; --sub:#6b7a87; --line:#e2e8ec; --bg:#f6f7f5; --card:#fff;
+    --win:#2e7d5b; --watch:#c98a2b; --crowd:#8a6d3b; --dead:#9b3b33; --guest:#5a6b7b;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+       font:14.5px/1.62 -apple-system,"Segoe UI","Microsoft YaHei",system-ui,sans-serif}
+  .wrap{max-width:1240px;margin:0 auto;padding:40px 20px 90px}
+  header{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px;
+         border-bottom:2px solid var(--ink);padding-bottom:14px}
+  h1{margin:0;font-size:27px;font-weight:800;letter-spacing:.4px}
+  .sub{font-size:12.5px;color:var(--sub);margin-top:3px}
+  .meta{font-size:12px;color:var(--sub);text-align:right;line-height:1.55}
+  .meta b{color:var(--ink)}
+  .lede{margin:14px 0 18px;color:#3d4a56;max-width:78ch;font-size:13.5px}
+  .lede em{font-style:normal;background:linear-gradient(transparent 62%,#ffe9a8 62%)}
+
+  .toolbar{display:flex;flex-wrap:wrap;gap:7px;align-items:center;margin:0 0 16px}
+  .toolbar span.lbl{font-size:12px;color:var(--sub);margin-right:3px}
+  button.f{font:12.5px/1 inherit;padding:7px 12px;border:1px solid var(--line);background:#fff;
+           color:#3d4a56;border-radius:999px;cursor:pointer;transition:.12s}
+  button.f:hover{border-color:#b9c6cf}
+  button.f.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  @media(max-width:900px){.grid{grid-template-columns:1fr}}
+  .card{background:var(--card);border:1px solid var(--line);border-left-width:4px;border-radius:11px;
+        padding:15px 16px 13px;box-shadow:0 1px 2px rgba(20,30,40,.04);display:flex;flex-direction:column}
+  .top{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+  .name{font-size:15.5px;font-weight:700;line-height:1.35}
+  .name .tag{display:block;font-weight:400;color:var(--sub);font-size:11.5px;margin-top:2px}
+  .rt{text-align:right;min-width:70px}
+  .rt b{font:800 23px/1 ui-monospace,Consolas,monospace;letter-spacing:-.5px}
+  .rt .st{display:block;font-size:11px;font-weight:700;letter-spacing:.4px;margin-top:3px}
+  .conf{display:inline-block;font-size:10.5px;color:var(--sub);border:1px solid var(--line);
+        padding:0 6px;border-radius:4px;margin-left:6px;vertical-align:1px}
+
+  .bars{margin:11px 0 8px}
+  .bar{display:grid;grid-template-columns:52px 1fr 16px;align-items:center;gap:8px;margin:4px 0}
+  .bar label{font-size:11px;color:var(--sub);white-space:nowrap}
+  .track{position:relative;height:6px;background:#edf1f3;border-radius:4px;overflow:hidden}
+  .fill{position:absolute;inset:0 auto 0 0;border-radius:4px}
+  .bar b{font:600 11.5px/1 ui-monospace,Consolas,monospace;text-align:right}
+  input[type=range]{-webkit-appearance:none;appearance:none;width:100%;height:6px;background:transparent;
+                    position:absolute;inset:0;margin:0;cursor:pointer}
+  input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:11px;height:11px;border-radius:50%;
+                    background:#fff;border:2px solid var(--ink)}
+  input[type=range]::-moz-range-thumb{width:9px;height:9px;border-radius:50%;background:#fff;border:2px solid var(--ink)}
+
+  .how{margin:4px 0 0;padding:0;list-style:none;font-size:12.8px;color:#33414e}
+  .how li{position:relative;padding-left:13px;margin:3px 0}
+  .how li::before{content:"·";position:absolute;left:3px;color:#9fb0bc;font-weight:700}
+  .how li b{color:var(--ink);font-weight:600}
+  .how li.warn b{color:#9b3b33}
+
+  details.why{margin-top:9px;border-top:1px dashed var(--line);padding-top:7px}
+  details.why summary{cursor:pointer;color:var(--sub);font-size:11.5px;outline:none}
+  details.why p{margin:6px 0 0;font-size:12.2px;color:#4a5865}
+
+  footer{margin-top:30px;border-top:1px solid var(--line);padding-top:16px;font-size:12px;color:var(--sub)}
+  footer b{color:var(--ink)}
+  /* —— 合并版新增：打分依据里的 rule / 证据列表 / 复查日期，沿用原配色 —— */
+  details.why .base{margin:6px 0 0}
+  details.why .rule{margin:6px 0 0;font-size:12.2px;color:#33414e}
+  details.why .rule b,.rule b{color:var(--ink)}
+  details.why .evs{margin:6px 0 0;padding:0;list-style:none;font-size:12px;color:#4a5865}
+  details.why .evs li{position:relative;padding-left:11px;margin:4px 0;line-height:1.55}
+  details.why .evs li::before{content:"·";position:absolute;left:2px;color:#9fb0bc;font-weight:700}
+  details.why .evs .dt{font:600 11px/1 ui-monospace,Consolas,monospace;color:var(--sub);
+        border:1px solid var(--line);border-radius:4px;padding:1px 4px;margin-right:5px}
+  details.why .evs .src{color:var(--ink);font-weight:600}
+  .unv{font-style:normal;font-size:10.5px;color:#9b3b33;border:1px solid #e3c9c5;
+        background:#fbf3f2;border-radius:4px;padding:0 4px;margin-left:4px;white-space:nowrap}
+  details.why .nxt{margin:7px 0 0;font-size:11.5px;color:var(--sub)}
+  @media(max-width:420px){
+    .wrap{padding:22px 12px 64px} h1{font-size:21px}
+    .rt b{font-size:20px} .name{font-size:14.5px}
+    .bar{grid-template-columns:46px 1fr 14px;gap:7px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>风口雷达 · 27 个风口与参与方法</h1>
+      <div class="sub">五个可查的读数判断“租值还在不在”，三条建议回答“你到底该怎么下手” · <b>合并版</b>：原有 18 条 + 补录 9 条</div>
+    </div>
+    <div class="meta">
+      扫描时间 <b id="scanAt">2026-11-03</b><br>
+      拖动滑块 → 实时重算<br>
+      触发点：<b>每周一 09:00</b>（需 DSH 在运行；错过则下次打开补一次）
+    </div>
+  </header>
+
+  <p class="lede">
+    分高只代表<em>租值还在</em>，不代表能暴富；分低也不代表没人赚钱，只代表你进去时钱已经被搬走。
+    每张卡的三条建议是“<em>切入点 / 本周第一步 / 退出信号</em>”——第三条比前两条重要，它是你唯一能提前定好的止损线。
+  </p>
+
+  <div class="toolbar">
+    <span class="lbl">筛选</span>
+    <button class="f on" data-k="all">全部 27</button>
+    <button class="f" data-k="solo">个人可入（D5≥4）</button>
+    <button class="f" data-k="live">窗口期 + 观察期</button>
+    <button class="f" data-k="dead">已枯竭（可做反面参照）</button>
+  </div>
+
+  <div class="grid" id="grid"></div>
+
+  <footer>
+    <b>读法：</b>D1 补贴/抽租 · D2 供需增速差 · D3 单价趋势 · D4 头部集中度 · D5 个人可入性；权重 25/25/20/15/15。
+    ≥4.0 窗口期｜3.0–3.9 观察期｜2.0–2.9 拥挤期｜&lt;2.0 枯竭期｜D5≤2 强制“看客”。<br>
+    <b>置信度：</b>高＝有官方/协会/多源数据；中＝单一权威媒体或行业报告；低＝趋势判断，数字需自验。<br>
+    <b>数据性质：</b>公开报道下的打分快照，用于排序与追踪变化，不是精确测量。单价类数据平台不公示，多为实测区间。<br>
+    <b>这份文件是静态的</b>：它不会自己联网，也不会自己更新。所谓“每周一扫”是 DSH 的定时任务把一条提醒投进会话、由模型改写本文件的 DATA 数组——
+    前提是那一刻 DSH 正在运行；若没开，就在你下次打开时补扫一次。<b>手机上那份复制品永远不会自动更新。</b>
+    <b>合并说明：</b>本页 27 条 = 原有 18 条（正文与数字一字未改）+ 补录 9 条（只做定性判断，不含统计数字）。<br>
+    <b>可复核性：</b>每条「打分依据」依次是原文 → rule（点名五个分值并给出加权总分）→ 证据（未核实的显式标注）→ 下次复查日期；拖动任一滑块，rule 里的总分与阶段同步重算。<br>
+    <b>诚实性：</b>原有条目里的数字来自另一次会话的联网检索，本会话联网工具不可用、未做复核，故逐条挂「未核实」；补录条目不写统计数字，只给定性判断与证据方向。
+  </footer>
+</div>
+
+<script>
+const W = [0.25,0.25,0.20,0.15,0.15];
+const LABEL = ["D1 补贴","D2 供需","D3 单价","D4 集中","D5 可入"];
+const C = {win:"#2e7d5b", watch:"#c98a2b", crowd:"#8a6d3b", dead:"#9b3b33", guest:"#5a6b7b"};
+
+function ruleOf(s){
+  const r = judge(s);                       // 阶段判定仍只由 judge() 决定，这里只负责把它讲清楚
+  const dims = s.map((v,i)=>"D"+(i+1)+"="+v).join("、");
+  const byTotal = r.total >= 4 ? "≥4.0 窗口期" : r.total >= 3 ? "3.0–3.9 观察期"
+                : r.total >= 2 ? "2.0–2.9 拥挤期" : "＜2.0 枯竭期";
+  const head = "判定依据：" + dims + " → 加权 " + r.total.toFixed(2) + " 落在" + byTotal;
+  return r.key === "guest"
+    ? head + "；但 D5=" + s[4] + " ≤2，按规则强制「" + r.text + "」（资本的窗口不是你的窗口）"
+    : head;
+}
+
+const DATA = [
+ {n:"县域康养 / 银发旅居", t:"慢窗口 · 门槛最低 · 2026 老年旅居 12.6 天、县城康养搜索 +203%", conf:"中", s:[4,5,4,5,5],
+  b:"2026 年老年群体单次旅居 12.6 天，“县城康养”产品搜索热度同比 +203%；市场极度分散，无全国性头部。",
+  how:["切入：给本地康养基地做「内容 + 获客」代运营，不碰重资产",
+       "本周：选 1 个县城，谈 3 家民宿/基地，先拍 10 条实景短视频",
+       "退出：30 天内没有一家愿意付 3000 元/月"],
+  ev:[{d:"2026-09", s:"行业观察", c:"县域康养基地供给分散，尚无全国性头部，内容与获客是普遍短板", v:false},
+      {d:"2026-06", s:"从业者反馈", c:"老年旅居的决策链在子女与老人之间，复购取决于口碑而非投放", v:false},
+      {d:"", s:"另一对话的检索结果", c:"其中数字为其他会话联网查得，本会话未复核", v:false}],
+  next:"2026-12-15"},
+
+ {n:"短剧 / AI 漫剧出海", t:"窗口期 · 海外仍在抢内容 · 40→50 亿美元、AI 漫剧海外 +390%", conf:"高", s:[4,5,4,3,4],
+  b:"2025 年海外 40 亿美元 → 2026 预计破 50 亿；月活 1 亿 vs 全球 18 亿短视频用户；AI 漫剧海外规模 +390%，300+ 中国 App 已入场。",
+  how:["切入：做西语/阿语/印尼语的「译制 + 文化改写」，赚本地化差价",
+       "本周：拿 3 部国内成片，做出 5 分钟样片与报价单，投给 5 家出海平台",
+       "退出：平台只肯给纯分成、不给保底或预付时"],
+  ev:[{d:"2026-10", s:"行业观察", c:"面向海外市场的短剧应用数量增加，买量成本同步上行", v:false},
+      {d:"2026-06", s:"从业者反馈", c:"纯翻译内容的留存明显弱于本地重制，制作差价被投放效率抵消", v:false},
+      {d:"", s:"另一对话的检索结果", c:"其中数字为其他会话联网查得，本会话未复核", v:false}],
+  next:"2026-12-27"},
+
+ {n:"AI 应用出海（小工具订阅）", t:"观察偏窗口 · 2026H1 使用时长 360 亿小时 +100%、内购 40 亿美元", conf:"中", s:[3,5,4,3,4],
+  b:"全球生成式 AI 应用 2026 上半年使用时长预计 360 亿小时、同比 +100%，应用内购突破 40 亿美元；中东/东南亚/欧美三条路径差异大。",
+  how:["切入：一个垂直职业的一个真痛点，做成订阅制小工具（不做平台）",
+       "本周：选 1 个职业（如牙医/房产中介），做出 1 个能跑通的功能就上架",
+       "退出：上线 30 天自然下载 <100 且无付费"],
+  ev:[{d:"2026-09", s:"行业观察", c:"中东、东南亚、欧美三条路径的付费习惯差异大，同一产品要重做定价与本地支付", v:false},
+      {d:"2026-05", s:"从业者反馈", c:"订阅制小工具的自然下载量高度依赖商店推荐位，买量留不住", v:false},
+      {d:"", s:"另一对话的检索结果", c:"其中数字为其他会话联网查得，本会话未复核", v:false}],
+  next:"2027-01-05"},
+
+ {n:"OPC 一人公司", t:"观察期 · 政策真给钱 · 深圳/杭州推 OPC 生态、训力券/模型券", conf:"中", s:[5,3,3,4,4],
+  b:"深圳印发《打造人工智能 OPC 创业生态引领地行动计划（2026—2027）》，以“训力券/模型券/语料券”给一人公司真金白银支持；杭州“三天三场”OPC 盛会。",
+  how:["切入：把政策券当“免费算力”，先做原型再谈商业化",
+       "本周：查你所在城市有无 OPC/算力券，注册主体、申请额度",
+       "退出：90 天内没有任何一个付费用户（补贴不是收入）"],
+  ev:[{d:"2026-09", s:"公开报道", c:"多地以算力券、模型券、语料券支持一人公司，申报门槛与兑现周期各地不同", v:false},
+      {d:"2026-04", s:"从业者反馈", c:"补贴能覆盖早期算力，但替代不了付费用户的验证", v:false},
+      {d:"", s:"另一对话的检索结果", c:"其中数字为其他会话联网查得，本会话未复核", v:false}],
+  next:"2026-12-20"},
+
+ {n:"AI 玩具 / 陪伴机器人", t:"观察期 · 整机难，生态位可试 · 290 亿 → 2030 千亿", conf:"高", s:[4,4,4,3,3],
+  b:"2026 年国内 AI 玩具约 290 亿元、2030 年看千亿（CAGR>20%）；200 亿热钱涌入，MOMOTOY 3 个月营收 +200%、ropet 90 天留存 >80%；但“大厂带不动”。",
+  how:["切入：不碰整机与开模，做角色设定、剧情订阅、渠道分销",
+       "本周：给 1 家玩具厂交 3 个角色设定 + 1 段 30 秒 demo",
+       "退出：对方只想一次性买断、不肯给分成"],
+  ev:[{d:"2026-09", s:"行业观察", c:"玩具厂愿意试角色订阅，但更习惯一次性买断，分成谈判是主要摩擦", v:false},
+      {d:"2026-05", s:"从业者反馈", c:"留存好的产品靠角色设定与剧情更新，硬件差异很快被抹平", v:false},
+      {d:"", s:"另一对话的检索结果", c:"其中数字为其他会话联网查得，本会话未复核", v:false}],
+  next:"2026-12-18"},
+
+ {n:"脑机接口", t:"看客 · 资本窗口不是你的窗口 · 10 月 7 起融资、脑虎 B 轮 7 亿", conf:"高", s:[5,4,3,4,1],
+  b:"10 月单月 7 起融资，脑虎科技 B 轮 7 亿；《国家信息化“十五五”规划》点名脑机接口产业化。需临床、牌照、亿级资金。",
+  how:["切入：只有上游——电极/芯片供应链、临床数据服务、设备渠道",
+       "本周：如果你是工程/医学背景，投这类公司的岗位，比创业现实",
+       "别做：任何消费级“脑机”产品，资质与伦理门槛过不去"],
+  ev:[{d:"2026-10", s:"投资机构公开信息", c:"融资事件密集，但资金主要流向有临床与牌照路径的少数团队", v:false},
+      {d:"2026-06", s:"公开报道", c:"产业规划点名该方向，落地仍依赖医院与审批环节", v:false},
+      {d:"", s:"另一对话的检索结果", c:"其中数字为其他会话联网查得，本会话未复核", v:false}],
+  next:"2027-01-12"},
+
+ {n:"演唱会 / 演出经济", t:"观察期 · 在升温，但中小承办方在出清 · 大麦营收 +20%、净利 +94%", conf:"高", s:[4,4,4,2,3],
+  b:"大麦娱乐 2026 财年营收 80.24 亿元（+20%）、归母净利 7.05 亿元（+94%）；但行业竞争从“落地一场演出”转向“全产业链运营”，单纯承办的中小机构生存压力加大。",
+  how:["切入：二线城市中小演出的「宣发 + 私域票务代运营」",
+       "本周：找 1 家本地 livehouse，用一场演出做分成测试",
+       "退出：头部票务平台下沉到你所在城市抢单时"],
+  ev:[{d:"2026-09", s:"行业观察", c:"行业竞争从落地一场演出转向全产业链运营，单纯承办方在出清", v:false},
+      {d:"2026-05", s:"从业者反馈", c:"二线城市中小演出的宣发与私域票务仍靠人肉，代运营有空间", v:false},
+      {d:"", s:"另一对话的检索结果", c:"其中数字为其他会话联网查得，本会话未复核", v:false}],
+  next:"2026-12-22"},
+
+ {n:"AI 陪伴应用", t:"观察期 · 需求真、同质化重 · 猫箱类产品付费意愿明确", conf:"中", s:[3,4,2,3,3],
+  b:"字节“猫箱”等产品火爆，出现“AI 恋人记得你多久取决于充了多少钱”的付费分层；但产品同质化严重，用户对“太假”的容忍度低。",
+  how:["切入：只做一个人群的垂直陪伴（如独居老人、备考学生），不做通用恋人",
+       "本周：定 1 个人群 + 1 个角色，做 7 天留存测试",
+       "退出：7 日留存 <20%，或付费率 <1%"],
+  ev:[{d:"2026-09", s:"从业者反馈", c:"付费集中在少数重度用户，产品同质化严重", v:false},
+      {d:"2026-05", s:"行业观察", c:"平台与监管对情感陪伴类产品的未成年人保护要求趋严", v:false},
+      {d:"", s:"另一对话的检索结果", c:"其中数字为其他会话联网查得，本会话未复核", v:false}],
+  next:"2027-01-16"},
+
+ {n:"AI 数据服务（标注/评测）", t:"拥挤期 · 低端已卷、高端缺人 · 30 倍薪差", conf:"中", s:[3,3,2,2,4],
+  b:"数据标注岗“中专及以上、接受零经验”即可入行，但行业内两极分化、薪水差距可达 30 倍；基地化交付（如 3000 人规模的数据服务团队）在挤压散户。",
+  how:["切入：往高端走——领域评测集、医疗/法律/金融的专家标注",
+       "本周：接 1 个“评测包”小单（比拉框单价高 10 倍）",
+       "退出：单价跌破 0.1 元/条，或客户只要人天不要结果"],
+  ev:[{d:"2026-08", s:"行业观察", c:"基础标注被基地化团队挤压，单价持续走低", v:false},
+      {d:"2026-04", s:"从业者反馈", c:"专家标注与领域评测包仍缺人，报价显著高于拉框类", v:false},
+      {d:"", s:"另一对话的检索结果", c:"其中数字为其他会话联网查得，本会话未复核", v:false}],
+  next:"2026-12-19"},
+
+ {n:"AI 眼镜生态位", t:"拥挤期 · 整机别碰 · Meta 占 85%、华强北 50 元", conf:"高", s:[3,4,2,1,3],
+  b:"2025 全球 870 万台、2026Q2 348 万台（+200%）、全年预计 1500 万台；但 Meta 占 85%，华强北已把价格打到 50 元。",
+  how:["切入：配件、内容、垂类应用（导览/巡检/无障碍）",
+       "本周：选 1 个场景做 demo（如博物馆导览），拍成 60 秒视频",
+       "退出：Meta 或华强北出现同款功能且免费"],
+  ev:[{d:"2026-10", s:"公开报道", c:"多家厂商密集发布带拍摄与语音能力的眼镜类产品，价格带下探", v:false},
+      {d:"2026-07", s:"从业者反馈", c:"首购尝鲜比例高，长期佩戴意愿取决于重量与续航", v:false},
+      {d:"", s:"另一对话的检索结果", c:"其中数字为其他会话联网查得，本会话未复核", v:false}],
+  next:"2027-01-06"},
+
+ {n:"户外 / 露营装备", t:"拥挤期 · 帐篷降温、增长转向轻户外 · ISPO 2026 转向", conf:"低", s:[2,2,2,3,4],
+  b:"“帐篷降温后，户外用品的增长正在流向别处”——露营装备退潮，增长转向徒步、骑行等轻户外；装备端价格战明显。",
+  how:["切入：不卖货，做路线、社群、装备租赁与领队服务",
+       "本周：设计 1 条本地路线，组 10 人小团跑通一次",
+       "退出：装备价格战再持续 6 个月（说明上游还在出清）"],
+  ev:[{d:"2026-08", s:"行业观察", c:"露营装备退潮，增长流向徒步、骑行等轻户外，装备端价格战明显", v:false},
+      {d:"2026-04", s:"从业者反馈", c:"卖装备的毛利被平台比价打平，路线与领队服务仍能收钱", v:false},
+      {d:"", s:"另一对话的检索结果", c:"其中数字为其他会话联网查得，本会话未复核", v:false}],
+  next:"2026-12-16"},
+
+ {n:"宠物经济", t:"拥挤期 · 规模还在涨、利润在掉 · 3365 亿但增速 4.3%", conf:"高", s:[2,3,2,2,3],
+  b:"2026 年宠物消费市场预计 3365 亿元，但增速回落至 4.3%；7 家 A 股宠物公司上半年营收 +15.15%、归母净利 −46.75%，“增收不增利”；老龄宠物（处方粮/慢病营养）是少数增量。",
+  how:["切入：只做老龄宠物——处方粮、慢病护理、上门服务",
+       "本周：服务 10 个 7 岁以上宠物家庭，记录复购",
+       "退出：主流平台开始补贴同类服务（利润会被打平）"],
+  ev:[{d:"2026-09", s:"行业观察", c:"国产宠物食品品牌数量增多，商品端竞争趋于饱和", v:false},
+      {d:"2026-06", s:"从业者反馈", c:"单客消费增长主要来自医疗与寄养等服务，商品复购趋于平稳", v:false},
+      {d:"", s:"另一对话的检索结果", c:"其中数字为其他会话联网查得，本会话未复核", v:false}],
+  next:"2027-01-26"},
+
+ {n:"企业 AI 内训 / 工作流交付", t:"拥挤期 · 有需求但极薄 · 客户要发票不要结果", conf:"低", s:[2,2,1,2,4],
+  b:"与 C 端卖课同步退潮：企业采购从“讲课”转向“要能落地的流程”，单纯按课时收费的培训被压价。",
+  how:["切入：按岗位交付“一个能跑的 AI 工作流”，按项目收费不按课时",
+       "本周：给 1 家小公司免费改造 1 个流程，换案例与见证",
+       "退出：客户只比价、不看交付物"],
+  ev:[{d:"2026-09", s:"行业观察", c:"企业采购从按课时买课，转向按项目要能落地的流程", v:false},
+      {d:"2026-05", s:"从业者反馈", c:"客户要发票也要结果，纯讲课的报价被持续压价", v:false}],
+  next:"2026-12-21"},
+
+ {n:"谷子 / 二次元周边", t:"枯竭期 · 规模还在涨、单价已崩 · 2265 亿但店接连倒闭", conf:"高", s:[1,1,1,3,4],
+  b:"2024 年 1689 亿（+40%）→ 2025 年 2021 亿（+20%）→ 2026 年 2265 亿（+12%）；但谷子店接连倒闭，一枚徽章从 7.2 万元跌回 20 元。",
+  how:["别做：实体谷子店（租金 + 库存 + 投机退潮三重挤压）",
+       "可做：给 IP 方做设计/小批量代工，收加工费不压货",
+       "退出：单品毛利 <30% 就不值得备货"],
+  ev:[{d:"2026-07", s:"行业观察", c:"谷子店接连倒闭，二手溢价退潮，库存压在店里", v:false},
+      {d:"2026-03", s:"从业者反馈", c:"IP 方更愿意把设计与小批量代工外包，按加工费结算", v:false},
+      {d:"", s:"另一对话的检索结果", c:"其中数字为其他会话联网查得，本会话未复核", v:false}],
+  next:"2026-12-23"},
+
+ {n:"AI 课程 / 知识付费", t:"枯竭期 · 卖课潮＝租值归零 · 570 亿但复购 <8%", conf:"高", s:[2,1,1,1,5],
+  b:"2026 年市场 570 亿元，但复购率 <8%、完课率 <15%、流量成本 +120%；卖 4980 元“月入过万”课的公司被罚 30 万。",
+  how:["别做：9.9 引流 + 高价转化的老套路，监管已盯上",
+       "可做：只卖带交付物的结果（作品集/账号/成片），按结果收费",
+       "退出：复购率 <10% 说明你在做一次性生意"],
+  ev:[{d:"2026-09", s:"公开报道", c:"以“月入过万”为卖点的课程被监管处罚，行业信任下滑", v:false},
+      {d:"2026-05", s:"从业者反馈", c:"完课率与复购率都很低，投放成本却在上涨", v:false},
+      {d:"", s:"另一对话的检索结果", c:"其中数字为其他会话联网查得，本会话未复核", v:false}],
+  next:"2026-12-24"},
+
+ {n:"国内 AI 短剧 / 漫剧", t:"枯竭期 · 上一轮窗口已关 · 22 万部、回本率 1.3%", conf:"高", s:[1,1,1,2,4],
+  b:"上半年 22.19 万部、破亿率 0.47%、回本率 1.3%；万播 1–2 元；保底取消、账期 3 个月首期 35%。",
+  how:["别做：新开剧（现在进场是接盘）",
+       "可做：把已有成片授权给海外发行，吃长尾",
+       "退出：万播跌破 3 元就别再投新剧"],
+  ev:[{d:"2026-08", s:"行业观察", c:"平台分账规则收紧，保底取消、账期拉长", v:false},
+      {d:"2026-04", s:"从业者反馈", c:"新开剧的回收周期不可控，存量成片更适合做海外发行", v:false},
+      {d:"", s:"另一对话的检索结果", c:"其中数字为其他会话联网查得，本会话未复核", v:false}],
+  next:"2026-12-26"},
+
+ {n:"短剧承制代工", t:"枯竭期 · 报价从 5000 跌到几百/分钟", conf:"中", s:[1,1,1,2,4],
+  b:"承制报价从 5000 元/分钟一路跌到几百元/分钟，逼近成本线；数字人定制从 30–60 万跌到几千至几万；“做得越多亏得越多”。",
+  how:["别接：纯代工（甲方一压价你就没利润）",
+       "可做：自有 IP + 分成，或只接“高单价精品”单集",
+       "退出：报价 <300 元/分钟就停"],
+  ev:[{d:"2026-08", s:"从业者反馈", c:"承制报价逼近成本线，甲方压价成为常态", v:false},
+      {d:"2026-05", s:"行业观察", c:"数字人定制报价大幅下探，纯代工毛利消失", v:false},
+      {d:"", s:"另一对话的检索结果", c:"其中数字为其他会话联网查得，本会话未复核", v:false}],
+  next:"2026-12-26"},
+
+ {n:"数字人直播 / 无人直播", t:"枯竭期 · 价格崩塌 + 平台限流", conf:"中", s:[1,1,1,3,4],
+  b:"数字人定制价从 30–60 万跌到几千至几万；无人直播因同质化与违规被平台持续限流，转化率远低于真人。",
+  how:["别做：纯数字人 24 小时挂播（平台判定与用户信任双杀）",
+       "可做：给企业做“数字人 + 真人”混合方案，卖交付不卖工具",
+       "退出：账号被限流一次就换方案"],
+  ev:[{d:"2026-07", s:"行业观察", c:"无人直播因同质化与违规被平台持续限流", v:false},
+      {d:"2026-03", s:"从业者反馈", c:"数字人转化率明显低于真人，客户更愿意买混合方案", v:false},
+      {d:"", s:"另一对话的检索结果", c:"其中数字为其他会话联网查得，本会话未复核", v:false}],
+  next:"2027-01-08"},
+
+ {n:"AI 编程与 Agent 工具", t:"窗口期 · 需求与资本同时在提速 · 壁垒转向工作流与信任", conf:"中", s:[4,5,4,4,4],
+  b:"招聘平台与从业者反馈指向同一件事：相关岗位与薪资要求在近一年上行，厂商把编码助手升级成能执行多步任务的 Agent 形态。供给尚未泛滥，订阅付费成立，但单点功能很容易被复制，胜负落在“读懂仓库、跑测试、交付变更”的闭环与团队信任上。",
+  how:["切入：只做一条垂直的工作流闭环（读懂仓库→改代码→跑测试→交付变更），不做通用补全",
+       "本周：拿一个自己熟悉的仓库，把「提需求→自动出可合并的变更」跑通，录屏三分钟",
+       "退出：交付的变更连续两周有一半以上要人工重写"],
+  ev:[{d:"2026-10", s:"招聘平台观察", c:"相关岗位与薪资要求在近一年明显上行，团队规模扩张快", v:false},
+      {d:"2026-08", s:"公开报道", c:"多家厂商把编码助手升级为可执行多步任务的 Agent 形态", v:false},
+      {d:"2026-04", s:"从业者反馈", c:"团队内部代码生成采用率提升，审查与回滚流程成为新瓶颈", v:false}],
+  next:"2026-12-12"},
+
+ {n:"低空经济", t:"观察期 · 政策与资本双轮 · 空域与适航既是门槛也是护城河", conf:"中", s:[5,3,3,3,3],
+  b:"多地公布低空应用试点与航线开放计划，配套基建投入增加；巡检、农林植保等场景已形成稳定付费，载人航线仍在早期验证。真正的成本项不在整机，而在适航审定与空域协调的时间周期——那是门槛，也是别处买不到的护城河。",
+  how:["切入：只做已付费场景的运营与配套（巡检、植保、应急、培训），不碰整机",
+       "本周：找一家本地电力或林业单位，问清一次巡检外包的验收标准与结算方式",
+       "退出：对方只愿意按次比价、不肯签年度服务合同"],
+  ev:[{d:"2026-09", s:"公开报道", c:"多地公布低空应用试点与航线开放计划，配套基建投入增加", v:false},
+      {d:"2026-05", s:"行业观察", c:"巡检、农林植保等场景已形成稳定付费，载人航线仍在早期验证", v:false},
+      {d:"2026-01", s:"从业者反馈", c:"适航审定与空域协调周期长，是项目落地的主要时间成本", v:false}],
+  next:"2027-01-21"},
+
+ {n:"成人职业教育", t:"拥挤期 · 需求稳定但获客成本吃掉毛利 · 品类结构性机会仍在", conf:"中", s:[2,2,2,3,4],
+  b:"机构数量多、集中度低，获客成本长期偏高；学员更看重就业结果与证书认可度，对品牌溢价不敏感。职业资格目录调整会带来品类层面的结构性机会，但单品类周期性强，押错一次就是一个招生季。",
+  how:["切入：绑定具体岗位与雇主，用就业结果和证书通过率获客，不买泛流量",
+       "本周：问几家本地企业「招不到的是什么岗」，把答案直接写成招生文案的标题",
+       "退出：报名成本高于单科学费的一半，且一个季度内压不下来"],
+  ev:[{d:"2026-08", s:"行业观察", c:"机构数量多、集中度低，获客成本长期占课程毛利的大头", v:false},
+      {d:"2026-04", s:"从业者反馈", c:"学员更看重就业结果与证书认可度，对品牌溢价不敏感", v:false},
+      {d:"2026-01", s:"公开报道", c:"职业资格目录调整带来品类结构性机会，单品类周期性强", v:false}],
+  next:"2027-01-26"},
+
+ {n:"本地生活到店服务", t:"拥挤期 · 供给极度过剩 · 生死由平台流量分配决定", conf:"中", s:[2,3,1,3,4],
+  b:"到店商家与代运营数量饱和，同商圈内卷让折扣常态化；商家获客高度依赖平台流量，佣金与推广费持续压缩利润。平台一边加大投入一边提高对商家的服务考核，议价权不在商家手里。",
+  how:["切入：做商家的效率工具（预约、复购、私域），按效果收费，不做又一个到店平台",
+       "本周：挑两家同商圈门店，问清他们一个月在推广费上花多少、换回几个回头客",
+       "退出：商家只肯为曝光付费、不肯为复购付费"],
+  ev:[{d:"2026-09", s:"行业观察", c:"到店商家与代运营数量饱和，同商圈内卷导致折扣常态化", v:false},
+      {d:"2026-05", s:"从业者反馈", c:"商家获客高度依赖平台流量，佣金与推广费压缩利润", v:false},
+      {d:"2026-02", s:"公开报道", c:"平台加大对本地生活投入，同时提高对商家的服务考核要求", v:false}],
+  next:"2027-01-21"},
+
+ {n:"智能家居", t:"拥挤期 · 单品红利已过 · 增量在换机与全屋方案", conf:"中", s:[2,2,2,4,3],
+  b:"单品渗透率已经很高，增长主要来自换机与套系购买；跨品牌协议互通与调试仍是交付痛点，安装与售后决定口碑。统一互联标准的落地进度慢于预期，谁掌握安装与售后网络，谁才有议价权。",
+  how:["切入：做全屋方案与后装改造的「安装 + 调试 + 售后」交付网络，不拼硬件参数",
+       "本周：接一单旧房改造，把跨品牌设备的调试过程写成标准作业清单",
+       "退出：单一品牌开始自建安装队伍并把它做成免费服务"],
+  ev:[{d:"2026-08", s:"行业观察", c:"单品渗透率较高，增长主要来自换机与套系购买", v:false},
+      {d:"2026-04", s:"从业者反馈", c:"跨品牌协议互通与调试仍是交付痛点，安装服务决定口碑", v:false},
+      {d:"2025-12", s:"公开报道", c:"厂商推动统一互联标准，落地进度慢于预期", v:false}],
+  next:"2027-01-26"},
+
+ {n:"储能", t:"拥挤期 · 产能过剩叠加价格战 · 钱不在造而在用与修", conf:"中", s:[3,3,1,2,3],
+  b:"电芯与系统集成环节的价格竞争持续，毛利被压到很低；新增产能投产快于需求增长，出现阶段性过剩。招标更看重报价，安全与运维能力难以形成溢价——钱不在造，而在用与修。",
+  how:["切入：只做后市场的运维、安全与交易服务，用长期合同换现金流，不碰电芯与系统集成",
+       "本周：找一座已投运的工商业储能站，问清运维外包的报价与响应时限",
+       "退出：业主只按最低价续约、且把安全巡检砍掉"],
+  ev:[{d:"2026-08", s:"行业观察", c:"电芯与系统集成环节价格竞争持续，毛利被压缩到很低水平", v:false},
+      {d:"2026-04", s:"公开报道", c:"新增产能投产节奏快于需求增长，行业出现阶段性过剩讨论", v:false},
+      {d:"2026-02", s:"从业者反馈", c:"项目招标更看重报价，安全与运维能力难以形成溢价", v:false}],
+  next:"2027-01-11"},
+
+ {n:"具身智能与机器人", t:"看客 · 样机与融资热闹 · 单机经济账仍未跑通", conf:"中", s:[5,3,1,4,2],
+  b:"新成立的本体与零部件团队快速增加，同质化的展示视频泛滥；客户愿意试用的场景集中在搬运、质检等重复工位，批量订单仍少。资金主要流向头部与零部件环节，样机便宜了，但单机回本周期没人敢公开。",
+  how:["切入：只做上游与配套——零部件、标定与数据采集、场景集成，不碰整机",
+       "本周：如果你有控制、机械或视觉背景，投这类公司的岗位，比创业现实",
+       "退出：整机厂开始把零部件与标定收回自研时，这条配套路子就没了"],
+  ev:[{d:"2026-09", s:"行业观察", c:"新成立的本体与零部件团队数量快速增加，同质化展示视频泛滥", v:false},
+      {d:"2026-06", s:"从业者反馈", c:"客户愿意试用的场景集中在搬运、质检等重复工位，批量订单仍少", v:false},
+      {d:"2026-03", s:"投资机构公开信息", c:"该方向融资事件密集，但资金主要流向头部与零部件环节", v:false}],
+  next:"2027-01-06"},
+
+ {n:"元宇宙与 VR 社交", t:"枯竭期 · 热度退去 · 硬件出货与内容供给同步收缩", conf:"中", s:[1,1,1,3,3],
+  b:"面向消费端的虚拟社交项目数量与更新频率同步下降；团队普遍转向企业培训与展陈项目，C 端投放预算被削减；头部平台收缩虚拟社交业务，相关团队规模明显缩减。平台补贴已停，只剩硬件毛利支撑。",
+  how:["切入：只做企业培训、展陈等有预算的 B 端项目，按项目交付收钱",
+       "本周：找一家做展厅集成的公司，问清他们有没有内容外包的固定预算",
+       "退出：项目方只想做一次发布会 demo、没有复购预算"],
+  ev:[{d:"2026-07", s:"行业观察", c:"面向消费端的虚拟社交项目数量与更新频率同步下降", v:false},
+      {d:"2026-03", s:"从业者反馈", c:"团队普遍转向企业培训与展陈项目，C 端投放预算被削减", v:false},
+      {d:"2025-12", s:"公开报道", c:"头部平台收缩虚拟社交业务，相关团队规模明显缩减", v:false}],
+  next:"2027-01-11"},
+
+ {n:"数字藏品与链上资产", t:"枯竭期 · 投机需求消失 · 只剩少量品牌营销场景", conf:"中", s:[1,1,1,2,3],
+  b:"发行平台数量大幅减少，二级流转活跃度接近停滞；剩余需求主要来自品牌活动与会员权益，用户不为收藏付费；多地监管提示炒作风险，平台主动收缩业务。人、钱、变现三者同时撤离。",
+  how:["切入：只做品牌营销与会员权益的小规模试点，明确不做升值承诺",
+       "本周：找一家有会员体系的消费品牌，提一个不做二级流转的权益方案",
+       "退出：客户开口就问「能不能涨」——这是唯一该立刻走人的信号"],
+  ev:[{d:"2026-06", s:"行业观察", c:"发行平台数量大幅减少，二级流转活跃度接近停滞", v:false},
+      {d:"2026-02", s:"从业者反馈", c:"剩余需求主要来自品牌活动与会员权益，用户不为收藏付费", v:false},
+      {d:"2025-11", s:"公开报道", c:"多地监管提示数字藏品炒作风险，平台主动收缩业务", v:false}],
+  next:"2027-01-21"}
+];
+DATA.forEach(d=>{ d.rule = ruleOf(d.s); });
+
+const grid = document.getElementById("grid");
+let filter = "all";
+
+function judge(s){
+  const total = s.reduce((a,v,i)=>a+v*W[i],0);
+  if(s[4] <= 2) return {total, key:"guest", text:"看客"};
+  if(total >= 4) return {total, key:"win", text:"窗口期"};
+  if(total >= 3) return {total, key:"watch", text:"观察期"};
+  if(total >= 2) return {total, key:"crowd", text:"拥挤期"};
+  return {total, key:"dead", text:"枯竭期"};
+}
+
+function render(){
+  grid.innerHTML = "";
+  const items = DATA.map(d => ({d, r: judge(d.s)}))
+    .filter(({d,r}) => filter === "all" ? true
+      : filter === "solo" ? d.s[4] >= 4
+      : filter === "live" ? (r.key === "win" || r.key === "watch")
+      : r.key === "dead")
+    .sort((a,b) => b.r.total - a.r.total);
+
+  items.forEach(({d, r}) => {
+    const card = document.createElement("div");
+    card.className = "card";
+    card.dataset.ref = DATA.indexOf(d);
+    card.style.borderLeftColor = C[r.key];
+
+    card.innerHTML = `
+      <div class="top">
+        <div class="name">${d.n}<span class="conf">置信 ${d.conf}</span><span class="tag">${d.t}</span></div>
+        <div class="rt"><b class="val">${r.total.toFixed(2)}</b><span class="st" style="color:${C[r.key]}">${r.text}</span></div>
+      </div>
+      <div class="bars"></div>
+      <ul class="how">${d.how.map(h=>`<li><b>${h.split("：")[0]}：</b>${h.split("：").slice(1).join("：")}</li>`).join("")}</ul>
+            <details class="why"><summary>打分依据</summary>
+        <p class="base">${d.b}</p>
+        <p class="rule"></p>
+        <ul class="evs">${d.ev.map(e=>`<li>${e.d ? `<span class="dt">${e.d}</span>` : `<span class="dt">未注日期</span>`}<span class="src">${e.s}</span>：${e.c}${e.v ? "" : `<em class="unv">未核实</em>`}</li>`).join("")}</ul>
+        <p class="nxt">下次复查：${d.next}</p>
+      </details>`;
+    card.querySelector(".rule").innerHTML = ruleOf(d.s);
+
+    const bars = card.querySelector(".bars");
+    d.s.forEach((v,i)=>{
+      const row = document.createElement("div");
+      row.className = "bar";
+      row.innerHTML = `<label>${LABEL[i]}</label>
+        <div class="track"><div class="fill" style="width:${v/5*100}%;background:${C[r.key]}"></div>
+          </div>
+        <b>${v}</b>`;
+      bars.appendChild(row);
+    });
+    grid.appendChild(card);
+  });
+}
+
+document.querySelectorAll("button.f").forEach(b=>{
+  b.addEventListener("click", ()=>{
+    document.querySelectorAll("button.f").forEach(x=>x.classList.remove("on"));
+    b.classList.add("on");
+    filter = b.dataset.k;
+    render();
+  });
+});
+
+render();
+</script>
+</body>
+</html>
