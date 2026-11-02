@@ -76,9 +76,46 @@
   details.why .evs .dt{font:600 11px/1 ui-monospace,Consolas,monospace;color:var(--sub);
         border:1px solid var(--line);border-radius:4px;padding:1px 4px;margin-right:5px}
   details.why .evs .src{color:var(--ink);font-weight:600}
+  /* —— 机器信号区块：自动抓取的读数，与人工判断快照明确分离（复用现有配色变量） —— */
+  .ms{margin:0 0 16px;border:1px solid var(--line);border-left:4px solid var(--ink);border-radius:11px;
+      background:var(--card);padding:14px 16px 12px;box-shadow:0 1px 2px rgba(20,30,40,.04)}
+  .ms-head{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:5px 16px;
+           border-bottom:1px dashed var(--line);padding-bottom:9px}
+  .ms h2{margin:0;font-size:15.5px;font-weight:800;letter-spacing:.3px}
+  .ms h2 .ms-tag{font-weight:400;font-size:11.5px;color:var(--sub);margin-left:7px}
+  .ms-times{display:flex;flex-wrap:wrap;align-items:baseline;gap:3px 14px;font-size:12px;color:var(--sub)}
+  .ms-times i{font-style:normal;font-weight:700;color:var(--ink)}
+  .ms-times b{font-family:ui-monospace,Consolas,monospace;font-weight:700;color:var(--ink)}
+  .ms-times b.ms-off{color:var(--dead)}
+  .ms-note{margin:9px 0 0;font-size:12.2px;color:#4a5865}
+  .ms-probes{margin-top:2px}
+  .ms-probe{border-top:1px solid var(--line);padding:10px 0 3px}
+  .ms-probe:first-child{border-top:0}
+  .ms-ph{display:flex;flex-wrap:wrap;align-items:center;gap:4px 8px}
+  .ms-lb{font-size:13px;font-weight:700}
+  .ms-badge{font-size:10.5px;font-weight:700;letter-spacing:.4px;color:#fff;
+            background:var(--win);border-radius:4px;padding:1px 6px;white-space:nowrap}
+  .ms-badge.bad{background:var(--dead)}
+  .ms-at{font-size:11.5px;color:var(--sub)}
+  .ms-hl{list-style:none;margin:6px 0 0;padding:0}
+  .ms-hl li{display:flex;align-items:baseline;gap:10px;font-size:12.5px;padding:3px 0;border-bottom:1px dotted #eef2f4}
+  .ms-hl li:last-child{border-bottom:0}
+  .ms-txt{flex:1 1 auto;min-width:0;overflow-wrap:anywhere}
+  .ms-txt a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line)}
+  .ms-txt a:hover{border-bottom-color:var(--ink)}
+  .ms-val{flex:0 0 auto;font:700 12px/1 ui-monospace,Consolas,monospace;color:var(--ink)}
+  .ms-err{margin:6px 0 0;font-size:12.5px;color:var(--dead);overflow-wrap:anywhere}
+  .ms-empty,.ms-more,.ms-fallback{margin:6px 0 0;font-size:12px;color:var(--sub)}
+  @media(max-width:420px){
+    .ms{padding:12px 12px 10px}
+    .ms-times{font-size:11.5px}
+    .ms h2{font-size:14.5px}
+    .ms-hl li{font-size:12px;gap:8px}
+  }
   .unv{font-style:normal;font-size:10.5px;color:#9b3b33;border:1px solid #e3c9c5;
-  .okv{font-style:normal;font-size:10.5px;color:#2e7d5b;border:1px solid #c3d9ce;
         background:#fbf3f2;border-radius:4px;padding:0 4px;margin-left:4px;white-space:nowrap}
+  .okv{font-style:normal;font-size:10.5px;color:#2e7d5b;border:1px solid #c3d9ce;
+        background:#f3f8f4;border-radius:4px;padding:0 4px;margin-left:4px;white-space:nowrap}
   details.why .nxt{margin:7px 0 0;font-size:11.5px;color:var(--sub)}
   /* —— 复查状态：正常 / 今日应复查 / 已超期，配色全部复用上面已有的变量 —— */
   details.why .nxt.due{color:var(--watch);font-weight:700}
@@ -90,6 +127,7 @@
     .rt b{font-size:20px} .name{font-size:14.5px}
     .bar{grid-template-columns:46px 1fr 14px;gap:7px}
   }
+
 </style>
 </head>
 <body>
@@ -111,6 +149,20 @@
     分高只代表<em>租值还在</em>，不代表能暴富；分低也不代表没人赚钱，只代表你进去时钱已经被搬走。
     每张卡的三条建议是“<em>切入点 / 本周第一步 / 退出信号</em>”——第三条比前两条重要，它是你唯一能提前定好的止损线。
   </p>
+
+  <section class="ms" id="machine" aria-label="机器信号（自动抓取，与人工判断分离）">
+    <div class="ms-head">
+      <h2>机器信号<span class="ms-tag">外部自动抓取 · 与本页打分互不影响</span></h2>
+      <div class="ms-times">
+        <span><i>人工判断</i> 快照 <b id="msHumanDate">—</b></span>
+        <span><i>机器信号</i> 更新于 <b id="msMachineAt">读取中…</b></span>
+      </div>
+    </div>
+    <p class="ms-note">本区块由 GitHub 服务器每周自动更新；分数与阶段是人工判断的快照，不受本区块影响。</p>
+    <div class="ms-probes" id="msProbes">
+      <p class="ms-fallback">正在读取机器信号…（没有返回就自动降级，不影响下方 27 张卡片）</p>
+    </div>
+  </section>
 
   <div class="toolbar">
     <span class="lbl">筛选</span>
@@ -515,6 +567,110 @@ document.getElementById("scanGap").textContent =
   : "0 天（扫描日 " + SCAN_DATE + " 尚未到，早 " + (-SCAN_GAP) + " 天）";
 
 render();
+
+// —— 机器信号：主渲染（27 张卡片）已经跑完，这里才发请求；失败只降级本区块 ——
+(function machineSignals(){
+  var list = null, humanEl = null, atEl = null;
+  try{
+    list = document.getElementById("msProbes");
+    humanEl = document.getElementById("msHumanDate");
+    atEl = document.getElementById("msMachineAt");
+  }catch(e){ return; }
+  if(!list || !humanEl || !atEl) return;
+
+  // 人工判断的时间戳只来自 SCAN_DATE，绝不从 metrics 里取
+  humanEl.textContent = SCAN_DATE;
+
+  var OFF = "机器信号不可用（当前是离线副本，或抓取尚未运行过）";
+  var MAX_PROBES = 3, MAX_ROWS = 8;           // 与 data/metrics.json 契约一致：≤3 个 probe，最多展示 8 条
+  var SAFE_SCHEMES = ["http:", "https:"];     // 只把 http(s) 变成链接，其余（javascript:、data: 等）保留为纯文本
+
+  function esc(s){
+    return String(s === null || s === void 0 ? "" : s).replace(/[&<>"']/g, function(c){
+      return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c];
+    });
+  }
+  function pad(n){ return (n < 10 ? "0" : "") + n; }
+  function fmtDT(v){
+    if(!v) return "";
+    var d = new Date(v);
+    if(isNaN(d.getTime())) return String(v);   // 解析不了就原样显示，不抛错
+    return d.getFullYear() + "-" + pad(d.getMonth() + 1) + "-" + pad(d.getDate()) +
+           " " + pad(d.getHours()) + ":" + pad(d.getMinutes());
+  }
+  function safeUrl(v){
+    if(typeof v !== "string" || !v) return "";
+    try{
+      var u = new URL(v);
+      return SAFE_SCHEMES.indexOf(u.protocol) >= 0 ? u.href : "";
+    }catch(e){ return ""; }
+  }
+
+  function degrade(msg){
+    atEl.textContent = "不可用";
+    atEl.className = "ms-off";
+    list.innerHTML = '<p class="ms-fallback">' + esc(msg) + '</p>';
+  }
+
+  function probeHTML(p){
+    p = (p && typeof p === "object") ? p : {};
+    var ok = p.status === "ok";
+    var hls = Array.isArray(p.highlights) ? p.highlights : [];
+    var at = fmtDT(p.fetchedAt);
+    var head = '<div class="ms-ph">' +
+      '<span class="ms-lb">' + esc(p.label || "未命名信号源") + '</span>' +
+      '<span class="ms-badge' + (ok ? "" : " bad") + '" title="status: ' + esc(p.status || "unknown") + '">' +
+        (ok ? "正常" : "失败") + '</span>' +
+      '<span class="ms-at">' + (at ? "抓取于 " + esc(at) : "无抓取时间") + '</span>' +
+      '</div>';
+
+    var body;
+    if(!ok){
+      // status=error：错误文案必须显示出来，绝不隐藏
+      body = '<p class="ms-err">抓取失败：' + esc(p.error || "上游未给出错误信息") + '</p>';
+    }else if(!hls.length){
+      body = '<p class="ms-empty">本轮没有返回条目。</p>';
+    }else{
+      body = '<ul class="ms-hl">' + hls.slice(0, MAX_ROWS).map(function(h){
+        h = (h && typeof h === "object") ? h : {};
+        var href = safeUrl(h.url);
+        var txt = esc(h.text || "");
+        var val = (typeof h.value === "number" && isFinite(h.value)) ? String(h.value) : "—";
+        return '<li><span class="ms-txt">' +
+                 (href ? '<a href="' + esc(href) + '" target="_blank" rel="noopener">' + txt + '</a>' : txt) +
+               '</span><b class="ms-val">' + esc(val) + '</b></li>';
+      }).join("") + '</ul>' +
+      (hls.length > MAX_ROWS ? '<p class="ms-more">仅显示前 ' + MAX_ROWS + ' 条，共 ' + hls.length + ' 条</p>' : "");
+    }
+    return '<div class="ms-probe">' + head + body + '</div>';
+  }
+
+  function render(data){
+    if(!data || typeof data !== "object" || !Array.isArray(data.probes)) throw new Error("bad metrics shape");
+    var at = fmtDT(data.generatedAt);
+    atEl.textContent = at || "不可用";
+    atEl.className = at ? "" : "ms-off";
+    var probes = data.probes.slice(0, MAX_PROBES);
+    list.innerHTML = probes.length
+      ? probes.map(probeHTML).join("")
+      : '<p class="ms-fallback">本轮没有记录到任何信号源。</p>';
+  }
+
+  // fetch 放在 render()（第 27 张卡片）之后，且不 await：既有的卡片永远先画出来
+  var req;
+  try{
+    req = fetch("data/metrics.json", { cache: "no-store" });
+  }catch(e){
+    degrade(OFF); return;
+  }
+  if(!req || typeof req.then !== "function"){ degrade(OFF); return; }
+  req.then(function(res){
+      if(!res || res.ok === false) throw new Error("HTTP " + (res && res.status));
+      return res.json();
+    })
+    .then(function(data){ render(data); })
+    .catch(function(){ degrade(OFF); });
+})();
 </script>
 </body>
 </html>
