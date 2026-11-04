@@ -1,63 +1,63 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-03T07:29:48Z",
+  "generatedAt": "2026-11-04T07:11:22Z",
   "probes": [
     {
       "id": "hackernews",
       "label": "Hacker News 首页热榜",
       "status": "ok",
-      "fetchedAt": "2026-11-03T07:29:45Z",
+      "fetchedAt": "2026-11-04T07:11:20Z",
       "error": null,
       "highlights": [
         {
-          "text": "Astra can read and write weights to improve Qwen",
-          "value": 2426,
-          "url": "https://rikiyat.github.io/blog/weight-space-programming/"
+          "text": "Jelly Sheet",
+          "value": 126,
+          "url": "https://mrdoob.github.io/codevember-2026/01/"
         },
         {
-          "text": "DiscImageStudio: burn visible artwork onto CDs, DVDs and Blu-ray discs",
-          "value": 147,
-          "url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio"
+          "text": "C++26 Disapproved",
+          "value": 232,
+          "url": "https://andreasfertig.com/blog/2026/11/cpp26-dis-failed-how-does-cpp-survive/"
         },
         {
-          "text": "Show HN: Hacker Times, a New York Times-inspired version of Hacker News",
-          "value": 191,
-          "url": "https://hackertimes.ca/"
+          "text": "Distinct cellular and genetic differences in colorectal cancer in young patients",
+          "value": 57,
+          "url": "https://www.dana-farber.org/newsroom/news-releases/2026/study-reveals-distinct-cellular-and-genetic-differences-in-colorectal-cancer-in-younger-patients"
         },
         {
-          "text": "European RISC-V Industrial Computing Initiative",
-          "value": 53,
-          "url": "https://erici.eu"
+          "text": "The Internals of PostgreSQL",
+          "value": 233,
+          "url": "https://www.interdb.jp/pg/index.html"
         },
         {
-          "text": "Show HN: Subvocal – Talk to your computer without making noise",
-          "value": 654,
-          "url": "https://news.ycombinator.com/item?id=50340088"
+          "text": "Jailbreaking my car's navigation system just so I can change the time",
+          "value": 736,
+          "url": "https://blog.nns.ee/2026/11/02/renault-hack/"
         },
         {
-          "text": "Scaling Git at OpenAI",
-          "value": 180,
-          "url": "https://openai.com/index/scaling-git-at-openai/"
+          "text": "Stringman, an $800 open-source room scale gripper robot",
+          "value": 520,
+          "url": "https://neufangled.com/"
         },
         {
-          "text": "Resisting Cognitive Surrender",
-          "value": 111,
-          "url": "https://knlb.dev/essays/surrender"
+          "text": "Giant canyon on Mars is still tectonically active",
+          "value": 67,
+          "url": "https://lamont.columbia.edu/news/giant-canyon-mars-still-tectonically-active-today"
         },
         {
-          "text": "US boy names that became girl names and vice versa",
-          "value": 362,
-          "url": "https://namedaisy.com/blog/boy-names-that-became-girl-names"
+          "text": "Show HN: HackerTV – HN's most-recommended Youtube videos as 24/7 TV channels",
+          "value": 280,
+          "url": "https://hackertv.org"
         },
         {
-          "text": "If you love a website, back it up",
-          "value": 507,
-          "url": "https://blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up/"
+          "text": "Show HN: Uncracked City, detective game where you question LLM suspects that lie",
+          "value": 28,
+          "url": "https://uncracked.city"
         },
         {
-          "text": "Show HN: ReBirth 338 in Browser",
-          "value": 11,
-          "url": "https://margeux.com/rb338.html"
+          "text": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
+          "value": 443,
+          "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/"
         }
       ]
     },
@@ -65,57 +65,57 @@
       "id": "github",
       "label": "GitHub 近 45 天新建高星仓库",
       "status": "ok",
-      "fetchedAt": "2026-11-03T07:29:46Z",
+      "fetchedAt": "2026-11-04T07:11:21Z",
       "error": null,
       "highlights": [
         {
           "text": "storytold/photocraft: PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
-          "value": 76333,
+          "value": 76706,
           "url": "https://github.com/storytold/photocraft"
         },
         {
           "text": "Ebony-Vinyl/dsh-our-free-model: 在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh",
-          "value": 57939,
+          "value": 59607,
           "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model"
         },
         {
           "text": "Gathin23/cleanyourtv: Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
-          "value": 50672,
+          "value": 51568,
           "url": "https://github.com/Gathin23/cleanyourtv"
         },
         {
           "text": "Niko1221/Strata: Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost,",
-          "value": 38711,
+          "value": 39501,
           "url": "https://github.com/Niko1221/Strata"
         },
         {
           "text": "yetone/magpie: Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
-          "value": 28727,
+          "value": 29325,
           "url": "https://github.com/yetone/magpie"
         },
         {
           "text": "deepseek-ai/DeepInfer: DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
-          "value": 25071,
+          "value": 25288,
           "url": "https://github.com/deepseek-ai/DeepInfer"
         },
         {
           "text": "wheresryan22/anatomy: An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished S",
-          "value": 24215,
+          "value": 24582,
           "url": "https://github.com/wheresryan22/anatomy"
         },
         {
           "text": "google-research/harness2:",
-          "value": 22191,
+          "value": 22520,
           "url": "https://github.com/google-research/harness2"
         },
         {
           "text": "KnifeLemon/Filee: Free, open-source file converter. Convert 263 formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e",
-          "value": 20921,
+          "value": 21560,
           "url": "https://github.com/KnifeLemon/Filee"
         },
         {
           "text": "storytold/pdfcraft: PdfCraft: An open-source PDF reader and editor written by scratch in pure Rust",
-          "value": 19294,
+          "value": 19478,
           "url": "https://github.com/storytold/pdfcraft"
         }
       ]
@@ -124,57 +124,57 @@
       "id": "wikipedia",
       "label": "Wikipedia 英文站每日浏览量榜",
       "status": "ok",
-      "fetchedAt": "2026-11-03T07:29:47Z",
+      "fetchedAt": "2026-11-04T07:11:22Z",
       "error": null,
       "highlights": [
         {
-          "text": "Haley Stevens",
-          "value": 548345,
-          "url": "https://en.wikipedia.org/wiki/Haley_Stevens"
-        },
-        {
-          "text": "Learjet 60",
-          "value": 263003,
-          "url": "https://en.wikipedia.org/wiki/Learjet_60"
-        },
-        {
-          "text": "Susan Saint James",
-          "value": 252010,
-          "url": "https://en.wikipedia.org/wiki/Susan_Saint_James"
-        },
-        {
-          "text": "Abdul El-Sayed",
-          "value": 243340,
-          "url": "https://en.wikipedia.org/wiki/Abdul_El-Sayed"
-        },
-        {
-          "text": "2026 Palm Beach County Learjet 60 crash",
-          "value": 220959,
-          "url": "https://en.wikipedia.org/wiki/2026_Palm_Beach_County_Learjet_60_crash"
-        },
-        {
-          "text": "Kimi Antonelli",
-          "value": 206706,
-          "url": "https://en.wikipedia.org/wiki/Kimi_Antonelli"
+          "text": "Jesús de Miguel",
+          "value": 585060,
+          "url": "https://en.wikipedia.org/wiki/Jesús_de_Miguel"
         },
         {
           "text": "2026 United States elections",
-          "value": 201102,
+          "value": 455194,
           "url": "https://en.wikipedia.org/wiki/2026_United_States_elections"
         },
         {
+          "text": "Jesús Owono",
+          "value": 297789,
+          "url": "https://en.wikipedia.org/wiki/Jesús_Owono"
+        },
+        {
+          "text": "Abdul El-Sayed",
+          "value": 271285,
+          "url": "https://en.wikipedia.org/wiki/Abdul_El-Sayed"
+        },
+        {
           "text": ".xxx",
-          "value": 172419,
+          "value": 255014,
           "url": "https://en.wikipedia.org/wiki/.xxx"
         },
         {
-          "text": "2026 Greenacres Learjet 60 crash",
-          "value": 152110,
-          "url": "https://en.wikipedia.org/wiki/2026_Greenacres_Learjet_60_crash"
+          "text": "United States midterm election",
+          "value": 244478,
+          "url": "https://en.wikipedia.org/wiki/United_States_midterm_election"
+        },
+        {
+          "text": "Haley Stevens",
+          "value": 208194,
+          "url": "https://en.wikipedia.org/wiki/Haley_Stevens"
+        },
+        {
+          "text": "Deaths in 2026",
+          "value": 140654,
+          "url": "https://en.wikipedia.org/wiki/Deaths_in_2026"
+        },
+        {
+          "text": "Dancing with the Stars (American TV series) season 35",
+          "value": 135810,
+          "url": "https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_TV_series)_season_35"
         },
         {
           "text": "Karl Bushby",
-          "value": 147561,
+          "value": 135687,
           "url": "https://en.wikipedia.org/wiki/Karl_Bushby"
         }
       ]
