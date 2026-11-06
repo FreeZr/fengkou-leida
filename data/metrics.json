@@ -1,63 +1,63 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-05T07:38:41Z",
+  "generatedAt": "2026-11-06T07:36:12Z",
   "probes": [
     {
       "id": "hackernews",
       "label": "Hacker News 首页热榜",
       "status": "ok",
-      "fetchedAt": "2026-11-05T07:38:39Z",
+      "fetchedAt": "2026-11-06T07:36:11Z",
       "error": null,
       "highlights": [
         {
-          "text": "Residential proxies detected on White House network",
-          "value": 941,
-          "url": "https://layer3intel.com/blog/residential-proxies-white-house-network"
+          "text": "Claude Code sends your email address to websites",
+          "value": 940,
+          "url": "https://github.com/anthropics/claude-code/issues/107757"
         },
         {
-          "text": "Lemmings CSS Animation",
-          "value": 89,
-          "url": "https://markblah.github.io/lemmings/"
+          "text": "sshole",
+          "value": 2592,
+          "url": "https://sshhole.com"
         },
         {
-          "text": "Images 2.6",
-          "value": 243,
-          "url": "https://openai.com/index/introducing-images-2-6/"
+          "text": "MS Paint Remote Code Execution Vulnerability",
+          "value": 477,
+          "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844"
         },
         {
-          "text": "A thousand fewer paths to root",
-          "value": 284,
-          "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/"
+          "text": "Pwn.college",
+          "value": 107,
+          "url": "https://pwn.college/"
         },
         {
-          "text": "Altera Announces Agilex 2X, a Complete FPGA and SoC Portfolio",
-          "value": 16,
-          "url": "https://www.altera.com/newsroom/agilex-2x"
+          "text": "Nvidia Kubernetes Engine (NVKE)",
+          "value": 63,
+          "url": "https://github.com/dsx-ai-factory/nvke"
         },
         {
-          "text": "Kimi K3.1 Pro model weights are out",
-          "value": 488,
-          "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
+          "text": "From Linux to Wikipedia: How Volunteers Build the Internet",
+          "value": 39,
+          "url": "https://thereader.mitpress.mit.edu/from-linux-to-wikipedia-how-volunteers-build-the-internet/"
         },
         {
-          "text": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
-          "value": 278,
-          "url": "https://www.ricursive.com/ripple"
+          "text": "Inkling 2 Small",
+          "value": 174,
+          "url": "https://thinkingmachines.ai/news/inkling-2-small/"
         },
         {
-          "text": "Spreading Liquid with Three.js",
-          "value": 55,
-          "url": "https://mofu-dev.com/en/blog/fluid-foundation/"
+          "text": "The Hackintosh Reborn",
+          "value": 291,
+          "url": "https://www.naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai/"
         },
         {
-          "text": "Insects don't swarm at LED lights",
-          "value": 229,
-          "url": "https://www.birdsoutsidemywindow.org/2026/11/03/insects-dont-swarm-at-led-lights/"
+          "text": "I struggle to believe that AI R&D is ingenious",
+          "value": 35,
+          "url": "https://www.lesswrong.com/posts/DALNiKBjMGMF8grme/arjun-panickssery-s-shortform?commentId=fJtaHHHfx45tD7BSL"
         },
         {
-          "text": "A new Go API for JSON",
-          "value": 290,
-          "url": "https://go.dev/blog/jsonv2"
+          "text": "Window Sweaters",
+          "value": 310,
+          "url": "https://github.com/saragordic/window-sweaters"
         }
       ]
     },
@@ -65,58 +65,58 @@
       "id": "github",
       "label": "GitHub 近 45 天新建高星仓库",
       "status": "ok",
-      "fetchedAt": "2026-11-05T07:38:40Z",
+      "fetchedAt": "2026-11-06T07:36:12Z",
       "error": null,
       "highlights": [
         {
           "text": "storytold/photocraft: PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
-          "value": 77007,
+          "value": 77300,
           "url": "https://github.com/storytold/photocraft"
         },
         {
           "text": "Ebony-Vinyl/dsh-our-free-model: 在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh",
-          "value": 61317,
+          "value": 62898,
           "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model"
         },
         {
           "text": "Gathin23/cleanyourtv: Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
-          "value": 52194,
+          "value": 52841,
           "url": "https://github.com/Gathin23/cleanyourtv"
         },
         {
           "text": "Niko1221/Strata: Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost,",
-          "value": 40173,
+          "value": 40738,
           "url": "https://github.com/Niko1221/Strata"
         },
         {
           "text": "yetone/magpie: Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
-          "value": 30040,
+          "value": 30797,
           "url": "https://github.com/yetone/magpie"
         },
         {
           "text": "deepseek-ai/DeepInfer: DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
-          "value": 25418,
+          "value": 25504,
           "url": "https://github.com/deepseek-ai/DeepInfer"
         },
         {
           "text": "wheresryan22/anatomy: An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished S",
-          "value": 25018,
+          "value": 25360,
           "url": "https://github.com/wheresryan22/anatomy"
         },
         {
           "text": "google-research/harness2:",
-          "value": 22720,
+          "value": 22863,
           "url": "https://github.com/google-research/harness2"
         },
         {
           "text": "KnifeLemon/Filee: Free, open-source file converter. Convert 263 formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e",
-          "value": 22214,
+          "value": 22755,
           "url": "https://github.com/KnifeLemon/Filee"
         },
         {
-          "text": "storytold/pdfcraft: PdfCraft: An open-source PDF reader and editor written by scratch in pure Rust",
-          "value": 19600,
-          "url": "https://github.com/storytold/pdfcraft"
+          "text": "deepseek-ai/dsh-superagent-prototype: Towards a More Autonomous Agent System",
+          "value": 19815,
+          "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
         }
       ]
     },
@@ -124,58 +124,58 @@
       "id": "wikipedia",
       "label": "Wikipedia 英文站每日浏览量榜",
       "status": "ok",
-      "fetchedAt": "2026-11-05T07:38:40Z",
+      "fetchedAt": "2026-11-06T07:36:12Z",
       "error": null,
       "highlights": [
         {
           "text": "Abdul El-Sayed",
-          "value": 1413749,
+          "value": 808705,
           "url": "https://en.wikipedia.org/wiki/Abdul_El-Sayed"
         },
         {
+          "text": "Ramayana: Part 1",
+          "value": 609307,
+          "url": "https://en.wikipedia.org/wiki/Ramayana:_Part_1"
+        },
+        {
+          "text": "Russell Brand",
+          "value": 571124,
+          "url": "https://en.wikipedia.org/wiki/Russell_Brand"
+        },
+        {
           "text": "James Talarico",
-          "value": 1256040,
+          "value": 359575,
           "url": "https://en.wikipedia.org/wiki/James_Talarico"
         },
         {
-          "text": "Gina Hinojosa",
-          "value": 1242354,
-          "url": "https://en.wikipedia.org/wiki/Gina_Hinojosa"
-        },
-        {
           "text": "2026 United States elections",
-          "value": 1153444,
+          "value": 356470,
           "url": "https://en.wikipedia.org/wiki/2026_United_States_elections"
         },
         {
           "text": "Jon Ossoff",
-          "value": 611863,
+          "value": 325378,
           "url": "https://en.wikipedia.org/wiki/Jon_Ossoff"
         },
         {
-          "text": "United States midterm election",
-          "value": 523575,
-          "url": "https://en.wikipedia.org/wiki/United_States_midterm_election"
+          "text": "Gina Hinojosa",
+          "value": 284450,
+          "url": "https://en.wikipedia.org/wiki/Gina_Hinojosa"
+        },
+        {
+          "text": ".xyz",
+          "value": 255809,
+          "url": "https://en.wikipedia.org/wiki/.xyz"
+        },
+        {
+          "text": "Nithya Raman",
+          "value": 197142,
+          "url": "https://en.wikipedia.org/wiki/Nithya_Raman"
         },
         {
           "text": "2026 United States Senate elections",
-          "value": 493851,
+          "value": 170346,
           "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections"
-        },
-        {
-          "text": "Keisha Lance Bottoms",
-          "value": 431379,
-          "url": "https://en.wikipedia.org/wiki/Keisha_Lance_Bottoms"
-        },
-        {
-          "text": "Byron Donalds",
-          "value": 362265,
-          "url": "https://en.wikipedia.org/wiki/Byron_Donalds"
-        },
-        {
-          "text": "Greg Abbott",
-          "value": 327943,
-          "url": "https://en.wikipedia.org/wiki/Greg_Abbott"
         }
       ]
     }
