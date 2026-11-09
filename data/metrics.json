@@ -1,63 +1,63 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-09T07:34:28Z",
+  "generatedAt": "2026-11-09T08:52:35Z",
   "probes": [
     {
       "id": "hackernews",
       "label": "Hacker News 首页热榜",
       "status": "ok",
-      "fetchedAt": "2026-11-09T07:34:26Z",
+      "fetchedAt": "2026-11-09T08:52:33Z",
       "error": null,
       "highlights": [
         {
+          "text": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation",
+          "value": 40,
+          "url": "https://arxiv.org/abs/2610.14162"
+        },
+        {
           "text": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
-          "value": 403,
+          "value": 452,
           "url": "https://ketchup3d.github.io/app/"
         },
         {
           "text": "Unlocking any car from X brand in most of the world",
-          "value": 242,
+          "value": 314,
           "url": "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/"
         },
         {
           "text": "I'm not convinced the AI bubble exists",
-          "value": 201,
+          "value": 247,
           "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists"
         },
         {
           "text": "Chimera Vocal Synth",
-          "value": 176,
+          "value": 206,
           "url": "https://chimera-vocal-synth.vercel.app/"
         },
         {
           "text": "Declarative Dragging",
-          "value": 486,
+          "value": 518,
           "url": "https://declarative-dragging.github.io/"
         },
         {
-          "text": "Dux: Free, open-source Wayland desktop shell with file manager and theming",
-          "value": 256,
-          "url": "https://duxlabs.dev/"
-        },
-        {
           "text": "Outlook.com is rejecting email from domains without DMARC",
-          "value": 367,
+          "value": 386,
           "url": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc"
         },
         {
-          "text": "Ask HN: What are you working on? (November 2026)",
-          "value": 195,
-          "url": "https://news.ycombinator.com/item?id=50417407"
+          "text": "Dux: Free, open-source Wayland desktop shell with file manager and theming",
+          "value": 278,
+          "url": "https://duxlabs.dev/"
+        },
+        {
+          "text": "Quasi-Logarithmic Kitchen Timer",
+          "value": 20,
+          "url": "https://blog.coredump.cx/p/quasi-logarithmic-kitchen-timer"
         },
         {
           "text": "Nvidia CEO Jensen Huang's letter to staff about affair",
-          "value": 559,
+          "value": 632,
           "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company"
-        },
-        {
-          "text": "A Critique of GPUI",
-          "value": 72,
-          "url": "https://blog.zortax.de/posts/a-critique-of-gpui"
         }
       ]
     },
@@ -65,57 +65,57 @@
       "id": "github",
       "label": "GitHub 近 45 天新建高星仓库",
       "status": "ok",
-      "fetchedAt": "2026-11-09T07:34:27Z",
+      "fetchedAt": "2026-11-09T08:52:34Z",
       "error": null,
       "highlights": [
         {
           "text": "storytold/photocraft: PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
-          "value": 78041,
+          "value": 78055,
           "url": "https://github.com/storytold/photocraft"
         },
         {
           "text": "Gathin23/cleanyourtv: Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
-          "value": 54918,
+          "value": 54970,
           "url": "https://github.com/Gathin23/cleanyourtv"
         },
         {
           "text": "wheresryan22/anatomy: An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished S",
-          "value": 26102,
+          "value": 26121,
           "url": "https://github.com/wheresryan22/anatomy"
         },
         {
           "text": "deepseek-ai/DeepInfer: DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
-          "value": 25705,
+          "value": 25707,
           "url": "https://github.com/deepseek-ai/DeepInfer"
         },
         {
           "text": "KnifeLemon/Filee: Free, open-source file converter. Convert 263 formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e",
-          "value": 24361,
+          "value": 24397,
           "url": "https://github.com/KnifeLemon/Filee"
         },
         {
           "text": "storytold/craft-anything: Craft Anything: understand how any software works, and craft your own.",
-          "value": 23334,
+          "value": 23457,
           "url": "https://github.com/storytold/craft-anything"
         },
         {
           "text": "google-research/harness2:",
-          "value": 23188,
+          "value": 23204,
           "url": "https://github.com/google-research/harness2"
         },
         {
           "text": "deepseek-ai/dsh-superagent-prototype: Towards a More Autonomous Agent System",
-          "value": 21432,
+          "value": 21490,
           "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
         },
         {
           "text": "storytold/pdfcraft: PdfCraft: An open-source PDF reader and editor written by scratch in pure Rust",
-          "value": 20074,
+          "value": 20084,
           "url": "https://github.com/storytold/pdfcraft"
         },
         {
           "text": "Zagitta/gpu-unlock: Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
-          "value": 18226,
+          "value": 18236,
           "url": "https://github.com/Zagitta/gpu-unlock"
         }
       ]
@@ -124,7 +124,7 @@
       "id": "wikipedia",
       "label": "Wikipedia 英文站每日浏览量榜",
       "status": "error",
-      "fetchedAt": "2026-11-09T07:34:28Z",
+      "fetchedAt": "2026-11-09T08:52:35Z",
       "error": "RuntimeError: Wikipedia 日榜连续两日不可用",
       "highlights": []
     }
