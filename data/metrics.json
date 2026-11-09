@@ -1,63 +1,63 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-08T06:53:48Z",
+  "generatedAt": "2026-11-09T07:34:28Z",
   "probes": [
     {
       "id": "hackernews",
       "label": "Hacker News 首页热榜",
       "status": "ok",
-      "fetchedAt": "2026-11-08T06:53:46Z",
+      "fetchedAt": "2026-11-09T07:34:26Z",
       "error": null,
       "highlights": [
         {
-          "text": "Goodbye Claude, Hello Pi",
-          "value": 130,
-          "url": "https://caleb.software/posts/claude-to-pi.html"
+          "text": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
+          "value": 403,
+          "url": "https://ketchup3d.github.io/app/"
         },
         {
-          "text": "What I run on my $10 USD OpenStick homelab",
-          "value": 500,
-          "url": "https://blog.bosscher.ch/posts/openstick/"
+          "text": "Unlocking any car from X brand in most of the world",
+          "value": 242,
+          "url": "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/"
         },
         {
-          "text": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
-          "value": 317,
-          "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again"
+          "text": "I'm not convinced the AI bubble exists",
+          "value": 201,
+          "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists"
         },
         {
-          "text": "ZapFast: A fast, native WhatsApp client in Rust and egui",
-          "value": 50,
-          "url": "https://github.com/crmne/zapfast"
+          "text": "Chimera Vocal Synth",
+          "value": 176,
+          "url": "https://chimera-vocal-synth.vercel.app/"
         },
         {
-          "text": "Making any integer with four 2s (2025)",
-          "value": 106,
-          "url": "https://eli.thegreenplace.net/2025/making-any-integer-with-four-2s/"
+          "text": "Declarative Dragging",
+          "value": 486,
+          "url": "https://declarative-dragging.github.io/"
         },
         {
-          "text": "Need for Speed Underground 2 online in the browser",
-          "value": 911,
-          "url": "https://nfsu2.xyz/"
+          "text": "Dux: Free, open-source Wayland desktop shell with file manager and theming",
+          "value": 256,
+          "url": "https://duxlabs.dev/"
         },
         {
-          "text": "Kirlian Photography: Building Your Own Equipment",
-          "value": 16,
-          "url": "https://imagesco.com/articles/kirlian/kirlian-photography.html"
+          "text": "Outlook.com is rejecting email from domains without DMARC",
+          "value": 367,
+          "url": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc"
         },
         {
-          "text": "Uranium cubes reveal why the German nuclear project failed",
-          "value": 109,
-          "url": "https://arstechnica.com/science/2026/11/uranium-cubes-reveal-why-the-german-nuclear-project-failed/"
+          "text": "Ask HN: What are you working on? (November 2026)",
+          "value": 195,
+          "url": "https://news.ycombinator.com/item?id=50417407"
         },
         {
-          "text": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
-          "value": 271,
-          "url": "https://maxxbench.unlap.ai/research/why-maxxbench/"
+          "text": "Nvidia CEO Jensen Huang's letter to staff about affair",
+          "value": 559,
+          "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company"
         },
         {
-          "text": "Consumer brain wave headsets threaten privacy",
-          "value": 19,
-          "url": "https://www.science.org/content/article/wearable-device-makers-are-harvesting-brain-data-train-ai-without-telling-users?referrer=https%3A%2F%2Fwww.google.com%2F"
+          "text": "A Critique of GPUI",
+          "value": 72,
+          "url": "https://blog.zortax.de/posts/a-critique-of-gpui"
         }
       ]
     },
@@ -65,57 +65,57 @@
       "id": "github",
       "label": "GitHub 近 45 天新建高星仓库",
       "status": "ok",
-      "fetchedAt": "2026-11-08T06:53:47Z",
+      "fetchedAt": "2026-11-09T07:34:27Z",
       "error": null,
       "highlights": [
         {
           "text": "storytold/photocraft: PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
-          "value": 77796,
+          "value": 78041,
           "url": "https://github.com/storytold/photocraft"
         },
         {
           "text": "Gathin23/cleanyourtv: Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
-          "value": 54045,
+          "value": 54918,
           "url": "https://github.com/Gathin23/cleanyourtv"
         },
         {
           "text": "wheresryan22/anatomy: An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished S",
-          "value": 25826,
+          "value": 26102,
           "url": "https://github.com/wheresryan22/anatomy"
         },
         {
           "text": "deepseek-ai/DeepInfer: DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
-          "value": 25625,
+          "value": 25705,
           "url": "https://github.com/deepseek-ai/DeepInfer"
         },
         {
           "text": "KnifeLemon/Filee: Free, open-source file converter. Convert 263 formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e",
-          "value": 23812,
+          "value": 24361,
           "url": "https://github.com/KnifeLemon/Filee"
         },
         {
-          "text": "google-research/harness2:",
-          "value": 23071,
-          "url": "https://github.com/google-research/harness2"
-        },
-        {
           "text": "storytold/craft-anything: Craft Anything: understand how any software works, and craft your own.",
-          "value": 21221,
+          "value": 23334,
           "url": "https://github.com/storytold/craft-anything"
         },
         {
+          "text": "google-research/harness2:",
+          "value": 23188,
+          "url": "https://github.com/google-research/harness2"
+        },
+        {
           "text": "deepseek-ai/dsh-superagent-prototype: Towards a More Autonomous Agent System",
-          "value": 20936,
+          "value": 21432,
           "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
         },
         {
           "text": "storytold/pdfcraft: PdfCraft: An open-source PDF reader and editor written by scratch in pure Rust",
-          "value": 19942,
+          "value": 20074,
           "url": "https://github.com/storytold/pdfcraft"
         },
         {
           "text": "Zagitta/gpu-unlock: Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
-          "value": 17933,
+          "value": 18226,
           "url": "https://github.com/Zagitta/gpu-unlock"
         }
       ]
@@ -123,61 +123,10 @@
     {
       "id": "wikipedia",
       "label": "Wikipedia 英文站每日浏览量榜",
-      "status": "ok",
-      "fetchedAt": "2026-11-08T06:53:47Z",
-      "error": null,
-      "highlights": [
-        {
-          "text": "Ramayana: Part 1",
-          "value": 785245,
-          "url": "https://en.wikipedia.org/wiki/Ramayana:_Part_1"
-        },
-        {
-          "text": "Russell Brand",
-          "value": 507816,
-          "url": "https://en.wikipedia.org/wiki/Russell_Brand"
-        },
-        {
-          "text": "Abdul El-Sayed",
-          "value": 437069,
-          "url": "https://en.wikipedia.org/wiki/Abdul_El-Sayed"
-        },
-        {
-          "text": "Stephen Miller",
-          "value": 220230,
-          "url": "https://en.wikipedia.org/wiki/Stephen_Miller"
-        },
-        {
-          "text": "2026 United States elections",
-          "value": 219097,
-          "url": "https://en.wikipedia.org/wiki/2026_United_States_elections"
-        },
-        {
-          "text": "Jon Ossoff",
-          "value": 211594,
-          "url": "https://en.wikipedia.org/wiki/Jon_Ossoff"
-        },
-        {
-          "text": ".xyz",
-          "value": 209858,
-          "url": "https://en.wikipedia.org/wiki/.xyz"
-        },
-        {
-          "text": ".xxx",
-          "value": 199678,
-          "url": "https://en.wikipedia.org/wiki/.xxx"
-        },
-        {
-          "text": "Nithya Raman",
-          "value": 184633,
-          "url": "https://en.wikipedia.org/wiki/Nithya_Raman"
-        },
-        {
-          "text": "James Talarico",
-          "value": 171286,
-          "url": "https://en.wikipedia.org/wiki/James_Talarico"
-        }
-      ]
+      "status": "error",
+      "fetchedAt": "2026-11-09T07:34:28Z",
+      "error": "RuntimeError: Wikipedia 日榜连续两日不可用",
+      "highlights": []
     }
   ]
 }
