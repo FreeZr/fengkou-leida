@@ -1,63 +1,63 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-09T08:52:35Z",
+  "generatedAt": "2026-11-10T07:57:42Z",
   "probes": [
     {
       "id": "hackernews",
       "label": "Hacker News 首页热榜",
       "status": "ok",
-      "fetchedAt": "2026-11-09T08:52:33Z",
+      "fetchedAt": "2026-11-10T07:57:40Z",
       "error": null,
       "highlights": [
         {
-          "text": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation",
-          "value": 40,
-          "url": "https://arxiv.org/abs/2610.14162"
+          "text": "Amazon saves millions by replacing Sonnet 4.6 with Strands Decider",
+          "value": 147,
+          "url": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/"
         },
         {
-          "text": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
-          "value": 452,
-          "url": "https://ketchup3d.github.io/app/"
+          "text": "Claude Fable 5.2 and Mythos 5.2",
+          "value": 499,
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
         },
         {
-          "text": "Unlocking any car from X brand in most of the world",
-          "value": 314,
-          "url": "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/"
+          "text": "USPS now offers official ZIP Code boundary polygons",
+          "value": 601,
+          "url": "https://postalpro.usps.com/zcb"
         },
         {
-          "text": "I'm not convinced the AI bubble exists",
-          "value": 247,
-          "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists"
+          "text": "Your TV can see through walls",
+          "value": 63,
+          "url": "https://maurycyz.com/projects/fading/"
         },
         {
-          "text": "Chimera Vocal Synth",
-          "value": 206,
-          "url": "https://chimera-vocal-synth.vercel.app/"
+          "text": "Locating the source of a mysterious beep",
+          "value": 134,
+          "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/"
         },
         {
-          "text": "Declarative Dragging",
+          "text": "E-means: Outperforming k-means in one-tenth the epochs",
+          "value": 374,
+          "url": "https://e-means.github.io/"
+        },
+        {
+          "text": "Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system",
           "value": 518,
-          "url": "https://declarative-dragging.github.io/"
+          "url": "https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy"
         },
         {
-          "text": "Outlook.com is rejecting email from domains without DMARC",
-          "value": 386,
-          "url": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc"
+          "text": "Foldable Flight: The Best Paper Airplanes",
+          "value": 970,
+          "url": "https://www.foldableflight.com"
         },
         {
-          "text": "Dux: Free, open-source Wayland desktop shell with file manager and theming",
-          "value": 278,
-          "url": "https://duxlabs.dev/"
+          "text": "Horible public key tricks",
+          "value": 135,
+          "url": "https://maurycyz.com/projects/badcert/"
         },
         {
-          "text": "Quasi-Logarithmic Kitchen Timer",
-          "value": 20,
-          "url": "https://blog.coredump.cx/p/quasi-logarithmic-kitchen-timer"
-        },
-        {
-          "text": "Nvidia CEO Jensen Huang's letter to staff about affair",
-          "value": 632,
-          "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company"
+          "text": "Ultorg: The User Interface for Relational Databases",
+          "value": 40,
+          "url": "https://www.ultorg.com/"
         }
       ]
     },
@@ -65,57 +65,57 @@
       "id": "github",
       "label": "GitHub 近 45 天新建高星仓库",
       "status": "ok",
-      "fetchedAt": "2026-11-09T08:52:34Z",
+      "fetchedAt": "2026-11-10T07:57:42Z",
       "error": null,
       "highlights": [
         {
-          "text": "storytold/photocraft: PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
-          "value": 78055,
+          "text": "storytold/photocraft: PhotoCraft: An open-source photo editor written from scratch in pure Rust",
+          "value": 78327,
           "url": "https://github.com/storytold/photocraft"
         },
         {
           "text": "Gathin23/cleanyourtv: Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
-          "value": 54970,
+          "value": 55618,
           "url": "https://github.com/Gathin23/cleanyourtv"
         },
         {
           "text": "wheresryan22/anatomy: An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished S",
-          "value": 26121,
+          "value": 26337,
           "url": "https://github.com/wheresryan22/anatomy"
         },
         {
           "text": "deepseek-ai/DeepInfer: DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
-          "value": 25707,
+          "value": 25768,
           "url": "https://github.com/deepseek-ai/DeepInfer"
         },
         {
-          "text": "KnifeLemon/Filee: Free, open-source file converter. Convert 263 formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e",
-          "value": 24397,
-          "url": "https://github.com/KnifeLemon/Filee"
-        },
-        {
           "text": "storytold/craft-anything: Craft Anything: understand how any software works, and craft your own.",
-          "value": 23457,
+          "value": 25153,
           "url": "https://github.com/storytold/craft-anything"
         },
         {
+          "text": "KnifeLemon/Filee: Free, open-source file converter. Convert 263 formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e",
+          "value": 24989,
+          "url": "https://github.com/KnifeLemon/Filee"
+        },
+        {
           "text": "google-research/harness2:",
-          "value": 23204,
+          "value": 23327,
           "url": "https://github.com/google-research/harness2"
         },
         {
           "text": "deepseek-ai/dsh-superagent-prototype: Towards a More Autonomous Agent System",
-          "value": 21490,
+          "value": 21940,
           "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
         },
         {
-          "text": "storytold/pdfcraft: PdfCraft: An open-source PDF reader and editor written by scratch in pure Rust",
-          "value": 20084,
+          "text": "storytold/pdfcraft: PdfCraft: An open-source PDF reader and editor written from scratch in pure Rust",
+          "value": 20228,
           "url": "https://github.com/storytold/pdfcraft"
         },
         {
           "text": "Zagitta/gpu-unlock: Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
-          "value": 18236,
+          "value": 18441,
           "url": "https://github.com/Zagitta/gpu-unlock"
         }
       ]
@@ -123,10 +123,61 @@
     {
       "id": "wikipedia",
       "label": "Wikipedia 英文站每日浏览量榜",
-      "status": "error",
-      "fetchedAt": "2026-11-09T08:52:35Z",
-      "error": "RuntimeError: Wikipedia 日榜连续两日不可用",
-      "highlights": []
+      "status": "ok",
+      "fetchedAt": "2026-11-10T07:57:42Z",
+      "error": null,
+      "highlights": [
+        {
+          "text": "Russell Brand",
+          "value": 1010049,
+          "url": "https://en.wikipedia.org/wiki/Russell_Brand"
+        },
+        {
+          "text": "Ramayana: Part 1",
+          "value": 830892,
+          "url": "https://en.wikipedia.org/wiki/Ramayana:_Part_1"
+        },
+        {
+          "text": "Jensen Huang",
+          "value": 733363,
+          "url": "https://en.wikipedia.org/wiki/Jensen_Huang"
+        },
+        {
+          "text": ".xxx",
+          "value": 254653,
+          "url": "https://en.wikipedia.org/wiki/.xxx"
+        },
+        {
+          "text": "Scene (2026 film)",
+          "value": 175996,
+          "url": "https://en.wikipedia.org/wiki/Scene_(2026_film)"
+        },
+        {
+          "text": "Abdul El-Sayed",
+          "value": 147719,
+          "url": "https://en.wikipedia.org/wiki/Abdul_El-Sayed"
+        },
+        {
+          "text": "Godzilla Minus Zero",
+          "value": 147576,
+          "url": "https://en.wikipedia.org/wiki/Godzilla_Minus_Zero"
+        },
+        {
+          "text": "Nvidia",
+          "value": 142333,
+          "url": "https://en.wikipedia.org/wiki/Nvidia"
+        },
+        {
+          "text": "Deaths in 2026",
+          "value": 138732,
+          "url": "https://en.wikipedia.org/wiki/Deaths_in_2026"
+        },
+        {
+          "text": "Tommy Walsh (builder)",
+          "value": 134173,
+          "url": "https://en.wikipedia.org/wiki/Tommy_Walsh_(builder)"
+        }
+      ]
     }
   ]
 }
