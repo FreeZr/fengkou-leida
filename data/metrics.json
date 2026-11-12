@@ -1,63 +1,63 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-11T07:27:30Z",
+  "generatedAt": "2026-11-12T07:55:21Z",
   "probes": [
     {
       "id": "hackernews",
       "label": "Hacker News 首页热榜",
       "status": "ok",
-      "fetchedAt": "2026-11-11T07:27:28Z",
+      "fetchedAt": "2026-11-12T07:55:20Z",
       "error": null,
       "highlights": [
         {
-          "text": "Protecting SSH Keys with macOS Secure Enclave",
-          "value": 106,
-          "url": "https://gatezh.com/posts/macos-secure-enclave-ssh-keys/"
+          "text": "Humble Bundle just killed most of their security through vibecoding",
+          "value": 36,
+          "url": "https://forums.spacebattles.com/threads/humble-bundle-just-completely-killed-most-of-their-security-through-vibecoding.1346295/"
         },
         {
-          "text": "Greg Kurtzer's Ginux is now a userspace kernel",
-          "value": 41,
-          "url": "https://github.com/gmkurtzer/ginux"
+          "text": "93% of paint splatters are valid Perl programs (2019)",
+          "value": 380,
+          "url": "https://www.mcmillen.dev/sigbovik/"
         },
         {
-          "text": "Scion is back and is going to sell a kei truck in America",
-          "value": 441,
-          "url": "https://www.theautopian.com/scion-is-back-and-its-going-to-sell-a-freaking-kei-truck-in-america/"
+          "text": "Tim Peters has died",
+          "value": 1115,
+          "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028"
         },
         {
-          "text": ".name Grandfathered",
-          "value": 784,
-          "url": "https://neil.fraser.name/news/2026/11/10/"
+          "text": "Critical RCE Vulnerability in Apache HTTP Server",
+          "value": 148,
+          "url": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability"
         },
         {
-          "text": "Smart home devices should work without the internet",
-          "value": 863,
-          "url": "https://docodethatmatters.com/home-automation-overnight-success/"
+          "text": "AWS emulator",
+          "value": 806,
+          "url": "https://github.com/aws/aws-emulator"
         },
         {
-          "text": "To deter bioterrorism, U.S. imposes new rules on ordering synthetic DNA",
-          "value": 70,
-          "url": "https://www.science.org/content/article/deter-bioterrorism-u-s-imposes-new-rules-ordering-synthetic-dna"
+          "text": "I gave an agent a lakehouse and control of my garden",
+          "value": 31,
+          "url": "https://jatorre.github.io/garden/"
         },
         {
-          "text": "A great old-timey game-programming hack (2013)",
-          "value": 115,
-          "url": "https://blog.moertel.com/posts/2013-12-14-great-old-timey-game-programming-hack.html"
+          "text": "Jane Street: Socratic Tutor",
+          "value": 44,
+          "url": "https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md"
         },
         {
-          "text": "A Compendium of Abandoned Greenhouses",
-          "value": 20,
-          "url": "https://www.messynessychic.com/2015/01/15/a-compendium-of-abandoned-greenhouses/"
+          "text": "Nvidia is preparing to oust Jensen Huang",
+          "value": 916,
+          "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad"
         },
         {
-          "text": "Six Math Essentials",
-          "value": 214,
-          "url": "https://teorth.github.io/tao-web/six-math-essentials.html"
+          "text": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
+          "value": 471,
+          "url": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/"
         },
         {
-          "text": "Apple has new Mac app coming to make running local AI models easy",
-          "value": 172,
-          "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/"
+          "text": "Gemini Decisions API",
+          "value": 398,
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
         }
       ]
     },
@@ -65,57 +65,57 @@
       "id": "github",
       "label": "GitHub 近 45 天新建高星仓库",
       "status": "ok",
-      "fetchedAt": "2026-11-11T07:27:29Z",
+      "fetchedAt": "2026-11-12T07:55:21Z",
       "error": null,
       "highlights": [
         {
           "text": "storytold/photocraft: PhotoCraft: An open-source photo editor written from scratch in pure Rust",
-          "value": 78574,
+          "value": 78818,
           "url": "https://github.com/storytold/photocraft"
         },
         {
           "text": "Gathin23/cleanyourtv: Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
-          "value": 56152,
+          "value": 56680,
           "url": "https://github.com/Gathin23/cleanyourtv"
         },
         {
           "text": "storytold/craft-anything: Craft Anything: understand how any software works, and craft your own.",
-          "value": 27074,
+          "value": 28957,
           "url": "https://github.com/storytold/craft-anything"
         },
         {
           "text": "wheresryan22/anatomy: An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished S",
-          "value": 26574,
+          "value": 26824,
           "url": "https://github.com/wheresryan22/anatomy"
         },
         {
-          "text": "deepseek-ai/DeepInfer: DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
-          "value": 25834,
-          "url": "https://github.com/deepseek-ai/DeepInfer"
-        },
-        {
           "text": "KnifeLemon/Filee: Free, open-source file converter. Convert 263 formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e",
-          "value": 25634,
+          "value": 26121,
           "url": "https://github.com/KnifeLemon/Filee"
         },
         {
+          "text": "deepseek-ai/DeepInfer: DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
+          "value": 25887,
+          "url": "https://github.com/deepseek-ai/DeepInfer"
+        },
+        {
           "text": "google-research/harness2:",
-          "value": 23429,
+          "value": 23503,
           "url": "https://github.com/google-research/harness2"
         },
         {
           "text": "deepseek-ai/dsh-superagent-prototype: Towards a More Autonomous Agent System",
-          "value": 22308,
+          "value": 22603,
           "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
         },
         {
           "text": "storytold/pdfcraft: PdfCraft: An open-source PDF reader and editor written from scratch in pure Rust",
-          "value": 20326,
+          "value": 20444,
           "url": "https://github.com/storytold/pdfcraft"
         },
         {
           "text": "ccch1mneyyy/dsh-Go: dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-          "value": 19058,
+          "value": 20131,
           "url": "https://github.com/ccch1mneyyy/dsh-Go"
         }
       ]
@@ -124,58 +124,58 @@
       "id": "wikipedia",
       "label": "Wikipedia 英文站每日浏览量榜",
       "status": "ok",
-      "fetchedAt": "2026-11-11T07:27:30Z",
+      "fetchedAt": "2026-11-12T07:55:21Z",
       "error": null,
       "highlights": [
         {
           "text": "Ramayana: Part 1",
-          "value": 840888,
+          "value": 776693,
           "url": "https://en.wikipedia.org/wiki/Ramayana:_Part_1"
         },
         {
-          "text": "Russell Brand",
-          "value": 545717,
-          "url": "https://en.wikipedia.org/wiki/Russell_Brand"
+          "text": "Stacy Keach",
+          "value": 562990,
+          "url": "https://en.wikipedia.org/wiki/Stacy_Keach"
         },
         {
           "text": "Jensen Huang",
-          "value": 542553,
+          "value": 341625,
           "url": "https://en.wikipedia.org/wiki/Jensen_Huang"
         },
         {
           "text": "David Walliams",
-          "value": 512804,
+          "value": 325997,
           "url": "https://en.wikipedia.org/wiki/David_Walliams"
         },
         {
+          "text": "VisionQuest",
+          "value": 240738,
+          "url": "https://en.wikipedia.org/wiki/VisionQuest"
+        },
+        {
           "text": ".xxx",
-          "value": 213618,
+          "value": 226847,
           "url": "https://en.wikipedia.org/wiki/.xxx"
         },
         {
-          "text": "Thomas Massie",
-          "value": 166628,
-          "url": "https://en.wikipedia.org/wiki/Thomas_Massie"
+          "text": "Russell Brand",
+          "value": 207654,
+          "url": "https://en.wikipedia.org/wiki/Russell_Brand"
+        },
+        {
+          "text": "Mauricio Pochettino",
+          "value": 186714,
+          "url": "https://en.wikipedia.org/wiki/Mauricio_Pochettino"
         },
         {
           "text": "SS Edmund Fitzgerald",
-          "value": 163598,
+          "value": 147962,
           "url": "https://en.wikipedia.org/wiki/SS_Edmund_Fitzgerald"
         },
         {
-          "text": "Carson Wentz",
-          "value": 158702,
-          "url": "https://en.wikipedia.org/wiki/Carson_Wentz"
-        },
-        {
-          "text": "Scene (2026 film)",
-          "value": 143180,
-          "url": "https://en.wikipedia.org/wiki/Scene_(2026_film)"
-        },
-        {
-          "text": "Lara Stone",
-          "value": 139117,
-          "url": "https://en.wikipedia.org/wiki/Lara_Stone"
+          "text": "Deaths in 2026",
+          "value": 145287,
+          "url": "https://en.wikipedia.org/wiki/Deaths_in_2026"
         }
       ]
     }
