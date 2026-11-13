@@ -1,63 +1,63 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-12T07:55:21Z",
+  "generatedAt": "2026-11-13T07:33:33Z",
   "probes": [
     {
       "id": "hackernews",
       "label": "Hacker News 首页热榜",
       "status": "ok",
-      "fetchedAt": "2026-11-12T07:55:20Z",
+      "fetchedAt": "2026-11-13T07:33:32Z",
       "error": null,
       "highlights": [
         {
-          "text": "Humble Bundle just killed most of their security through vibecoding",
-          "value": 36,
-          "url": "https://forums.spacebattles.com/threads/humble-bundle-just-completely-killed-most-of-their-security-through-vibecoding.1346295/"
+          "text": "Jensen Huang resigns",
+          "value": 3378,
+          "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f"
         },
         {
-          "text": "93% of paint splatters are valid Perl programs (2019)",
-          "value": 380,
-          "url": "https://www.mcmillen.dev/sigbovik/"
+          "text": "IceWM",
+          "value": 96,
+          "url": "https://ice-wm.org/"
         },
         {
-          "text": "Tim Peters has died",
-          "value": 1115,
-          "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028"
+          "text": "Scientists claim the universe is twice as old as believed",
+          "value": 47,
+          "url": "https://geekspin.co/scientists-claim-the-universe-is-twice-as-old-as-believed/"
         },
         {
-          "text": "Critical RCE Vulnerability in Apache HTTP Server",
-          "value": 148,
-          "url": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability"
+          "text": "Rust 1.100",
+          "value": 617,
+          "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/"
         },
         {
-          "text": "AWS emulator",
-          "value": 806,
-          "url": "https://github.com/aws/aws-emulator"
+          "text": "Brave Search API now accepts agentic payments via the x402 protocol",
+          "value": 67,
+          "url": "https://brave.com/blog/search-api-agentic-payments/"
         },
         {
-          "text": "I gave an agent a lakehouse and control of my garden",
-          "value": 31,
-          "url": "https://jatorre.github.io/garden/"
+          "text": "Nvidia employees petition to bring back Jensen Huang",
+          "value": 456,
+          "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/"
         },
         {
-          "text": "Jane Street: Socratic Tutor",
-          "value": 44,
-          "url": "https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md"
+          "text": "Switcher (2004)",
+          "value": 84,
+          "url": "https://folklore.org/Switcher.html"
         },
         {
-          "text": "Nvidia is preparing to oust Jensen Huang",
-          "value": 916,
-          "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad"
-        },
-        {
-          "text": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
-          "value": 471,
-          "url": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/"
-        },
-        {
-          "text": "Gemini Decisions API",
+          "text": "Gemini 4 Hydrogen and Orchestrator",
           "value": 398,
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
+          "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/"
+        },
+        {
+          "text": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
+          "value": 478,
+          "url": "https://github.com/simpsoka/zigzag"
+        },
+        {
+          "text": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
+          "value": 204,
+          "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer"
         }
       ]
     },
@@ -65,58 +65,58 @@
       "id": "github",
       "label": "GitHub 近 45 天新建高星仓库",
       "status": "ok",
-      "fetchedAt": "2026-11-12T07:55:21Z",
+      "fetchedAt": "2026-11-13T07:33:33Z",
       "error": null,
       "highlights": [
         {
           "text": "storytold/photocraft: PhotoCraft: An open-source photo editor written from scratch in pure Rust",
-          "value": 78818,
+          "value": 79050,
           "url": "https://github.com/storytold/photocraft"
         },
         {
           "text": "Gathin23/cleanyourtv: Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
-          "value": 56680,
+          "value": 57132,
           "url": "https://github.com/Gathin23/cleanyourtv"
         },
         {
           "text": "storytold/craft-anything: Craft Anything: understand how any software works, and craft your own.",
-          "value": 28957,
+          "value": 30504,
           "url": "https://github.com/storytold/craft-anything"
         },
         {
           "text": "wheresryan22/anatomy: An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished S",
-          "value": 26824,
+          "value": 27007,
           "url": "https://github.com/wheresryan22/anatomy"
         },
         {
-          "text": "KnifeLemon/Filee: Free, open-source file converter. Convert 263 formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e",
-          "value": 26121,
-          "url": "https://github.com/KnifeLemon/Filee"
-        },
-        {
           "text": "deepseek-ai/DeepInfer: DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
-          "value": 25887,
+          "value": 25927,
           "url": "https://github.com/deepseek-ai/DeepInfer"
         },
         {
           "text": "google-research/harness2:",
-          "value": 23503,
+          "value": 23627,
           "url": "https://github.com/google-research/harness2"
         },
         {
           "text": "deepseek-ai/dsh-superagent-prototype: Towards a More Autonomous Agent System",
-          "value": 22603,
+          "value": 22868,
           "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
         },
         {
+          "text": "ccch1mneyyy/dsh-Go: dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+          "value": 21172,
+          "url": "https://github.com/ccch1mneyyy/dsh-Go"
+        },
+        {
           "text": "storytold/pdfcraft: PdfCraft: An open-source PDF reader and editor written from scratch in pure Rust",
-          "value": 20444,
+          "value": 20542,
           "url": "https://github.com/storytold/pdfcraft"
         },
         {
-          "text": "ccch1mneyyy/dsh-Go: dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-          "value": 20131,
-          "url": "https://github.com/ccch1mneyyy/dsh-Go"
+          "text": "Zagitta/gpu-unlock: Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
+          "value": 19028,
+          "url": "https://github.com/Zagitta/gpu-unlock"
         }
       ]
     },
@@ -124,58 +124,58 @@
       "id": "wikipedia",
       "label": "Wikipedia 英文站每日浏览量榜",
       "status": "ok",
-      "fetchedAt": "2026-11-12T07:55:21Z",
+      "fetchedAt": "2026-11-13T07:33:33Z",
       "error": null,
       "highlights": [
         {
-          "text": "Ramayana: Part 1",
-          "value": 776693,
-          "url": "https://en.wikipedia.org/wiki/Ramayana:_Part_1"
-        },
-        {
-          "text": "Stacy Keach",
-          "value": 562990,
-          "url": "https://en.wikipedia.org/wiki/Stacy_Keach"
-        },
-        {
           "text": "Jensen Huang",
-          "value": 341625,
+          "value": 1072168,
           "url": "https://en.wikipedia.org/wiki/Jensen_Huang"
         },
         {
-          "text": "David Walliams",
-          "value": 325997,
-          "url": "https://en.wikipedia.org/wiki/David_Walliams"
+          "text": "Ramayana: Part 1",
+          "value": 735438,
+          "url": "https://en.wikipedia.org/wiki/Ramayana:_Part_1"
         },
         {
-          "text": "VisionQuest",
-          "value": 240738,
-          "url": "https://en.wikipedia.org/wiki/VisionQuest"
+          "text": "Colette Kress",
+          "value": 463931,
+          "url": "https://en.wikipedia.org/wiki/Colette_Kress"
+        },
+        {
+          "text": "Anthony Clark (actor)",
+          "value": 374893,
+          "url": "https://en.wikipedia.org/wiki/Anthony_Clark_(actor)"
+        },
+        {
+          "text": "Nvidia",
+          "value": 366417,
+          "url": "https://en.wikipedia.org/wiki/Nvidia"
         },
         {
           "text": ".xxx",
-          "value": 226847,
+          "value": 257723,
           "url": "https://en.wikipedia.org/wiki/.xxx"
         },
         {
-          "text": "Russell Brand",
-          "value": 207654,
-          "url": "https://en.wikipedia.org/wiki/Russell_Brand"
+          "text": "SS United States",
+          "value": 241627,
+          "url": "https://en.wikipedia.org/wiki/SS_United_States"
+        },
+        {
+          "text": "Scott Colom",
+          "value": 235409,
+          "url": "https://en.wikipedia.org/wiki/Scott_Colom"
         },
         {
           "text": "Mauricio Pochettino",
-          "value": 186714,
+          "value": 168183,
           "url": "https://en.wikipedia.org/wiki/Mauricio_Pochettino"
         },
         {
-          "text": "SS Edmund Fitzgerald",
-          "value": 147962,
-          "url": "https://en.wikipedia.org/wiki/SS_Edmund_Fitzgerald"
-        },
-        {
-          "text": "Deaths in 2026",
-          "value": 145287,
-          "url": "https://en.wikipedia.org/wiki/Deaths_in_2026"
+          "text": "Alice Huang (executive)",
+          "value": 160121,
+          "url": "https://en.wikipedia.org/wiki/Alice_Huang_(executive)"
         }
       ]
     }
