@@ -1,63 +1,63 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-13T07:33:33Z",
+  "generatedAt": "2026-11-14T07:17:35Z",
   "probes": [
     {
       "id": "hackernews",
       "label": "Hacker News 首页热榜",
       "status": "ok",
-      "fetchedAt": "2026-11-13T07:33:32Z",
+      "fetchedAt": "2026-11-14T07:17:33Z",
       "error": null,
       "highlights": [
         {
-          "text": "Jensen Huang resigns",
-          "value": 3378,
-          "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f"
+          "text": "Ggml v1.0.0",
+          "value": 175,
+          "url": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0"
         },
         {
-          "text": "IceWM",
-          "value": 96,
-          "url": "https://ice-wm.org/"
+          "text": "Nvidia Allegedly Engineered Scarcity by Funding AI Startups to Buy Its GPUs",
+          "value": 373,
+          "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus"
         },
         {
-          "text": "Scientists claim the universe is twice as old as believed",
-          "value": 47,
-          "url": "https://geekspin.co/scientists-claim-the-universe-is-twice-as-old-as-believed/"
+          "text": "FAA issues national ground stop – lifted 4.5 hours later",
+          "value": 1489,
+          "url": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247"
         },
         {
-          "text": "Rust 1.100",
-          "value": 617,
-          "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/"
+          "text": "Terminal borders that don't cost a cell",
+          "value": 193,
+          "url": "https://www.joshka.net/cell-borders/"
         },
         {
-          "text": "Brave Search API now accepts agentic payments via the x402 protocol",
-          "value": 67,
-          "url": "https://brave.com/blog/search-api-agentic-payments/"
+          "text": "Unsloth Qwen3.8-27B Quantizations – Dynamic v3.1 Update",
+          "value": 97,
+          "url": "https://unsloth.ai/docs/models/qwen3.8"
         },
         {
-          "text": "Nvidia employees petition to bring back Jensen Huang",
-          "value": 456,
-          "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/"
+          "text": "Show HN: Live map of U.S. flights during tonight's FAA nationwide ground stop",
+          "value": 115,
+          "url": "https://grounds.top/"
         },
         {
-          "text": "Switcher (2004)",
-          "value": 84,
-          "url": "https://folklore.org/Switcher.html"
+          "text": "What Happened to 3Com?",
+          "value": 115,
+          "url": "https://dfarq.homeip.net/what-happened-to-3com/"
         },
         {
-          "text": "Gemini 4 Hydrogen and Orchestrator",
-          "value": 398,
-          "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/"
+          "text": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped",
+          "value": 253,
+          "url": "https://orcasairband.com/"
         },
         {
-          "text": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
-          "value": 478,
-          "url": "https://github.com/simpsoka/zigzag"
+          "text": "Found: A protein that drives ageing without unleashing inflammation",
+          "value": 175,
+          "url": "https://www.nature.com/articles/d41586-026-03638-3"
         },
         {
-          "text": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
-          "value": 204,
-          "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer"
+          "text": "FM-1 Workbench",
+          "value": 219,
+          "url": "https://open.m-vave.com/fm1-workbench"
         }
       ]
     },
@@ -65,58 +65,58 @@
       "id": "github",
       "label": "GitHub 近 45 天新建高星仓库",
       "status": "ok",
-      "fetchedAt": "2026-11-13T07:33:33Z",
+      "fetchedAt": "2026-11-14T07:17:34Z",
       "error": null,
       "highlights": [
         {
-          "text": "storytold/photocraft: PhotoCraft: An open-source photo editor written from scratch in pure Rust",
-          "value": 79050,
-          "url": "https://github.com/storytold/photocraft"
-        },
-        {
           "text": "Gathin23/cleanyourtv: Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
-          "value": 57132,
+          "value": 57527,
           "url": "https://github.com/Gathin23/cleanyourtv"
         },
         {
           "text": "storytold/craft-anything: Craft Anything: understand how any software works, and craft your own.",
-          "value": 30504,
+          "value": 31710,
           "url": "https://github.com/storytold/craft-anything"
         },
         {
           "text": "wheresryan22/anatomy: An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished S",
-          "value": 27007,
+          "value": 27178,
           "url": "https://github.com/wheresryan22/anatomy"
         },
         {
           "text": "deepseek-ai/DeepInfer: DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
-          "value": 25927,
+          "value": 25985,
           "url": "https://github.com/deepseek-ai/DeepInfer"
         },
         {
           "text": "google-research/harness2:",
-          "value": 23627,
+          "value": 23795,
           "url": "https://github.com/google-research/harness2"
         },
         {
           "text": "deepseek-ai/dsh-superagent-prototype: Towards a More Autonomous Agent System",
-          "value": 22868,
+          "value": 23059,
           "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
         },
         {
           "text": "ccch1mneyyy/dsh-Go: dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-          "value": 21172,
+          "value": 22086,
           "url": "https://github.com/ccch1mneyyy/dsh-Go"
         },
         {
-          "text": "storytold/pdfcraft: PdfCraft: An open-source PDF reader and editor written from scratch in pure Rust",
-          "value": 20542,
-          "url": "https://github.com/storytold/pdfcraft"
+          "text": "Zagitta/gpu-unlock: Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
+          "value": 19287,
+          "url": "https://github.com/Zagitta/gpu-unlock"
         },
         {
-          "text": "Zagitta/gpu-unlock: Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
-          "value": 19028,
-          "url": "https://github.com/Zagitta/gpu-unlock"
+          "text": "storytold/wordcraft: WordCraft: an open-source, clean-room word processor in pure Rust",
+          "value": 17982,
+          "url": "https://github.com/storytold/wordcraft"
+        },
+        {
+          "text": "openai/math:",
+          "value": 17523,
+          "url": "https://github.com/openai/math"
         }
       ]
     },
@@ -124,58 +124,58 @@
       "id": "wikipedia",
       "label": "Wikipedia 英文站每日浏览量榜",
       "status": "ok",
-      "fetchedAt": "2026-11-13T07:33:33Z",
+      "fetchedAt": "2026-11-14T07:17:34Z",
       "error": null,
       "highlights": [
         {
           "text": "Jensen Huang",
-          "value": 1072168,
+          "value": 727529,
           "url": "https://en.wikipedia.org/wiki/Jensen_Huang"
         },
         {
           "text": "Ramayana: Part 1",
-          "value": 735438,
+          "value": 618656,
           "url": "https://en.wikipedia.org/wiki/Ramayana:_Part_1"
         },
         {
-          "text": "Colette Kress",
-          "value": 463931,
-          "url": "https://en.wikipedia.org/wiki/Colette_Kress"
-        },
-        {
-          "text": "Anthony Clark (actor)",
-          "value": 374893,
-          "url": "https://en.wikipedia.org/wiki/Anthony_Clark_(actor)"
-        },
-        {
-          "text": "Nvidia",
-          "value": 366417,
-          "url": "https://en.wikipedia.org/wiki/Nvidia"
-        },
-        {
           "text": ".xxx",
-          "value": 257723,
+          "value": 486885,
           "url": "https://en.wikipedia.org/wiki/.xxx"
         },
         {
-          "text": "SS United States",
-          "value": 241627,
-          "url": "https://en.wikipedia.org/wiki/SS_United_States"
+          "text": "Colette Kress",
+          "value": 279241,
+          "url": "https://en.wikipedia.org/wiki/Colette_Kress"
         },
         {
-          "text": "Scott Colom",
-          "value": 235409,
-          "url": "https://en.wikipedia.org/wiki/Scott_Colom"
+          "text": "Nvidia",
+          "value": 252871,
+          "url": "https://en.wikipedia.org/wiki/Nvidia"
         },
         {
-          "text": "Mauricio Pochettino",
-          "value": 168183,
-          "url": "https://en.wikipedia.org/wiki/Mauricio_Pochettino"
+          "text": "Chris Van Hollen",
+          "value": 204913,
+          "url": "https://en.wikipedia.org/wiki/Chris_Van_Hollen"
+        },
+        {
+          "text": "Piracy",
+          "value": 201972,
+          "url": "https://en.wikipedia.org/wiki/Piracy"
         },
         {
           "text": "Alice Huang (executive)",
-          "value": 160121,
+          "value": 200012,
           "url": "https://en.wikipedia.org/wiki/Alice_Huang_(executive)"
+        },
+        {
+          "text": "Sam Hartman",
+          "value": 191577,
+          "url": "https://en.wikipedia.org/wiki/Sam_Hartman"
+        },
+        {
+          "text": "Mauricio Pochettino",
+          "value": 172224,
+          "url": "https://en.wikipedia.org/wiki/Mauricio_Pochettino"
         }
       ]
     }
