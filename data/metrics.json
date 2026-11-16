@@ -1,63 +1,63 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-16T07:34:20Z",
+  "generatedAt": "2026-11-16T08:47:13Z",
   "probes": [
     {
       "id": "hackernews",
       "label": "Hacker News 首页热榜",
       "status": "ok",
-      "fetchedAt": "2026-11-16T07:34:18Z",
+      "fetchedAt": "2026-11-16T08:47:11Z",
       "error": null,
       "highlights": [
         {
           "text": "How to make almost anything",
-          "value": 110,
+          "value": 201,
           "url": "https://pub.cba.mit.edu/863.26/site/"
         },
         {
           "text": "Universal XSS in uBlock Origin from website-driven element picker",
-          "value": 284,
+          "value": 322,
           "url": "https://iter.ca/post/ubo-uxss/"
         },
         {
           "text": "Qwen4-Max",
-          "value": 390,
+          "value": 455,
           "url": "https://qwen.ai/blog?id=qwen4-max"
         },
         {
           "text": "Old Bitly links are being hijacked",
-          "value": 254,
+          "value": 268,
           "url": "https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/"
         },
         {
           "text": "What's Next for Nvidia?",
-          "value": 201,
+          "value": 234,
           "url": "https://steveblank.com/2026/11/15/whats-next-for-nvidia/"
         },
         {
           "text": "Tor Project Issues Rapid-Response DoS-Defense Fix Amid Sustained DDoS Attack",
-          "value": 123,
+          "value": 135,
           "url": "https://forum.torproject.org/t/security-release-0-4-9-17/22454"
         },
         {
-          "text": "Stop Filming in Log",
-          "value": 34,
-          "url": "https://digitalfilms.wordpress.com/2026/11/15/stop-filming-in-log/"
-        },
-        {
-          "text": "Preserving 30 years of Salon journalism",
-          "value": 135,
-          "url": "https://blog.archive.org/2026/11/12/preserving-30-years-of-salon-journalism/"
-        },
-        {
           "text": "Protomaps: Self-hosting map tiles has gotten cheap and easy",
-          "value": 285,
+          "value": 312,
           "url": "https://bruceroettgers.eu/blog/protomaps/"
         },
         {
-          "text": "A short explainer on how El Niño works [video]",
-          "value": 220,
-          "url": "https://www.youtube.com/watch?v=7_JF3etiAv8"
+          "text": "Researchers track whole body movement with just a smartwatch",
+          "value": 9,
+          "url": "https://news.cornell.edu/stories/2026/11/researchers-track-whole-body-movement-just-smartwatch"
+        },
+        {
+          "text": "Preserving 30 years of Salon journalism",
+          "value": 140,
+          "url": "https://blog.archive.org/2026/11/12/preserving-30-years-of-salon-journalism/"
+        },
+        {
+          "text": "Stop Filming in Log",
+          "value": 42,
+          "url": "https://digitalfilms.wordpress.com/2026/11/15/stop-filming-in-log/"
         }
       ]
     },
@@ -65,57 +65,57 @@
       "id": "github",
       "label": "GitHub 近 45 天新建高星仓库",
       "status": "ok",
-      "fetchedAt": "2026-11-16T07:34:19Z",
+      "fetchedAt": "2026-11-16T08:47:12Z",
       "error": null,
       "highlights": [
         {
           "text": "Gathin23/cleanyourtv: Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
-          "value": 58382,
+          "value": 58407,
           "url": "https://github.com/Gathin23/cleanyourtv"
         },
         {
           "text": "storytold/craft-anything: Craft Anything: understand how any software works, and craft your own.",
-          "value": 34144,
+          "value": 34202,
           "url": "https://github.com/storytold/craft-anything"
         },
         {
           "text": "wheresryan22/anatomy: An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished S",
-          "value": 27554,
+          "value": 27570,
           "url": "https://github.com/wheresryan22/anatomy"
         },
         {
           "text": "deepseek-ai/DeepInfer: DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
-          "value": 26091,
+          "value": 26094,
           "url": "https://github.com/deepseek-ai/DeepInfer"
         },
         {
           "text": "ccch1mneyyy/dsh-Go: dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-          "value": 24140,
+          "value": 24210,
           "url": "https://github.com/ccch1mneyyy/dsh-Go"
         },
         {
           "text": "google-research/harness2:",
-          "value": 24034,
+          "value": 24039,
           "url": "https://github.com/google-research/harness2"
         },
         {
           "text": "deepseek-ai/dsh-superagent-prototype: Towards a More Autonomous Agent System",
-          "value": 23378,
+          "value": 23391,
           "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
         },
         {
           "text": "Zagitta/gpu-unlock: Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
-          "value": 19763,
+          "value": 19772,
           "url": "https://github.com/Zagitta/gpu-unlock"
         },
         {
           "text": "storytold/wordcraft: WordCraft: an open-source, clean-room word processor in pure Rust",
-          "value": 18092,
+          "value": 18095,
           "url": "https://github.com/storytold/wordcraft"
         },
         {
           "text": "openai/math:",
-          "value": 17546,
+          "value": 17545,
           "url": "https://github.com/openai/math"
         }
       ]
@@ -124,7 +124,7 @@
       "id": "wikipedia",
       "label": "Wikipedia 英文站每日浏览量榜",
       "status": "ok",
-      "fetchedAt": "2026-11-16T07:34:20Z",
+      "fetchedAt": "2026-11-16T08:47:12Z",
       "error": null,
       "highlights": [
         {
