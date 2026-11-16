@@ -1,63 +1,63 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-15T07:28:11Z",
+  "generatedAt": "2026-11-16T07:34:20Z",
   "probes": [
     {
       "id": "hackernews",
       "label": "Hacker News 首页热榜",
       "status": "ok",
-      "fetchedAt": "2026-11-15T07:28:10Z",
+      "fetchedAt": "2026-11-16T07:34:18Z",
       "error": null,
       "highlights": [
         {
-          "text": "SpaceX catches the Starship to end Flight 15",
-          "value": 1070,
-          "url": "https://www.spacex.com/launches/starship-flight-15"
+          "text": "How to make almost anything",
+          "value": 110,
+          "url": "https://pub.cba.mit.edu/863.26/site/"
         },
         {
-          "text": "Memory Safety Bugs in Rust Standard Library",
-          "value": 70,
-          "url": "https://forge-blog.github.io/posts/rust-std-memory-safety/"
+          "text": "Universal XSS in uBlock Origin from website-driven element picker",
+          "value": 284,
+          "url": "https://iter.ca/post/ubo-uxss/"
         },
         {
-          "text": "Lovable apps expose passport details and more than 200K private messages",
-          "value": 765,
-          "url": "https://www.crissyfield.de/research/lovable-en/"
+          "text": "Qwen4-Max",
+          "value": 390,
+          "url": "https://qwen.ai/blog?id=qwen4-max"
         },
         {
-          "text": "A rare glimpse inside the high-risk, high-reward Hormuz trade",
-          "value": 20,
-          "url": "https://www.lloydslist.com/LL1158922/A-rare-glimpse-inside-the-highrisk-highreward-Hormuz-trade"
+          "text": "Old Bitly links are being hijacked",
+          "value": 254,
+          "url": "https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/"
         },
         {
-          "text": "How did Woz write the Apple 1 BASIC before building the computer?",
-          "value": 186,
-          "url": "https://retrocomputing.stackexchange.com/questions/17957"
+          "text": "What's Next for Nvidia?",
+          "value": 201,
+          "url": "https://steveblank.com/2026/11/15/whats-next-for-nvidia/"
         },
         {
-          "text": "Show HN: Gawain – Require type hints on all Python variables",
-          "value": 32,
-          "url": "https://github.com/matheuzgomes/gawain"
+          "text": "Tor Project Issues Rapid-Response DoS-Defense Fix Amid Sustained DDoS Attack",
+          "value": 123,
+          "url": "https://forum.torproject.org/t/security-release-0-4-9-17/22454"
         },
         {
-          "text": "Court denies motion to dismiss DRAM price fixing case",
-          "value": 65,
-          "url": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal"
-        },
-        {
-          "text": "My favourite modern NES games",
+          "text": "Stop Filming in Log",
           "value": 34,
-          "url": "https://jordi.inversethought.com/blog/25-of-my-favourite-modern-nes-games/"
+          "url": "https://digitalfilms.wordpress.com/2026/11/15/stop-filming-in-log/"
         },
         {
-          "text": "Show HN: Turbo-Browser-MCP – Batch forms, DOM deltas and submit guards for MCP",
-          "value": 24,
-          "url": "https://github.com/Tthanh2k6/turbo-browser-mcp"
+          "text": "Preserving 30 years of Salon journalism",
+          "value": 135,
+          "url": "https://blog.archive.org/2026/11/12/preserving-30-years-of-salon-journalism/"
         },
         {
-          "text": "The Evolving Story of How Chemistry Became Biology",
-          "value": 33,
-          "url": "https://www.quantamagazine.org/the-evolving-story-of-how-chemistry-became-biology-20261112/"
+          "text": "Protomaps: Self-hosting map tiles has gotten cheap and easy",
+          "value": 285,
+          "url": "https://bruceroettgers.eu/blog/protomaps/"
+        },
+        {
+          "text": "A short explainer on how El Niño works [video]",
+          "value": 220,
+          "url": "https://www.youtube.com/watch?v=7_JF3etiAv8"
         }
       ]
     },
@@ -65,57 +65,57 @@
       "id": "github",
       "label": "GitHub 近 45 天新建高星仓库",
       "status": "ok",
-      "fetchedAt": "2026-11-15T07:28:11Z",
+      "fetchedAt": "2026-11-16T07:34:19Z",
       "error": null,
       "highlights": [
         {
           "text": "Gathin23/cleanyourtv: Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
-          "value": 57972,
+          "value": 58382,
           "url": "https://github.com/Gathin23/cleanyourtv"
         },
         {
           "text": "storytold/craft-anything: Craft Anything: understand how any software works, and craft your own.",
-          "value": 33071,
+          "value": 34144,
           "url": "https://github.com/storytold/craft-anything"
         },
         {
           "text": "wheresryan22/anatomy: An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished S",
-          "value": 27373,
+          "value": 27554,
           "url": "https://github.com/wheresryan22/anatomy"
         },
         {
           "text": "deepseek-ai/DeepInfer: DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
-          "value": 26045,
+          "value": 26091,
           "url": "https://github.com/deepseek-ai/DeepInfer"
         },
         {
+          "text": "ccch1mneyyy/dsh-Go: dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+          "value": 24140,
+          "url": "https://github.com/ccch1mneyyy/dsh-Go"
+        },
+        {
           "text": "google-research/harness2:",
-          "value": 23911,
+          "value": 24034,
           "url": "https://github.com/google-research/harness2"
         },
         {
           "text": "deepseek-ai/dsh-superagent-prototype: Towards a More Autonomous Agent System",
-          "value": 23177,
+          "value": 23378,
           "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
         },
         {
-          "text": "ccch1mneyyy/dsh-Go: dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-          "value": 23091,
-          "url": "https://github.com/ccch1mneyyy/dsh-Go"
-        },
-        {
           "text": "Zagitta/gpu-unlock: Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
-          "value": 19598,
+          "value": 19763,
           "url": "https://github.com/Zagitta/gpu-unlock"
         },
         {
           "text": "storytold/wordcraft: WordCraft: an open-source, clean-room word processor in pure Rust",
-          "value": 18029,
+          "value": 18092,
           "url": "https://github.com/storytold/wordcraft"
         },
         {
           "text": "openai/math:",
-          "value": 17536,
+          "value": 17546,
           "url": "https://github.com/openai/math"
         }
       ]
@@ -124,58 +124,58 @@
       "id": "wikipedia",
       "label": "Wikipedia 英文站每日浏览量榜",
       "status": "ok",
-      "fetchedAt": "2026-11-15T07:28:11Z",
+      "fetchedAt": "2026-11-16T07:34:20Z",
       "error": null,
       "highlights": [
         {
+          "text": "Archive of Our Own",
+          "value": 860729,
+          "url": "https://en.wikipedia.org/wiki/Archive_of_Our_Own"
+        },
+        {
+          "text": "9/11",
+          "value": 673012,
+          "url": "https://en.wikipedia.org/wiki/9/11"
+        },
+        {
           "text": "Ramayana: Part 1",
-          "value": 581992,
+          "value": 591692,
           "url": "https://en.wikipedia.org/wiki/Ramayana:_Part_1"
         },
         {
-          "text": "Sean Duffy",
-          "value": 434101,
-          "url": "https://en.wikipedia.org/wiki/Sean_Duffy"
+          "text": "List of Nazi concentration camps",
+          "value": 534193,
+          "url": "https://en.wikipedia.org/wiki/List_of_Nazi_concentration_camps"
         },
         {
-          "text": "Jensen Huang",
-          "value": 304348,
-          "url": "https://en.wikipedia.org/wiki/Jensen_Huang"
-        },
-        {
-          "text": ".xxx",
-          "value": 222107,
-          "url": "https://en.wikipedia.org/wiki/.xxx"
+          "text": "UFC 334",
+          "value": 321149,
+          "url": "https://en.wikipedia.org/wiki/UFC_334"
         },
         {
           "text": "List of highest-grossing Indian films",
-          "value": 172992,
+          "value": 214408,
           "url": "https://en.wikipedia.org/wiki/List_of_highest-grossing_Indian_films"
         },
         {
-          "text": "Ansel Adams",
-          "value": 127659,
-          "url": "https://en.wikipedia.org/wiki/Ansel_Adams"
+          "text": "Jensen Huang",
+          "value": 194070,
+          "url": "https://en.wikipedia.org/wiki/Jensen_Huang"
         },
         {
-          "text": "Deaths in 2026",
-          "value": 125720,
-          "url": "https://en.wikipedia.org/wiki/Deaths_in_2026"
+          "text": "Full Gear (2026)",
+          "value": 175811,
+          "url": "https://en.wikipedia.org/wiki/Full_Gear_(2026)"
         },
         {
-          "text": "Markwayne Mullin",
-          "value": 113475,
-          "url": "https://en.wikipedia.org/wiki/Markwayne_Mullin"
+          "text": "Josh Hokit",
+          "value": 168260,
+          "url": "https://en.wikipedia.org/wiki/Josh_Hokit"
         },
         {
-          "text": "Nvidia",
-          "value": 110648,
-          "url": "https://en.wikipedia.org/wiki/Nvidia"
-        },
-        {
-          "text": "Sam Hartman",
-          "value": 105388,
-          "url": "https://en.wikipedia.org/wiki/Sam_Hartman"
+          "text": "Sean Duffy",
+          "value": 161039,
+          "url": "https://en.wikipedia.org/wiki/Sean_Duffy"
         }
       ]
     }
