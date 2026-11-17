@@ -1,63 +1,63 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-16T08:47:13Z",
+  "generatedAt": "2026-11-17T08:45:18Z",
   "probes": [
     {
       "id": "hackernews",
       "label": "Hacker News 首页热榜",
       "status": "ok",
-      "fetchedAt": "2026-11-16T08:47:11Z",
+      "fetchedAt": "2026-11-17T08:45:15Z",
       "error": null,
       "highlights": [
         {
-          "text": "How to make almost anything",
-          "value": 201,
-          "url": "https://pub.cba.mit.edu/863.26/site/"
+          "text": "Carnegie Mellon is putting computer science courses on YouTube for free",
+          "value": 1408,
+          "url": "https://www.cs.cmu.edu/learn/"
         },
         {
-          "text": "Universal XSS in uBlock Origin from website-driven element picker",
-          "value": 322,
-          "url": "https://iter.ca/post/ubo-uxss/"
+          "text": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
+          "value": 573,
+          "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/"
         },
         {
-          "text": "Qwen4-Max",
-          "value": 455,
-          "url": "https://qwen.ai/blog?id=qwen4-max"
+          "text": "Show HN: Zigzag, a native Mac browser for people leaving Arc",
+          "value": 28,
+          "url": "https://github.com/ZigaoWang/zigzag"
         },
         {
-          "text": "Old Bitly links are being hijacked",
-          "value": 268,
-          "url": "https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/"
+          "text": "BugMeNot has closed",
+          "value": 506,
+          "url": "https://www.bugmenot.com/"
         },
         {
-          "text": "What's Next for Nvidia?",
-          "value": 234,
-          "url": "https://steveblank.com/2026/11/15/whats-next-for-nvidia/"
+          "text": "Optimizely compromised, served malware on Zoom, GitLab",
+          "value": 311,
+          "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/"
         },
         {
-          "text": "Tor Project Issues Rapid-Response DoS-Defense Fix Amid Sustained DDoS Attack",
-          "value": 135,
-          "url": "https://forum.torproject.org/t/security-release-0-4-9-17/22454"
+          "text": "Nimony: A New Compiler for Nim",
+          "value": 30,
+          "url": "https://nimony.org/"
         },
         {
-          "text": "Protomaps: Self-hosting map tiles has gotten cheap and easy",
-          "value": 312,
-          "url": "https://bruceroettgers.eu/blog/protomaps/"
+          "text": "If an App Asks for Full Disk Access or System and App Protection Override",
+          "value": 112,
+          "url": "https://support.apple.com/en-us/149699"
         },
         {
-          "text": "Researchers track whole body movement with just a smartwatch",
-          "value": 9,
-          "url": "https://news.cornell.edu/stories/2026/11/researchers-track-whole-body-movement-just-smartwatch"
+          "text": "OpenCode Browse",
+          "value": 235,
+          "url": "https://opencode.ai/product/browse"
         },
         {
-          "text": "Preserving 30 years of Salon journalism",
-          "value": 140,
-          "url": "https://blog.archive.org/2026/11/12/preserving-30-years-of-salon-journalism/"
+          "text": "The Token Supercycle",
+          "value": 6,
+          "url": "https://solana.com/news/the-token-supercycle-oped"
         },
         {
-          "text": "Stop Filming in Log",
-          "value": 42,
-          "url": "https://digitalfilms.wordpress.com/2026/11/15/stop-filming-in-log/"
+          "text": "Why 3dfx 1 cards had such a washed out color output?",
+          "value": 106,
+          "url": "https://twitter.com/id_aa_carmack/status/2122478083319992513"
         }
       ]
     },
@@ -65,57 +65,57 @@
       "id": "github",
       "label": "GitHub 近 45 天新建高星仓库",
       "status": "ok",
-      "fetchedAt": "2026-11-16T08:47:12Z",
+      "fetchedAt": "2026-11-17T08:45:17Z",
       "error": null,
       "highlights": [
         {
           "text": "Gathin23/cleanyourtv: Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
-          "value": 58407,
+          "value": 58783,
           "url": "https://github.com/Gathin23/cleanyourtv"
         },
         {
           "text": "storytold/craft-anything: Craft Anything: understand how any software works, and craft your own.",
-          "value": 34202,
+          "value": 35152,
           "url": "https://github.com/storytold/craft-anything"
         },
         {
           "text": "wheresryan22/anatomy: An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished S",
-          "value": 27570,
+          "value": 27766,
           "url": "https://github.com/wheresryan22/anatomy"
         },
         {
           "text": "deepseek-ai/DeepInfer: DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
-          "value": 26094,
+          "value": 26143,
           "url": "https://github.com/deepseek-ai/DeepInfer"
         },
         {
           "text": "ccch1mneyyy/dsh-Go: dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-          "value": 24210,
+          "value": 25313,
           "url": "https://github.com/ccch1mneyyy/dsh-Go"
         },
         {
           "text": "google-research/harness2:",
-          "value": 24039,
+          "value": 24189,
           "url": "https://github.com/google-research/harness2"
         },
         {
           "text": "deepseek-ai/dsh-superagent-prototype: Towards a More Autonomous Agent System",
-          "value": 23391,
+          "value": 23575,
           "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
         },
         {
           "text": "Zagitta/gpu-unlock: Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
-          "value": 19772,
+          "value": 20094,
           "url": "https://github.com/Zagitta/gpu-unlock"
         },
         {
           "text": "storytold/wordcraft: WordCraft: an open-source, clean-room word processor in pure Rust",
-          "value": 18095,
+          "value": 18163,
           "url": "https://github.com/storytold/wordcraft"
         },
         {
           "text": "openai/math:",
-          "value": 17545,
+          "value": 17567,
           "url": "https://github.com/openai/math"
         }
       ]
@@ -124,58 +124,58 @@
       "id": "wikipedia",
       "label": "Wikipedia 英文站每日浏览量榜",
       "status": "ok",
-      "fetchedAt": "2026-11-16T08:47:12Z",
+      "fetchedAt": "2026-11-17T08:45:18Z",
       "error": null,
       "highlights": [
         {
-          "text": "Archive of Our Own",
-          "value": 860729,
-          "url": "https://en.wikipedia.org/wiki/Archive_of_Our_Own"
-        },
-        {
-          "text": "9/11",
-          "value": 673012,
-          "url": "https://en.wikipedia.org/wiki/9/11"
+          "text": "Robert Pattinson",
+          "value": 1363657,
+          "url": "https://en.wikipedia.org/wiki/Robert_Pattinson"
         },
         {
           "text": "Ramayana: Part 1",
-          "value": 591692,
+          "value": 551941,
           "url": "https://en.wikipedia.org/wiki/Ramayana:_Part_1"
         },
         {
-          "text": "List of Nazi concentration camps",
-          "value": 534193,
-          "url": "https://en.wikipedia.org/wiki/List_of_Nazi_concentration_camps"
+          "text": "Archive of Our Own",
+          "value": 463687,
+          "url": "https://en.wikipedia.org/wiki/Archive_of_Our_Own"
         },
         {
-          "text": "UFC 334",
-          "value": 321149,
-          "url": "https://en.wikipedia.org/wiki/UFC_334"
+          "text": "Suki Waterhouse",
+          "value": 378948,
+          "url": "https://en.wikipedia.org/wiki/Suki_Waterhouse"
         },
         {
           "text": "List of highest-grossing Indian films",
-          "value": 214408,
+          "value": 206909,
           "url": "https://en.wikipedia.org/wiki/List_of_highest-grossing_Indian_films"
         },
         {
+          "text": "Robert Pattinson filmography",
+          "value": 191139,
+          "url": "https://en.wikipedia.org/wiki/Robert_Pattinson_filmography"
+        },
+        {
+          "text": "Saturn Devouring His Son",
+          "value": 176155,
+          "url": "https://en.wikipedia.org/wiki/Saturn_Devouring_His_Son"
+        },
+        {
           "text": "Jensen Huang",
-          "value": 194070,
+          "value": 162987,
           "url": "https://en.wikipedia.org/wiki/Jensen_Huang"
         },
         {
-          "text": "Full Gear (2026)",
-          "value": 175811,
-          "url": "https://en.wikipedia.org/wiki/Full_Gear_(2026)"
+          "text": ".xxx",
+          "value": 153348,
+          "url": "https://en.wikipedia.org/wiki/.xxx"
         },
         {
-          "text": "Josh Hokit",
-          "value": 168260,
-          "url": "https://en.wikipedia.org/wiki/Josh_Hokit"
-        },
-        {
-          "text": "Sean Duffy",
-          "value": 161039,
-          "url": "https://en.wikipedia.org/wiki/Sean_Duffy"
+          "text": "The Body (TV series)",
+          "value": 136145,
+          "url": "https://en.wikipedia.org/wiki/The_Body_(TV_series)"
         }
       ]
     }
