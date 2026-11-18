@@ -1,63 +1,63 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-17T08:45:18Z",
+  "generatedAt": "2026-11-18T08:09:19Z",
   "probes": [
     {
       "id": "hackernews",
       "label": "Hacker News 首页热榜",
       "status": "ok",
-      "fetchedAt": "2026-11-17T08:45:15Z",
+      "fetchedAt": "2026-11-18T08:09:16Z",
       "error": null,
       "highlights": [
         {
-          "text": "Carnegie Mellon is putting computer science courses on YouTube for free",
-          "value": 1408,
-          "url": "https://www.cs.cmu.edu/learn/"
+          "text": "AI is killing All About Berlin",
+          "value": 127,
+          "url": "https://nicolasbouliane.com/blog/death-by-ai"
         },
         {
-          "text": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
-          "value": 573,
-          "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/"
+          "text": "Java4Shell: RCE in OpenJDK when processing Base64",
+          "value": 846,
+          "url": "https://calif.io/java4shell/"
         },
         {
-          "text": "Show HN: Zigzag, a native Mac browser for people leaving Arc",
-          "value": 28,
-          "url": "https://github.com/ZigaoWang/zigzag"
+          "text": "GPT‑6.2 Astra and Sol",
+          "value": 1240,
+          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
         },
         {
-          "text": "BugMeNot has closed",
-          "value": 506,
-          "url": "https://www.bugmenot.com/"
+          "text": "ID.me terms required for IRS sign-in",
+          "value": 326,
+          "url": "https://consumerrights.wiki/w/ID.me_terms_required_for_IRS_sign-in"
         },
         {
-          "text": "Optimizely compromised, served malware on Zoom, GitLab",
-          "value": 311,
-          "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/"
+          "text": "Quad9's withdrawal from France: A canary in the coal mine",
+          "value": 518,
+          "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/"
         },
         {
-          "text": "Nimony: A New Compiler for Nim",
-          "value": 30,
-          "url": "https://nimony.org/"
+          "text": "Google's AI answers reducing search traffic by 40%",
+          "value": 322,
+          "url": "https://revscope.co/blog/search-seo-geo-2026/"
         },
         {
-          "text": "If an App Asks for Full Disk Access or System and App Protection Override",
-          "value": 112,
-          "url": "https://support.apple.com/en-us/149699"
+          "text": "Interviewed at a YC startup, found out they used my LinkedIn without permission",
+          "value": 298,
+          "url": "https://reddit.com/r/recruitinghell/comments/1xyr6ml/interviewed_at_a_yc_startup_spent_30_hours/"
         },
         {
-          "text": "OpenCode Browse",
-          "value": 235,
-          "url": "https://opencode.ai/product/browse"
+          "text": "Nvidia stopped disclosing Singapore sales as revenues hit $104B",
+          "value": 511,
+          "url": "https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf"
         },
         {
-          "text": "The Token Supercycle",
-          "value": 6,
-          "url": "https://solana.com/news/the-token-supercycle-oped"
+          "text": "Microsoft's ONNX Runtime has disappeared from GitHub",
+          "value": 288,
+          "url": "https://github.com/microsoft/onnxruntime"
         },
         {
-          "text": "Why 3dfx 1 cards had such a washed out color output?",
-          "value": 106,
-          "url": "https://twitter.com/id_aa_carmack/status/2122478083319992513"
+          "text": "Why is Gemini 4 Carbon taking so long?",
+          "value": 62,
+          "url": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/"
         }
       ]
     },
@@ -65,58 +65,58 @@
       "id": "github",
       "label": "GitHub 近 45 天新建高星仓库",
       "status": "ok",
-      "fetchedAt": "2026-11-17T08:45:17Z",
+      "fetchedAt": "2026-11-18T08:09:18Z",
       "error": null,
       "highlights": [
         {
           "text": "Gathin23/cleanyourtv: Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
-          "value": 58783,
+          "value": 59124,
           "url": "https://github.com/Gathin23/cleanyourtv"
         },
         {
           "text": "storytold/craft-anything: Craft Anything: understand how any software works, and craft your own.",
-          "value": 35152,
+          "value": 36164,
           "url": "https://github.com/storytold/craft-anything"
         },
         {
           "text": "wheresryan22/anatomy: An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished S",
-          "value": 27766,
+          "value": 27976,
           "url": "https://github.com/wheresryan22/anatomy"
         },
         {
-          "text": "deepseek-ai/DeepInfer: DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
-          "value": 26143,
-          "url": "https://github.com/deepseek-ai/DeepInfer"
-        },
-        {
           "text": "ccch1mneyyy/dsh-Go: dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-          "value": 25313,
+          "value": 26483,
           "url": "https://github.com/ccch1mneyyy/dsh-Go"
         },
         {
+          "text": "deepseek-ai/DeepInfer: DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
+          "value": 26176,
+          "url": "https://github.com/deepseek-ai/DeepInfer"
+        },
+        {
           "text": "google-research/harness2:",
-          "value": 24189,
+          "value": 24346,
           "url": "https://github.com/google-research/harness2"
         },
         {
           "text": "deepseek-ai/dsh-superagent-prototype: Towards a More Autonomous Agent System",
-          "value": 23575,
+          "value": 23739,
           "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
         },
         {
           "text": "Zagitta/gpu-unlock: Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
-          "value": 20094,
+          "value": 20294,
           "url": "https://github.com/Zagitta/gpu-unlock"
         },
         {
           "text": "storytold/wordcraft: WordCraft: an open-source, clean-room word processor in pure Rust",
-          "value": 18163,
+          "value": 18216,
           "url": "https://github.com/storytold/wordcraft"
         },
         {
-          "text": "openai/math:",
-          "value": 17567,
-          "url": "https://github.com/openai/math"
+          "text": "heydamir/unslop: A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
+          "value": 17957,
+          "url": "https://github.com/heydamir/unslop"
         }
       ]
     },
@@ -124,58 +124,58 @@
       "id": "wikipedia",
       "label": "Wikipedia 英文站每日浏览量榜",
       "status": "ok",
-      "fetchedAt": "2026-11-17T08:45:18Z",
+      "fetchedAt": "2026-11-18T08:09:19Z",
       "error": null,
       "highlights": [
         {
           "text": "Robert Pattinson",
-          "value": 1363657,
+          "value": 840972,
           "url": "https://en.wikipedia.org/wiki/Robert_Pattinson"
         },
         {
           "text": "Ramayana: Part 1",
-          "value": 551941,
+          "value": 452299,
           "url": "https://en.wikipedia.org/wiki/Ramayana:_Part_1"
         },
         {
-          "text": "Archive of Our Own",
-          "value": 463687,
-          "url": "https://en.wikipedia.org/wiki/Archive_of_Our_Own"
-        },
-        {
           "text": "Suki Waterhouse",
-          "value": 378948,
+          "value": 297037,
           "url": "https://en.wikipedia.org/wiki/Suki_Waterhouse"
         },
         {
           "text": "List of highest-grossing Indian films",
-          "value": 206909,
+          "value": 153338,
           "url": "https://en.wikipedia.org/wiki/List_of_highest-grossing_Indian_films"
         },
         {
-          "text": "Robert Pattinson filmography",
-          "value": 191139,
-          "url": "https://en.wikipedia.org/wiki/Robert_Pattinson_filmography"
-        },
-        {
-          "text": "Saturn Devouring His Son",
-          "value": 176155,
-          "url": "https://en.wikipedia.org/wiki/Saturn_Devouring_His_Son"
+          "text": "Grand Theft Auto VI",
+          "value": 153037,
+          "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI"
         },
         {
           "text": "Jensen Huang",
-          "value": 162987,
+          "value": 144823,
           "url": "https://en.wikipedia.org/wiki/Jensen_Huang"
         },
         {
           "text": ".xxx",
-          "value": 153348,
+          "value": 144538,
           "url": "https://en.wikipedia.org/wiki/.xxx"
         },
         {
+          "text": "Deaths in 2026",
+          "value": 136111,
+          "url": "https://en.wikipedia.org/wiki/Deaths_in_2026"
+        },
+        {
           "text": "The Body (TV series)",
-          "value": 136145,
+          "value": 127281,
           "url": "https://en.wikipedia.org/wiki/The_Body_(TV_series)"
+        },
+        {
+          "text": "Robert Pattinson filmography",
+          "value": 127113,
+          "url": "https://en.wikipedia.org/wiki/Robert_Pattinson_filmography"
         }
       ]
     }
