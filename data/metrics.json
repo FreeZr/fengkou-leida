@@ -1,63 +1,63 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-18T08:09:19Z",
+  "generatedAt": "2026-11-19T08:19:19Z",
   "probes": [
     {
       "id": "hackernews",
       "label": "Hacker News 首页热榜",
       "status": "ok",
-      "fetchedAt": "2026-11-18T08:09:16Z",
+      "fetchedAt": "2026-11-19T08:19:17Z",
       "error": null,
       "highlights": [
         {
-          "text": "AI is killing All About Berlin",
-          "value": 127,
-          "url": "https://nicolasbouliane.com/blog/death-by-ai"
+          "text": "Gemini 4 Neon",
+          "value": 756,
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
         },
         {
-          "text": "Java4Shell: RCE in OpenJDK when processing Base64",
-          "value": 846,
-          "url": "https://calif.io/java4shell/"
+          "text": "Unauthenticated remote code execution in Nginx",
+          "value": 1334,
+          "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities"
         },
         {
-          "text": "GPT‑6.2 Astra and Sol",
-          "value": 1240,
-          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+          "text": "15M web servers on one VM – smoltcp, DPDK, AF_XDP",
+          "value": 63,
+          "url": "https://kapteko.com/15-million-webservers/"
         },
         {
-          "text": "ID.me terms required for IRS sign-in",
-          "value": 326,
-          "url": "https://consumerrights.wiki/w/ID.me_terms_required_for_IRS_sign-in"
+          "text": "Ruby2ßhell: Pre-authentication RCE on stock Rails",
+          "value": 24,
+          "url": "https://verialabs.com/ruby2shell/"
         },
         {
-          "text": "Quad9's withdrawal from France: A canary in the coal mine",
-          "value": 518,
-          "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/"
+          "text": "Multiple vulnerabilities in Regexp and String case conversion",
+          "value": 219,
+          "url": "https://www.ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string/"
         },
         {
-          "text": "Google's AI answers reducing search traffic by 40%",
-          "value": 322,
-          "url": "https://revscope.co/blog/search-seo-geo-2026/"
+          "text": "Anthropic prices initial public offering",
+          "value": 181,
+          "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
         },
         {
-          "text": "Interviewed at a YC startup, found out they used my LinkedIn without permission",
-          "value": 298,
-          "url": "https://reddit.com/r/recruitinghell/comments/1xyr6ml/interviewed_at_a_yc_startup_spent_30_hours/"
+          "text": "Seven new models at scalable price-performance",
+          "value": 526,
+          "url": "https://microsoft.ai/news/microsoft-ignite-2026/"
         },
         {
-          "text": "Nvidia stopped disclosing Singapore sales as revenues hit $104B",
-          "value": 511,
-          "url": "https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf"
+          "text": "Inside Deutsche Bank",
+          "value": 662,
+          "url": "https://www.inside-db.com/"
         },
         {
-          "text": "Microsoft's ONNX Runtime has disappeared from GitHub",
-          "value": 288,
-          "url": "https://github.com/microsoft/onnxruntime"
+          "text": "Axelera Titania Brings Native FP8 and FP4 to In-Memory Compute",
+          "value": 22,
+          "url": "https://futurumgroup.com/insights/axelera-titania-brings-native-fp8-and-fp4-to-in-memory-compute/"
         },
         {
-          "text": "Why is Gemini 4 Carbon taking so long?",
-          "value": 62,
-          "url": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/"
+          "text": "LLM assisted reverse engineering",
+          "value": 179,
+          "url": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering"
         }
       ]
     },
@@ -65,58 +65,58 @@
       "id": "github",
       "label": "GitHub 近 45 天新建高星仓库",
       "status": "ok",
-      "fetchedAt": "2026-11-18T08:09:18Z",
+      "fetchedAt": "2026-11-19T08:19:18Z",
       "error": null,
       "highlights": [
         {
           "text": "Gathin23/cleanyourtv: Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
-          "value": 59124,
+          "value": 59428,
           "url": "https://github.com/Gathin23/cleanyourtv"
         },
         {
           "text": "storytold/craft-anything: Craft Anything: understand how any software works, and craft your own.",
-          "value": 36164,
+          "value": 37592,
           "url": "https://github.com/storytold/craft-anything"
         },
         {
           "text": "wheresryan22/anatomy: An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished S",
-          "value": 27976,
+          "value": 28171,
           "url": "https://github.com/wheresryan22/anatomy"
         },
         {
           "text": "ccch1mneyyy/dsh-Go: dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-          "value": 26483,
+          "value": 27597,
           "url": "https://github.com/ccch1mneyyy/dsh-Go"
         },
         {
           "text": "deepseek-ai/DeepInfer: DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
-          "value": 26176,
+          "value": 26217,
           "url": "https://github.com/deepseek-ai/DeepInfer"
         },
         {
           "text": "google-research/harness2:",
-          "value": 24346,
+          "value": 24430,
           "url": "https://github.com/google-research/harness2"
         },
         {
           "text": "deepseek-ai/dsh-superagent-prototype: Towards a More Autonomous Agent System",
-          "value": 23739,
+          "value": 23891,
           "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
         },
         {
           "text": "Zagitta/gpu-unlock: Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
-          "value": 20294,
+          "value": 20424,
           "url": "https://github.com/Zagitta/gpu-unlock"
         },
         {
-          "text": "storytold/wordcraft: WordCraft: an open-source, clean-room word processor in pure Rust",
-          "value": 18216,
-          "url": "https://github.com/storytold/wordcraft"
+          "text": "heydamir/unslop: A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
+          "value": 18418,
+          "url": "https://github.com/heydamir/unslop"
         },
         {
-          "text": "heydamir/unslop: A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
-          "value": 17957,
-          "url": "https://github.com/heydamir/unslop"
+          "text": "storytold/wordcraft: WordCraft: an open-source, clean-room word processor in pure Rust",
+          "value": 18253,
+          "url": "https://github.com/storytold/wordcraft"
         }
       ]
     },
@@ -124,58 +124,58 @@
       "id": "wikipedia",
       "label": "Wikipedia 英文站每日浏览量榜",
       "status": "ok",
-      "fetchedAt": "2026-11-18T08:09:19Z",
+      "fetchedAt": "2026-11-19T08:19:19Z",
       "error": null,
       "highlights": [
         {
-          "text": "Robert Pattinson",
-          "value": 840972,
-          "url": "https://en.wikipedia.org/wiki/Robert_Pattinson"
-        },
-        {
-          "text": "Ramayana: Part 1",
-          "value": 452299,
-          "url": "https://en.wikipedia.org/wiki/Ramayana:_Part_1"
-        },
-        {
-          "text": "Suki Waterhouse",
-          "value": 297037,
-          "url": "https://en.wikipedia.org/wiki/Suki_Waterhouse"
-        },
-        {
-          "text": "List of highest-grossing Indian films",
-          "value": 153338,
-          "url": "https://en.wikipedia.org/wiki/List_of_highest-grossing_Indian_films"
-        },
-        {
           "text": "Grand Theft Auto VI",
-          "value": 153037,
+          "value": 519632,
           "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI"
         },
         {
-          "text": "Jensen Huang",
-          "value": 144823,
-          "url": "https://en.wikipedia.org/wiki/Jensen_Huang"
+          "text": "Ramayana: Part 1",
+          "value": 410267,
+          "url": "https://en.wikipedia.org/wiki/Ramayana:_Part_1"
+        },
+        {
+          "text": "Robert Pattinson",
+          "value": 337514,
+          "url": "https://en.wikipedia.org/wiki/Robert_Pattinson"
+        },
+        {
+          "text": "Dancing with the Stars (American TV series) season 35",
+          "value": 150752,
+          "url": "https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_TV_series)_season_35"
+        },
+        {
+          "text": "Suki Waterhouse",
+          "value": 146794,
+          "url": "https://en.wikipedia.org/wiki/Suki_Waterhouse"
         },
         {
           "text": ".xxx",
-          "value": 144538,
+          "value": 139577,
           "url": "https://en.wikipedia.org/wiki/.xxx"
         },
         {
+          "text": "Mary Peltola",
+          "value": 133395,
+          "url": "https://en.wikipedia.org/wiki/Mary_Peltola"
+        },
+        {
           "text": "Deaths in 2026",
-          "value": 136111,
+          "value": 131394,
           "url": "https://en.wikipedia.org/wiki/Deaths_in_2026"
         },
         {
-          "text": "The Body (TV series)",
-          "value": 127281,
-          "url": "https://en.wikipedia.org/wiki/The_Body_(TV_series)"
+          "text": "List of highest-grossing Indian films",
+          "value": 129294,
+          "url": "https://en.wikipedia.org/wiki/List_of_highest-grossing_Indian_films"
         },
         {
-          "text": "Robert Pattinson filmography",
-          "value": 127113,
-          "url": "https://en.wikipedia.org/wiki/Robert_Pattinson_filmography"
+          "text": "The Body (TV series)",
+          "value": 124563,
+          "url": "https://en.wikipedia.org/wiki/The_Body_(TV_series)"
         }
       ]
     }
