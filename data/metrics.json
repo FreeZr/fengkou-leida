@@ -1,63 +1,63 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-19T08:19:19Z",
+  "generatedAt": "2026-11-20T07:59:49Z",
   "probes": [
     {
       "id": "hackernews",
       "label": "Hacker News 首页热榜",
       "status": "ok",
-      "fetchedAt": "2026-11-19T08:19:17Z",
+      "fetchedAt": "2026-11-20T07:59:47Z",
       "error": null,
       "highlights": [
         {
-          "text": "Gemini 4 Neon",
-          "value": 756,
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+          "text": "Jujutsu Primer",
+          "value": 54,
+          "url": "https://ethanlowman.com/posts/jj-primer/"
         },
         {
-          "text": "Unauthenticated remote code execution in Nginx",
-          "value": 1334,
-          "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities"
+          "text": "Google is pushing OEMs against GrapheneOS and bootloader unlocking",
+          "value": 324,
+          "url": "https://grapheneos.social/@GrapheneOS/117645038299496084"
         },
         {
-          "text": "15M web servers on one VM – smoltcp, DPDK, AF_XDP",
-          "value": 63,
-          "url": "https://kapteko.com/15-million-webservers/"
+          "text": "OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)",
+          "value": 188,
+          "url": "https://github.com/openssl/openssl/pull/33652"
         },
         {
-          "text": "Ruby2ßhell: Pre-authentication RCE on stock Rails",
-          "value": 24,
-          "url": "https://verialabs.com/ruby2shell/"
+          "text": "FFmpeg 9.1 'Gauss'",
+          "value": 82,
+          "url": "https://ffmpeg.org/download.html#release_9.1"
         },
         {
-          "text": "Multiple vulnerabilities in Regexp and String case conversion",
-          "value": 219,
-          "url": "https://www.ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string/"
+          "text": "\"I can tell you wrote this yourself\"",
+          "value": 8,
+          "url": "https://em-online.bearblog.dev/i-can-tell-you-wrote-this-yourself/"
         },
         {
-          "text": "Anthropic prices initial public offering",
-          "value": 181,
-          "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
+          "text": "Postgres 19 Repack: Faster, Built-In Table Bloat Cleanup",
+          "value": 69,
+          "url": "https://www.snowflake.com/en/blog/engineering/postgres-19-repack-table-bloat/"
         },
         {
-          "text": "Seven new models at scalable price-performance",
-          "value": 526,
-          "url": "https://microsoft.ai/news/microsoft-ignite-2026/"
+          "text": "Claude solves two open problems in the physics of black holes",
+          "value": 473,
+          "url": "https://www.anthropic.com/research/claude-black-hole-physics"
         },
         {
-          "text": "Inside Deutsche Bank",
-          "value": 662,
-          "url": "https://www.inside-db.com/"
+          "text": "Bit Shifting in Basic",
+          "value": 26,
+          "url": "https://subethasoftware.com/2020/06/11/bit-shifting-in-basic/"
         },
         {
-          "text": "Axelera Titania Brings Native FP8 and FP4 to In-Memory Compute",
-          "value": 22,
-          "url": "https://futurumgroup.com/insights/axelera-titania-brings-native-fp8-and-fp4-to-in-memory-compute/"
+          "text": "GIMP now has UI tests",
+          "value": 96,
+          "url": "https://www.gimp.org/news/2026/11/16/gimp-ui-tests/"
         },
         {
-          "text": "LLM assisted reverse engineering",
-          "value": 179,
-          "url": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering"
+          "text": "Vint Cerf on why TCP/IP was never patented",
+          "value": 90,
+          "url": "https://seremot.com/p/vint-cerf-on-why-tcpip-was-never"
         }
       ]
     },
@@ -65,58 +65,58 @@
       "id": "github",
       "label": "GitHub 近 45 天新建高星仓库",
       "status": "ok",
-      "fetchedAt": "2026-11-19T08:19:18Z",
+      "fetchedAt": "2026-11-20T07:59:48Z",
       "error": null,
       "highlights": [
         {
           "text": "Gathin23/cleanyourtv: Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
-          "value": 59428,
+          "value": 59676,
           "url": "https://github.com/Gathin23/cleanyourtv"
         },
         {
           "text": "storytold/craft-anything: Craft Anything: understand how any software works, and craft your own.",
-          "value": 37592,
+          "value": 38879,
           "url": "https://github.com/storytold/craft-anything"
         },
         {
-          "text": "wheresryan22/anatomy: An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished S",
-          "value": 28171,
-          "url": "https://github.com/wheresryan22/anatomy"
-        },
-        {
           "text": "ccch1mneyyy/dsh-Go: dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-          "value": 27597,
+          "value": 28530,
           "url": "https://github.com/ccch1mneyyy/dsh-Go"
         },
         {
+          "text": "wheresryan22/anatomy: An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished S",
+          "value": 28303,
+          "url": "https://github.com/wheresryan22/anatomy"
+        },
+        {
           "text": "deepseek-ai/DeepInfer: DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
-          "value": 26217,
+          "value": 26242,
           "url": "https://github.com/deepseek-ai/DeepInfer"
         },
         {
-          "text": "google-research/harness2:",
-          "value": 24430,
-          "url": "https://github.com/google-research/harness2"
-        },
-        {
           "text": "deepseek-ai/dsh-superagent-prototype: Towards a More Autonomous Agent System",
-          "value": 23891,
+          "value": 24001,
           "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
         },
         {
           "text": "Zagitta/gpu-unlock: Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
-          "value": 20424,
+          "value": 20523,
           "url": "https://github.com/Zagitta/gpu-unlock"
         },
         {
           "text": "heydamir/unslop: A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
-          "value": 18418,
+          "value": 18837,
           "url": "https://github.com/heydamir/unslop"
         },
         {
           "text": "storytold/wordcraft: WordCraft: an open-source, clean-room word processor in pure Rust",
-          "value": 18253,
+          "value": 18307,
           "url": "https://github.com/storytold/wordcraft"
+        },
+        {
+          "text": "tangency-labs/solidcraft: SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
+          "value": 17349,
+          "url": "https://github.com/tangency-labs/solidcraft"
         }
       ]
     },
@@ -124,58 +124,58 @@
       "id": "wikipedia",
       "label": "Wikipedia 英文站每日浏览量榜",
       "status": "ok",
-      "fetchedAt": "2026-11-19T08:19:19Z",
+      "fetchedAt": "2026-11-20T07:59:49Z",
       "error": null,
       "highlights": [
         {
           "text": "Grand Theft Auto VI",
-          "value": 519632,
+          "value": 750227,
           "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI"
         },
         {
           "text": "Ramayana: Part 1",
-          "value": 410267,
+          "value": 371581,
           "url": "https://en.wikipedia.org/wiki/Ramayana:_Part_1"
         },
         {
+          "text": "Stephen Wilson Jr.",
+          "value": 327962,
+          "url": "https://en.wikipedia.org/wiki/Stephen_Wilson_Jr."
+        },
+        {
+          "text": "Ella Langley",
+          "value": 189264,
+          "url": "https://en.wikipedia.org/wiki/Ella_Langley"
+        },
+        {
+          "text": "Ken McElroy",
+          "value": 172820,
+          "url": "https://en.wikipedia.org/wiki/Ken_McElroy"
+        },
+        {
           "text": "Robert Pattinson",
-          "value": 337514,
+          "value": 172742,
           "url": "https://en.wikipedia.org/wiki/Robert_Pattinson"
         },
         {
-          "text": "Dancing with the Stars (American TV series) season 35",
-          "value": 150752,
-          "url": "https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_TV_series)_season_35"
+          "text": "Grand Theft Auto",
+          "value": 171292,
+          "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto"
         },
         {
-          "text": "Suki Waterhouse",
-          "value": 146794,
-          "url": "https://en.wikipedia.org/wiki/Suki_Waterhouse"
-        },
-        {
-          "text": ".xxx",
-          "value": 139577,
-          "url": "https://en.wikipedia.org/wiki/.xxx"
-        },
-        {
-          "text": "Mary Peltola",
-          "value": 133395,
-          "url": "https://en.wikipedia.org/wiki/Mary_Peltola"
+          "text": "Dario Amodei",
+          "value": 167998,
+          "url": "https://en.wikipedia.org/wiki/Dario_Amodei"
         },
         {
           "text": "Deaths in 2026",
-          "value": 131394,
+          "value": 133759,
           "url": "https://en.wikipedia.org/wiki/Deaths_in_2026"
         },
         {
-          "text": "List of highest-grossing Indian films",
-          "value": 129294,
-          "url": "https://en.wikipedia.org/wiki/List_of_highest-grossing_Indian_films"
-        },
-        {
-          "text": "The Body (TV series)",
-          "value": 124563,
-          "url": "https://en.wikipedia.org/wiki/The_Body_(TV_series)"
+          "text": ".xxx",
+          "value": 128793,
+          "url": "https://en.wikipedia.org/wiki/.xxx"
         }
       ]
     }
