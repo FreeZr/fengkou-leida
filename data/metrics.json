@@ -1,63 +1,63 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21T07:55:57Z",
+  "generatedAt": "2026-11-22T07:41:46Z",
   "probes": [
     {
       "id": "hackernews",
       "label": "Hacker News 首页热榜",
       "status": "ok",
-      "fetchedAt": "2026-11-21T07:55:55Z",
+      "fetchedAt": "2026-11-22T07:41:44Z",
       "error": null,
       "highlights": [
         {
-          "text": "Hurried Announcement: Alessandro Masullo GRH",
-          "value": 1911,
-          "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/"
+          "text": "Toyota, Nissan, and Honda to standardize parts to lower costs",
+          "value": 325,
+          "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/"
         },
         {
-          "text": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]",
-          "value": 2552,
-          "url": "https://alpo.ge/remark.pdf"
+          "text": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
+          "value": 899,
+          "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib"
         },
         {
-          "text": "Inkling 2 Mini",
-          "value": 908,
-          "url": "https://thinkingmachines.ai/news/inkling-2-mini/"
+          "text": "AI Supply Chain Security: What Canary Tokens Found",
+          "value": 35,
+          "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens"
         },
         {
-          "text": "ClawDOS – An AI coding agent for DOS",
-          "value": 31,
-          "url": "http://ricapar.net/ClawDOS/"
+          "text": "Lean verification of the Riemann Hypothesis",
+          "value": 969,
+          "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/"
         },
         {
-          "text": "NINLIVE: The Nine Inch Nails live archive",
-          "value": 222,
-          "url": "https://ninlive.com/"
+          "text": "Show HN: The Riemann Proof Handbook",
+          "value": 19,
+          "url": "https://github.com/tamnd/riemann-handbook"
         },
         {
-          "text": "Clojure will affect the way you think about programming (2017)",
-          "value": 63,
-          "url": "https://eli.thegreenplace.net/2017/clojure-the-perfect-language-to-expand-your-brain/"
+          "text": "Notes on the discrete Fourier transform (DFT)",
+          "value": 10,
+          "url": "https://eli.thegreenplace.net/2026/notes-on-the-discrete-fourier-transform-dft/"
         },
         {
-          "text": "We promoted developers into architects without informing them",
-          "value": 392,
-          "url": "https://manidoraisamy.com/developer-to-architect.html"
+          "text": "Sandwich Simulator",
+          "value": 166,
+          "url": "https://stulle.app/"
         },
         {
-          "text": "Unforced Navier-Stokes Singularity and the Generalized Riemann Hypothesis",
-          "value": 412,
-          "url": "https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/"
+          "text": "Inkling-2-Mini in 5.4 GB Memory",
+          "value": 437,
+          "url": "https://github.com/ShinMegamiBoson/lookatmyquant"
         },
         {
-          "text": "Valkey kills the skiplist, cuts sorted set overhead by up to 43%",
-          "value": 111,
-          "url": "https://valkey.io/blog/from-skiplist-to-b+tree/"
+          "text": "The Engineering Manager's role is under attack (again)",
+          "value": 8,
+          "url": "https://www.manager.dev/newsletter/the-engineering-manager-s-role-is-under-attack-again"
         },
         {
-          "text": "Sir Brian May adds new dimension to Hera asteroid",
-          "value": 90,
-          "url": "https://www.esa.int/articles/about-us/directorates/operations/space-safety/hera/sir-brian-may-adds-new-dimension-to-hera-asteroid"
+          "text": "Data Processing Incidents on Inference Providers",
+          "value": 110,
+          "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/"
         }
       ]
     },
@@ -65,58 +65,58 @@
       "id": "github",
       "label": "GitHub 近 45 天新建高星仓库",
       "status": "ok",
-      "fetchedAt": "2026-11-21T07:55:57Z",
+      "fetchedAt": "2026-11-22T07:41:45Z",
       "error": null,
       "highlights": [
         {
           "text": "Gathin23/cleanyourtv: Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
-          "value": 59896,
+          "value": 60149,
           "url": "https://github.com/Gathin23/cleanyourtv"
         },
         {
           "text": "storytold/craft-anything: Craft Anything: understand how any software works, and craft your own.",
-          "value": 39724,
+          "value": 40589,
           "url": "https://github.com/storytold/craft-anything"
         },
         {
           "text": "ccch1mneyyy/dsh-Go: dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-          "value": 29200,
+          "value": 29811,
           "url": "https://github.com/ccch1mneyyy/dsh-Go"
         },
         {
-          "text": "wheresryan22/anatomy: An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished S",
-          "value": 28450,
-          "url": "https://github.com/wheresryan22/anatomy"
-        },
-        {
           "text": "deepseek-ai/DeepInfer: DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
-          "value": 26274,
+          "value": 26304,
           "url": "https://github.com/deepseek-ai/DeepInfer"
         },
         {
           "text": "deepseek-ai/dsh-superagent-prototype: Towards a More Autonomous Agent System",
-          "value": 24108,
+          "value": 24188,
           "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
         },
         {
           "text": "Zagitta/gpu-unlock: Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
-          "value": 20619,
+          "value": 20705,
           "url": "https://github.com/Zagitta/gpu-unlock"
         },
         {
           "text": "heydamir/unslop: A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
-          "value": 19404,
+          "value": 19879,
           "url": "https://github.com/heydamir/unslop"
         },
         {
           "text": "seedds/nxnative: Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE host, NVN→Metal)",
-          "value": 16351,
+          "value": 16435,
           "url": "https://github.com/seedds/nxnative"
         },
         {
           "text": "anefzaoui/misterdownloadmanager: misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac",
-          "value": 14460,
+          "value": 16038,
           "url": "https://github.com/anefzaoui/misterdownloadmanager"
+        },
+        {
+          "text": "pengchujin/aerial-tv: 给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
+          "value": 12887,
+          "url": "https://github.com/pengchujin/aerial-tv"
         }
       ]
     },
@@ -124,57 +124,57 @@
       "id": "wikipedia",
       "label": "Wikipedia 英文站每日浏览量榜",
       "status": "ok",
-      "fetchedAt": "2026-11-21T07:55:57Z",
+      "fetchedAt": "2026-11-22T07:41:45Z",
       "error": null,
       "highlights": [
         {
           "text": "Grand Theft Auto VI",
-          "value": 540793,
+          "value": 393338,
           "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI"
         },
         {
-          "text": "Ramayana: Part 1",
-          "value": 329248,
-          "url": "https://en.wikipedia.org/wiki/Ramayana:_Part_1"
-        },
-        {
           "text": "Riemann hypothesis",
-          "value": 295157,
+          "value": 388288,
           "url": "https://en.wikipedia.org/wiki/Riemann_hypothesis"
         },
         {
+          "text": "Ramayana: Part 1",
+          "value": 357351,
+          "url": "https://en.wikipedia.org/wiki/Ramayana:_Part_1"
+        },
+        {
           "text": "The Hunger Games: Sunrise on the Reaping",
-          "value": 174063,
+          "value": 204097,
           "url": "https://en.wikipedia.org/wiki/The_Hunger_Games:_Sunrise_on_the_Reaping"
         },
         {
-          "text": "Ken McElroy",
-          "value": 158096,
-          "url": "https://en.wikipedia.org/wiki/Ken_McElroy"
+          "text": ".xxx",
+          "value": 148049,
+          "url": "https://en.wikipedia.org/wiki/.xxx"
         },
         {
           "text": "Deaths in 2026",
-          "value": 132581,
+          "value": 124212,
           "url": "https://en.wikipedia.org/wiki/Deaths_in_2026"
         },
         {
-          "text": "Grand Theft Auto",
-          "value": 129311,
-          "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto"
+          "text": "O.M: Operation Mole",
+          "value": 123978,
+          "url": "https://en.wikipedia.org/wiki/O.M:_Operation_Mole"
         },
         {
-          "text": "Levent Alpöge",
-          "value": 124632,
-          "url": "https://en.wikipedia.org/wiki/Levent_Alpöge"
+          "text": "List of highest-grossing Indian films",
+          "value": 122695,
+          "url": "https://en.wikipedia.org/wiki/List_of_highest-grossing_Indian_films"
         },
         {
-          "text": "Fiona (hippopotamus)",
-          "value": 124449,
-          "url": "https://en.wikipedia.org/wiki/Fiona_(hippopotamus)"
+          "text": "Ansel Adams",
+          "value": 121328,
+          "url": "https://en.wikipedia.org/wiki/Ansel_Adams"
         },
         {
           "text": "Robert Pattinson",
-          "value": 124262,
+          "value": 119357,
           "url": "https://en.wikipedia.org/wiki/Robert_Pattinson"
         }
       ]
