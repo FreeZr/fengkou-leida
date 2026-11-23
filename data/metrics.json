@@ -1,63 +1,63 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T08:31:26Z",
+  "generatedAt": "2026-11-23T09:59:56Z",
   "probes": [
     {
       "id": "hackernews",
       "label": "Hacker News 首页热榜",
       "status": "ok",
-      "fetchedAt": "2026-11-23T08:31:24Z",
+      "fetchedAt": "2026-11-23T09:59:54Z",
       "error": null,
       "highlights": [
         {
-          "text": "Free alternative TV network built from the Internet Archive's forgotten videos",
-          "value": 463,
-          "url": "https://spelunkr.tv"
-        },
-        {
           "text": "XNU Linux: Full OS X GUI Userspace on Linux",
-          "value": 228,
+          "value": 300,
           "url": "https://github.com/AFK-surf/xnulinux"
         },
         {
+          "text": "Free alternative TV network built from the Internet Archive's forgotten videos",
+          "value": 518,
+          "url": "https://spelunkr.tv"
+        },
+        {
           "text": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
-          "value": 462,
+          "value": 505,
           "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth"
         },
         {
           "text": "A Partial Evaluator for C",
-          "value": 49,
+          "value": 64,
           "url": "https://phoenix.labri.fr/software/tempo/"
         },
         {
+          "text": "Yes, 17M lines of Lean is a lot",
+          "value": 64,
+          "url": "https://micjm.com/blog/yes-17m-lines-of-lean-is-a-lot/"
+        },
+        {
           "text": "Masullo on the Riemann Hypothesis",
-          "value": 201,
+          "value": 219,
           "url": "https://johncarlosbaez.wordpress.com/2026/11/22/masullo-on-the-riemann-hypothesis/"
         },
         {
+          "text": "Brake Check: Hijacking Trailer Brakes over Bluetooth",
+          "value": 21,
+          "url": "https://elementdigital.com.au/blog/brake-check-trailer-brakes-over-bluetooth/"
+        },
+        {
           "text": "The Birds of GTA 6: A Field Guide to Vice City and Leonida's Wildlife",
-          "value": 474,
+          "value": 499,
           "url": "https://www.audubon.org/magazine/birds-of-gta-6-field-guide-vice-city-wildlife"
         },
         {
           "text": "Perplexity and Intelligence",
-          "value": 570,
+          "value": 587,
           "url": "https://openai.com/index/perplexity-and-intelligence/"
         },
         {
           "text": "Cathedral floor emerges in Sudan, revealing one of the biggest medieval churches",
-          "value": 219,
+          "value": 233,
           "url": "https://apnews.com/article/sudan-antiquities-nubia-cathedral-1b16f67da881ee5592de4481ee55c527"
-        },
-        {
-          "text": "CollectWise (YC F24) Is Hiring",
-          "value": 1,
-          "url": "https://www.ycombinator.com/companies/collectwise/jobs/lgobCse-founding-customer-success-manager"
-        },
-        {
-          "text": "GL.iNet Security Notice 2026-11-20",
-          "value": 184,
-          "url": "https://www.gl-inet.com/en-us/blogs/blog/glinet-security-notice-2026-11-20"
         }
       ]
     },
@@ -65,57 +65,57 @@
       "id": "github",
       "label": "GitHub 近 45 天新建高星仓库",
       "status": "ok",
-      "fetchedAt": "2026-11-23T08:31:25Z",
+      "fetchedAt": "2026-11-23T09:59:55Z",
       "error": null,
       "highlights": [
         {
           "text": "Gathin23/cleanyourtv: Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
-          "value": 60437,
+          "value": 60448,
           "url": "https://github.com/Gathin23/cleanyourtv"
         },
         {
           "text": "storytold/craft-anything: Craft Anything: understand how any software works, and craft your own.",
-          "value": 41589,
+          "value": 41669,
           "url": "https://github.com/storytold/craft-anything"
         },
         {
           "text": "ccch1mneyyy/dsh-Go: dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-          "value": 30441,
+          "value": 30481,
           "url": "https://github.com/ccch1mneyyy/dsh-Go"
         },
         {
           "text": "deepseek-ai/DeepInfer: DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
-          "value": 26328,
+          "value": 26331,
           "url": "https://github.com/deepseek-ai/DeepInfer"
         },
         {
           "text": "deepseek-ai/dsh-superagent-prototype: Towards a More Autonomous Agent System",
-          "value": 24306,
+          "value": 24311,
           "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
         },
         {
           "text": "Zagitta/gpu-unlock: Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
-          "value": 20821,
+          "value": 20831,
           "url": "https://github.com/Zagitta/gpu-unlock"
         },
         {
           "text": "heydamir/unslop: A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
-          "value": 20469,
+          "value": 20523,
           "url": "https://github.com/heydamir/unslop"
         },
         {
           "text": "ItsNotRexed/Leonida: Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6",
-          "value": 17540,
+          "value": 18123,
           "url": "https://github.com/ItsNotRexed/Leonida"
         },
         {
           "text": "anefzaoui/misterdownloadmanager: misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac",
-          "value": 16938,
+          "value": 16998,
           "url": "https://github.com/anefzaoui/misterdownloadmanager"
         },
         {
           "text": "seedds/nxnative: Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE host, NVN→Metal)",
-          "value": 16529,
+          "value": 16534,
           "url": "https://github.com/seedds/nxnative"
         }
       ]
@@ -124,7 +124,7 @@
       "id": "wikipedia",
       "label": "Wikipedia 英文站每日浏览量榜",
       "status": "ok",
-      "fetchedAt": "2026-11-23T08:31:26Z",
+      "fetchedAt": "2026-11-23T09:59:56Z",
       "error": null,
       "highlights": [
         {
