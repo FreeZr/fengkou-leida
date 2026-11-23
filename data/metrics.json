@@ -1,63 +1,63 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-22T07:41:46Z",
+  "generatedAt": "2026-11-23T08:31:26Z",
   "probes": [
     {
       "id": "hackernews",
       "label": "Hacker News 首页热榜",
       "status": "ok",
-      "fetchedAt": "2026-11-22T07:41:44Z",
+      "fetchedAt": "2026-11-23T08:31:24Z",
       "error": null,
       "highlights": [
         {
-          "text": "Toyota, Nissan, and Honda to standardize parts to lower costs",
-          "value": 325,
-          "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/"
+          "text": "Free alternative TV network built from the Internet Archive's forgotten videos",
+          "value": 463,
+          "url": "https://spelunkr.tv"
         },
         {
-          "text": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
-          "value": 899,
-          "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib"
+          "text": "XNU Linux: Full OS X GUI Userspace on Linux",
+          "value": 228,
+          "url": "https://github.com/AFK-surf/xnulinux"
         },
         {
-          "text": "AI Supply Chain Security: What Canary Tokens Found",
-          "value": 35,
-          "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens"
+          "text": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+          "value": 462,
+          "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth"
         },
         {
-          "text": "Lean verification of the Riemann Hypothesis",
-          "value": 969,
-          "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/"
+          "text": "A Partial Evaluator for C",
+          "value": 49,
+          "url": "https://phoenix.labri.fr/software/tempo/"
         },
         {
-          "text": "Show HN: The Riemann Proof Handbook",
-          "value": 19,
-          "url": "https://github.com/tamnd/riemann-handbook"
+          "text": "Masullo on the Riemann Hypothesis",
+          "value": 201,
+          "url": "https://johncarlosbaez.wordpress.com/2026/11/22/masullo-on-the-riemann-hypothesis/"
         },
         {
-          "text": "Notes on the discrete Fourier transform (DFT)",
-          "value": 10,
-          "url": "https://eli.thegreenplace.net/2026/notes-on-the-discrete-fourier-transform-dft/"
+          "text": "The Birds of GTA 6: A Field Guide to Vice City and Leonida's Wildlife",
+          "value": 474,
+          "url": "https://www.audubon.org/magazine/birds-of-gta-6-field-guide-vice-city-wildlife"
         },
         {
-          "text": "Sandwich Simulator",
-          "value": 166,
-          "url": "https://stulle.app/"
+          "text": "Perplexity and Intelligence",
+          "value": 570,
+          "url": "https://openai.com/index/perplexity-and-intelligence/"
         },
         {
-          "text": "Inkling-2-Mini in 5.4 GB Memory",
-          "value": 437,
-          "url": "https://github.com/ShinMegamiBoson/lookatmyquant"
+          "text": "Cathedral floor emerges in Sudan, revealing one of the biggest medieval churches",
+          "value": 219,
+          "url": "https://apnews.com/article/sudan-antiquities-nubia-cathedral-1b16f67da881ee5592de4481ee55c527"
         },
         {
-          "text": "The Engineering Manager's role is under attack (again)",
-          "value": 8,
-          "url": "https://www.manager.dev/newsletter/the-engineering-manager-s-role-is-under-attack-again"
+          "text": "CollectWise (YC F24) Is Hiring",
+          "value": 1,
+          "url": "https://www.ycombinator.com/companies/collectwise/jobs/lgobCse-founding-customer-success-manager"
         },
         {
-          "text": "Data Processing Incidents on Inference Providers",
-          "value": 110,
-          "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/"
+          "text": "GL.iNet Security Notice 2026-11-20",
+          "value": 184,
+          "url": "https://www.gl-inet.com/en-us/blogs/blog/glinet-security-notice-2026-11-20"
         }
       ]
     },
@@ -65,58 +65,58 @@
       "id": "github",
       "label": "GitHub 近 45 天新建高星仓库",
       "status": "ok",
-      "fetchedAt": "2026-11-22T07:41:45Z",
+      "fetchedAt": "2026-11-23T08:31:25Z",
       "error": null,
       "highlights": [
         {
           "text": "Gathin23/cleanyourtv: Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
-          "value": 60149,
+          "value": 60437,
           "url": "https://github.com/Gathin23/cleanyourtv"
         },
         {
           "text": "storytold/craft-anything: Craft Anything: understand how any software works, and craft your own.",
-          "value": 40589,
+          "value": 41589,
           "url": "https://github.com/storytold/craft-anything"
         },
         {
           "text": "ccch1mneyyy/dsh-Go: dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-          "value": 29811,
+          "value": 30441,
           "url": "https://github.com/ccch1mneyyy/dsh-Go"
         },
         {
           "text": "deepseek-ai/DeepInfer: DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
-          "value": 26304,
+          "value": 26328,
           "url": "https://github.com/deepseek-ai/DeepInfer"
         },
         {
           "text": "deepseek-ai/dsh-superagent-prototype: Towards a More Autonomous Agent System",
-          "value": 24188,
+          "value": 24306,
           "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
         },
         {
           "text": "Zagitta/gpu-unlock: Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
-          "value": 20705,
+          "value": 20821,
           "url": "https://github.com/Zagitta/gpu-unlock"
         },
         {
           "text": "heydamir/unslop: A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
-          "value": 19879,
+          "value": 20469,
           "url": "https://github.com/heydamir/unslop"
         },
         {
-          "text": "seedds/nxnative: Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE host, NVN→Metal)",
-          "value": 16435,
-          "url": "https://github.com/seedds/nxnative"
+          "text": "ItsNotRexed/Leonida: Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6",
+          "value": 17540,
+          "url": "https://github.com/ItsNotRexed/Leonida"
         },
         {
           "text": "anefzaoui/misterdownloadmanager: misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac",
-          "value": 16038,
+          "value": 16938,
           "url": "https://github.com/anefzaoui/misterdownloadmanager"
         },
         {
-          "text": "pengchujin/aerial-tv: 给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
-          "value": 12887,
-          "url": "https://github.com/pengchujin/aerial-tv"
+          "text": "seedds/nxnative: Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE host, NVN→Metal)",
+          "value": 16529,
+          "url": "https://github.com/seedds/nxnative"
         }
       ]
     },
@@ -124,58 +124,58 @@
       "id": "wikipedia",
       "label": "Wikipedia 英文站每日浏览量榜",
       "status": "ok",
-      "fetchedAt": "2026-11-22T07:41:45Z",
+      "fetchedAt": "2026-11-23T08:31:26Z",
       "error": null,
       "highlights": [
         {
-          "text": "Grand Theft Auto VI",
-          "value": 393338,
-          "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI"
-        },
-        {
-          "text": "Riemann hypothesis",
-          "value": 388288,
-          "url": "https://en.wikipedia.org/wiki/Riemann_hypothesis"
-        },
-        {
           "text": "Ramayana: Part 1",
-          "value": 357351,
+          "value": 384249,
           "url": "https://en.wikipedia.org/wiki/Ramayana:_Part_1"
         },
         {
+          "text": "Grand Theft Auto VI",
+          "value": 308867,
+          "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI"
+        },
+        {
+          "text": "Tom Jackson (American football, born 1951)",
+          "value": 263973,
+          "url": "https://en.wikipedia.org/wiki/Tom_Jackson_(American_football,_born_1951)"
+        },
+        {
           "text": "The Hunger Games: Sunrise on the Reaping",
-          "value": 204097,
+          "value": 222399,
           "url": "https://en.wikipedia.org/wiki/The_Hunger_Games:_Sunrise_on_the_Reaping"
         },
         {
-          "text": ".xxx",
-          "value": 148049,
-          "url": "https://en.wikipedia.org/wiki/.xxx"
+          "text": "Riemann hypothesis",
+          "value": 205793,
+          "url": "https://en.wikipedia.org/wiki/Riemann_hypothesis"
         },
         {
-          "text": "Deaths in 2026",
-          "value": 124212,
-          "url": "https://en.wikipedia.org/wiki/Deaths_in_2026"
-        },
-        {
-          "text": "O.M: Operation Mole",
-          "value": 123978,
-          "url": "https://en.wikipedia.org/wiki/O.M:_Operation_Mole"
+          "text": "Miley Cyrus",
+          "value": 170642,
+          "url": "https://en.wikipedia.org/wiki/Miley_Cyrus"
         },
         {
           "text": "List of highest-grossing Indian films",
-          "value": 122695,
+          "value": 137636,
           "url": "https://en.wikipedia.org/wiki/List_of_highest-grossing_Indian_films"
         },
         {
-          "text": "Ansel Adams",
-          "value": 121328,
-          "url": "https://en.wikipedia.org/wiki/Ansel_Adams"
+          "text": "Deaths in 2026",
+          "value": 131500,
+          "url": "https://en.wikipedia.org/wiki/Deaths_in_2026"
         },
         {
-          "text": "Robert Pattinson",
-          "value": 119357,
-          "url": "https://en.wikipedia.org/wiki/Robert_Pattinson"
+          "text": ".xxx",
+          "value": 113918,
+          "url": "https://en.wikipedia.org/wiki/.xxx"
+        },
+        {
+          "text": "The Body (TV series)",
+          "value": 112346,
+          "url": "https://en.wikipedia.org/wiki/The_Body_(TV_series)"
         }
       ]
     }
