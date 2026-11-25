@@ -1,63 +1,63 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-24T10:38:31Z",
+  "generatedAt": "2026-11-25T09:28:43Z",
   "probes": [
     {
       "id": "hackernews",
       "label": "Hacker News 首页热榜",
       "status": "ok",
-      "fetchedAt": "2026-11-24T10:38:29Z",
+      "fetchedAt": "2026-11-25T09:28:41Z",
       "error": null,
       "highlights": [
         {
-          "text": "2035 Came Early",
-          "value": 243,
-          "url": "https://fzakaria.com/2026/11/23/2035-came-early"
+          "text": "Matrix Multiplication is Θ(n^2.25) [pdf]",
+          "value": 607,
+          "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf"
         },
         {
-          "text": "Ladybird is now in alpha",
-          "value": 1985,
-          "url": "https://ladybird.org/posts/alpha/"
+          "text": "Button Sounds – collection of professionally-recorded button clicks and presses",
+          "value": 352,
+          "url": "https://buttons.joshwcomeau.com/"
         },
         {
-          "text": "Stalwart is now a drop-in replacement for Microsoft Exchange",
-          "value": 482,
-          "url": "https://stalw.art/blog/microsoft-exchange-replacement/"
+          "text": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
+          "value": 219,
+          "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being"
         },
         {
-          "text": "AMD EPYC Zen 6 vs. Zen 1 Performance: 12.1x Geo Mean in Less Than 10 Years",
-          "value": 94,
-          "url": "https://www.phoronix.com/review/amd-epyc-9006-7601"
+          "text": "Show HN: Old Nvidia and ATI tech demos, running again in the browser",
+          "value": 109,
+          "url": "https://gpu-demo-gallery.pages.dev/"
         },
         {
-          "text": "Nvidia Reinstates Jensen Huang as CEO",
-          "value": 2581,
-          "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html"
+          "text": "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native",
+          "value": 170,
+          "url": "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit"
         },
         {
-          "text": "Modernizing iperf/iperf3 and introducing fireperf",
-          "value": 108,
-          "url": "https://blog.daniel-baumann.ch/posts/20261122-1.html"
+          "text": "Ternary Bonsai 2.5 27B",
+          "value": 440,
+          "url": "https://prismml.com/news/bonsai-2-5-27b"
         },
         {
-          "text": "Drone Maps of Salvage Yards",
-          "value": 84,
-          "url": "https://salvageyarddrone.wordpress.com/"
+          "text": "PenGPT: A Generative Transformer for Handwriting and Sketches",
+          "value": 241,
+          "url": "https://greydanus.github.io/2026/11/12/pengpt/"
         },
         {
-          "text": "Arctic: A Practical Lock-Free Adaptive Radix Tree",
-          "value": 40,
-          "url": "https://www.usenix.org/conference/osdi26/presentation/ni"
+          "text": "Taking over US Treasury subdomains for $3 each",
+          "value": 77,
+          "url": "https://www.intruder.io/research/taking-over-us-treasury-subdomains-for-3-each"
         },
         {
-          "text": "GPUI is getting its own repository",
-          "value": 264,
-          "url": "https://github.com/zed-industries/gpui"
+          "text": "The algebra of dependent types (2025)",
+          "value": 25,
+          "url": "https://dotat.at/@/2025-05-28-types.html"
         },
         {
-          "text": "Lowering Perplexity Without Scaling",
-          "value": 54,
-          "url": "https://micjm.com/blog/lowering-perplexity-without-scaling/"
+          "text": "Getting old Java phones online again",
+          "value": 12,
+          "url": "https://antcating.github.io/2026/11/23/getting-old-java-phones-online-again.html"
         }
       ]
     },
@@ -65,57 +65,57 @@
       "id": "github",
       "label": "GitHub 近 45 天新建高星仓库",
       "status": "ok",
-      "fetchedAt": "2026-11-24T10:38:30Z",
+      "fetchedAt": "2026-11-25T09:28:43Z",
       "error": null,
       "highlights": [
         {
           "text": "Gathin23/cleanyourtv: Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
-          "value": 60671,
+          "value": 60886,
           "url": "https://github.com/Gathin23/cleanyourtv"
         },
         {
           "text": "storytold/craft-anything: Craft Anything: understand how any software works, and craft your own.",
-          "value": 42477,
+          "value": 43123,
           "url": "https://github.com/storytold/craft-anything"
         },
         {
           "text": "ccch1mneyyy/dsh-Go: dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-          "value": 31094,
+          "value": 31608,
           "url": "https://github.com/ccch1mneyyy/dsh-Go"
         },
         {
           "text": "deepseek-ai/DeepInfer: DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
-          "value": 26353,
+          "value": 26369,
           "url": "https://github.com/deepseek-ai/DeepInfer"
         },
         {
           "text": "deepseek-ai/dsh-superagent-prototype: Towards a More Autonomous Agent System",
-          "value": 24432,
+          "value": 24543,
           "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
         },
         {
           "text": "heydamir/unslop: A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
-          "value": 21036,
+          "value": 21431,
           "url": "https://github.com/heydamir/unslop"
         },
         {
           "text": "Zagitta/gpu-unlock: Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
-          "value": 20919,
+          "value": 21016,
           "url": "https://github.com/Zagitta/gpu-unlock"
         },
         {
           "text": "anefzaoui/misterdownloadmanager: misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac",
-          "value": 17565,
+          "value": 17971,
           "url": "https://github.com/anefzaoui/misterdownloadmanager"
         },
         {
           "text": "seedds/nxnative: Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE host, NVN→Metal)",
-          "value": 16622,
+          "value": 16686,
           "url": "https://github.com/seedds/nxnative"
         },
         {
           "text": "pengchujin/aerial-tv: 给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
-          "value": 13173,
+          "value": 13266,
           "url": "https://github.com/pengchujin/aerial-tv"
         }
       ]
@@ -124,58 +124,58 @@
       "id": "wikipedia",
       "label": "Wikipedia 英文站每日浏览量榜",
       "status": "ok",
-      "fetchedAt": "2026-11-24T10:38:31Z",
+      "fetchedAt": "2026-11-25T09:28:43Z",
       "error": null,
       "highlights": [
         {
           "text": "Ramayana: Part 1",
-          "value": 365685,
+          "value": 305811,
           "url": "https://en.wikipedia.org/wiki/Ramayana:_Part_1"
         },
         {
-          "text": "Grand Theft Auto VI",
-          "value": 266240,
-          "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI"
-        },
-        {
           "text": "Jensen Huang",
-          "value": 234343,
+          "value": 254240,
           "url": "https://en.wikipedia.org/wiki/Jensen_Huang"
         },
         {
-          "text": "Moon",
-          "value": 180275,
-          "url": "https://en.wikipedia.org/wiki/Moon"
+          "text": "Grand Theft Auto VI",
+          "value": 198339,
+          "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI"
         },
         {
           "text": "The Hunger Games: Sunrise on the Reaping",
-          "value": 180185,
+          "value": 129863,
           "url": "https://en.wikipedia.org/wiki/The_Hunger_Games:_Sunrise_on_the_Reaping"
         },
         {
-          "text": "Linux",
-          "value": 177023,
-          "url": "https://en.wikipedia.org/wiki/Linux"
-        },
-        {
-          "text": "Blood",
-          "value": 174912,
-          "url": "https://en.wikipedia.org/wiki/Blood"
-        },
-        {
-          "text": "Riemann hypothesis",
-          "value": 157845,
-          "url": "https://en.wikipedia.org/wiki/Riemann_hypothesis"
+          "text": "Deaths in 2026",
+          "value": 129741,
+          "url": "https://en.wikipedia.org/wiki/Deaths_in_2026"
         },
         {
           "text": "List of highest-grossing Indian films",
-          "value": 136937,
+          "value": 128464,
           "url": "https://en.wikipedia.org/wiki/List_of_highest-grossing_Indian_films"
         },
         {
-          "text": "Experience machine",
-          "value": 135474,
-          "url": "https://en.wikipedia.org/wiki/Experience_machine"
+          "text": "Avengers: Doomsday",
+          "value": 120242,
+          "url": "https://en.wikipedia.org/wiki/Avengers:_Doomsday"
+        },
+        {
+          "text": "Riemann hypothesis",
+          "value": 102084,
+          "url": "https://en.wikipedia.org/wiki/Riemann_hypothesis"
+        },
+        {
+          "text": "XXX: Return of Xander Cage",
+          "value": 101704,
+          "url": "https://en.wikipedia.org/wiki/XXX:_Return_of_Xander_Cage"
+        },
+        {
+          "text": "Nvidia",
+          "value": 89488,
+          "url": "https://en.wikipedia.org/wiki/Nvidia"
         }
       ]
     }
