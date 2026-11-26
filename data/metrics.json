@@ -1,63 +1,63 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-25T09:28:43Z",
+  "generatedAt": "2026-11-26T09:06:43Z",
   "probes": [
     {
       "id": "hackernews",
       "label": "Hacker News 首页热榜",
       "status": "ok",
-      "fetchedAt": "2026-11-25T09:28:41Z",
+      "fetchedAt": "2026-11-26T09:06:41Z",
       "error": null,
       "highlights": [
         {
-          "text": "Matrix Multiplication is Θ(n^2.25) [pdf]",
-          "value": 607,
-          "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf"
+          "text": "Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening",
+          "value": 1472,
+          "url": "https://scottaaronson.blog/?p=10379"
         },
         {
-          "text": "Button Sounds – collection of professionally-recorded button clicks and presses",
-          "value": 352,
-          "url": "https://buttons.joshwcomeau.com/"
+          "text": "1Password Security Incident",
+          "value": 1405,
+          "url": "https://1password.com/blog/update-on-nov-2026-security-incident"
         },
         {
-          "text": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
-          "value": 219,
-          "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being"
+          "text": "Lions' Commentary on Unix: Why It Was Secretly Copied for 20 Years",
+          "value": 88,
+          "url": "https://fosscomics.com/posts/17.%20Lions%27%20Commentary%20on%20Unix/"
         },
         {
-          "text": "Show HN: Old Nvidia and ATI tech demos, running again in the browser",
-          "value": 109,
-          "url": "https://gpu-demo-gallery.pages.dev/"
+          "text": "Moat: Your OpenRouter Replacement",
+          "value": 36,
+          "url": "https://commandcode.ai/moat"
         },
         {
-          "text": "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native",
-          "value": 170,
-          "url": "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit"
+          "text": "Much shorter version of GRH Lean verification from Anthropic",
+          "value": 443,
+          "url": "https://github.com/lsernau/grh-lean"
         },
         {
-          "text": "Ternary Bonsai 2.5 27B",
-          "value": 440,
-          "url": "https://prismml.com/news/bonsai-2-5-27b"
+          "text": "The New York Times warns photographers not to update Photoshop over AI features",
+          "value": 367,
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features"
         },
         {
-          "text": "PenGPT: A Generative Transformer for Handwriting and Sketches",
-          "value": 241,
-          "url": "https://greydanus.github.io/2026/11/12/pengpt/"
+          "text": "Minipg: PostgreSQL as a Single Executable",
+          "value": 113,
+          "url": "https://progrium.github.io/minipg/"
         },
         {
-          "text": "Taking over US Treasury subdomains for $3 each",
-          "value": 77,
-          "url": "https://www.intruder.io/research/taking-over-us-treasury-subdomains-for-3-each"
+          "text": "Collection of preserved UI style guides",
+          "value": 157,
+          "url": "https://aresluna.org/ui-style-guides/"
         },
         {
-          "text": "The algebra of dependent types (2025)",
-          "value": 25,
-          "url": "https://dotat.at/@/2025-05-28-types.html"
+          "text": "Tell HN: Lots of Ask HNs again",
+          "value": 253,
+          "url": "https://news.ycombinator.com/item?id=50649864"
         },
         {
-          "text": "Getting old Java phones online again",
-          "value": 12,
-          "url": "https://antcating.github.io/2026/11/23/getting-old-java-phones-online-again.html"
+          "text": "Show HN: Synth Patch Hero",
+          "value": 30,
+          "url": "https://swarkentin.github.io/synth-patch-hero/"
         }
       ]
     },
@@ -65,58 +65,58 @@
       "id": "github",
       "label": "GitHub 近 45 天新建高星仓库",
       "status": "ok",
-      "fetchedAt": "2026-11-25T09:28:43Z",
+      "fetchedAt": "2026-11-26T09:06:42Z",
       "error": null,
       "highlights": [
         {
           "text": "Gathin23/cleanyourtv: Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
-          "value": 60886,
+          "value": 61080,
           "url": "https://github.com/Gathin23/cleanyourtv"
         },
         {
           "text": "storytold/craft-anything: Craft Anything: understand how any software works, and craft your own.",
-          "value": 43123,
+          "value": 43783,
           "url": "https://github.com/storytold/craft-anything"
         },
         {
           "text": "ccch1mneyyy/dsh-Go: dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-          "value": 31608,
+          "value": 32305,
           "url": "https://github.com/ccch1mneyyy/dsh-Go"
         },
         {
           "text": "deepseek-ai/DeepInfer: DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
-          "value": 26369,
+          "value": 26386,
           "url": "https://github.com/deepseek-ai/DeepInfer"
         },
         {
           "text": "deepseek-ai/dsh-superagent-prototype: Towards a More Autonomous Agent System",
-          "value": 24543,
+          "value": 24630,
           "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
         },
         {
           "text": "heydamir/unslop: A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
-          "value": 21431,
+          "value": 21882,
           "url": "https://github.com/heydamir/unslop"
         },
         {
           "text": "Zagitta/gpu-unlock: Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
-          "value": 21016,
+          "value": 21095,
           "url": "https://github.com/Zagitta/gpu-unlock"
         },
         {
           "text": "anefzaoui/misterdownloadmanager: misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac",
-          "value": 17971,
+          "value": 18311,
           "url": "https://github.com/anefzaoui/misterdownloadmanager"
         },
         {
           "text": "seedds/nxnative: Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE host, NVN→Metal)",
-          "value": 16686,
+          "value": 16763,
           "url": "https://github.com/seedds/nxnative"
         },
         {
-          "text": "pengchujin/aerial-tv: 给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
-          "value": 13266,
-          "url": "https://github.com/pengchujin/aerial-tv"
+          "text": "libracoder/kiri: A small, fast container runtime for macOS, Windows and Linux with free Ngrok alternative",
+          "value": 13595,
+          "url": "https://github.com/libracoder/kiri"
         }
       ]
     },
@@ -124,58 +124,58 @@
       "id": "wikipedia",
       "label": "Wikipedia 英文站每日浏览量榜",
       "status": "ok",
-      "fetchedAt": "2026-11-25T09:28:43Z",
+      "fetchedAt": "2026-11-26T09:06:43Z",
       "error": null,
       "highlights": [
         {
+          "text": "Miss Universe 2026",
+          "value": 394056,
+          "url": "https://en.wikipedia.org/wiki/Miss_Universe_2026"
+        },
+        {
           "text": "Ramayana: Part 1",
-          "value": 305811,
+          "value": 268083,
           "url": "https://en.wikipedia.org/wiki/Ramayana:_Part_1"
         },
         {
-          "text": "Jensen Huang",
-          "value": 254240,
-          "url": "https://en.wikipedia.org/wiki/Jensen_Huang"
+          "text": "Ezra Frech",
+          "value": 260732,
+          "url": "https://en.wikipedia.org/wiki/Ezra_Frech"
+        },
+        {
+          "text": "Dancing with the Stars (American TV series) season 35",
+          "value": 205438,
+          "url": "https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_TV_series)_season_35"
         },
         {
           "text": "Grand Theft Auto VI",
-          "value": 198339,
+          "value": 151092,
           "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI"
         },
         {
-          "text": "The Hunger Games: Sunrise on the Reaping",
-          "value": 129863,
-          "url": "https://en.wikipedia.org/wiki/The_Hunger_Games:_Sunrise_on_the_Reaping"
+          "text": "Jennifer Barreto",
+          "value": 149785,
+          "url": "https://en.wikipedia.org/wiki/Jennifer_Barreto"
         },
         {
           "text": "Deaths in 2026",
-          "value": 129741,
+          "value": 136608,
           "url": "https://en.wikipedia.org/wiki/Deaths_in_2026"
         },
         {
+          "text": "Andy Taylor (guitarist)",
+          "value": 135665,
+          "url": "https://en.wikipedia.org/wiki/Andy_Taylor_(guitarist)"
+        },
+        {
+          "text": "Mike McCarthy",
+          "value": 128019,
+          "url": "https://en.wikipedia.org/wiki/Mike_McCarthy"
+        },
+        {
           "text": "List of highest-grossing Indian films",
-          "value": 128464,
+          "value": 127151,
           "url": "https://en.wikipedia.org/wiki/List_of_highest-grossing_Indian_films"
-        },
-        {
-          "text": "Avengers: Doomsday",
-          "value": 120242,
-          "url": "https://en.wikipedia.org/wiki/Avengers:_Doomsday"
-        },
-        {
-          "text": "Riemann hypothesis",
-          "value": 102084,
-          "url": "https://en.wikipedia.org/wiki/Riemann_hypothesis"
-        },
-        {
-          "text": "XXX: Return of Xander Cage",
-          "value": 101704,
-          "url": "https://en.wikipedia.org/wiki/XXX:_Return_of_Xander_Cage"
-        },
-        {
-          "text": "Nvidia",
-          "value": 89488,
-          "url": "https://en.wikipedia.org/wiki/Nvidia"
         }
       ]
     }
