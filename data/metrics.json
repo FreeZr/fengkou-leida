@@ -1,63 +1,63 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-26T09:06:43Z",
+  "generatedAt": "2026-11-27T09:23:13Z",
   "probes": [
     {
       "id": "hackernews",
       "label": "Hacker News 首页热榜",
       "status": "ok",
-      "fetchedAt": "2026-11-26T09:06:41Z",
+      "fetchedAt": "2026-11-27T09:23:11Z",
       "error": null,
       "highlights": [
         {
-          "text": "Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening",
-          "value": 1472,
-          "url": "https://scottaaronson.blog/?p=10379"
+          "text": "The group chat where your AI talks behind your back",
+          "value": 187,
+          "url": "https://construct22.com/"
         },
         {
-          "text": "1Password Security Incident",
-          "value": 1405,
-          "url": "https://1password.com/blog/update-on-nov-2026-security-incident"
+          "text": "AI made self-hosting fun again",
+          "value": 653,
+          "url": "https://janlukas.blog/posts/ai-self-hosting"
         },
         {
-          "text": "Lions' Commentary on Unix: Why It Was Secretly Copied for 20 Years",
-          "value": 88,
-          "url": "https://fosscomics.com/posts/17.%20Lions%27%20Commentary%20on%20Unix/"
+          "text": "The need for a formally verifiable mainstream programming language",
+          "value": 142,
+          "url": "https://blainehansen.me/post/mainstream-verifiable-language/"
         },
         {
-          "text": "Moat: Your OpenRouter Replacement",
-          "value": 36,
-          "url": "https://commandcode.ai/moat"
+          "text": "YouTube Ad Punisher – Auto-reloads YouTube pages when an ad plays",
+          "value": 391,
+          "url": "https://github.com/antonpictures/youtube-punisher"
         },
         {
-          "text": "Much shorter version of GRH Lean verification from Anthropic",
-          "value": 443,
-          "url": "https://github.com/lsernau/grh-lean"
+          "text": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
+          "value": 359,
+          "url": "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/"
         },
         {
-          "text": "The New York Times warns photographers not to update Photoshop over AI features",
-          "value": 367,
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features"
+          "text": "Hard Drive pricing has gotten bad",
+          "value": 334,
+          "url": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/"
         },
         {
-          "text": "Minipg: PostgreSQL as a Single Executable",
-          "value": 113,
-          "url": "https://progrium.github.io/minipg/"
+          "text": "AMD-specific fork of llama.cpp",
+          "value": 354,
+          "url": "https://devnull.land/amd-specific-llama-cpp"
         },
         {
-          "text": "Collection of preserved UI style guides",
-          "value": 157,
-          "url": "https://aresluna.org/ui-style-guides/"
+          "text": "CTO of 'RansomwareHelp' indicted for wire fraud",
+          "value": 264,
+          "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/"
         },
         {
-          "text": "Tell HN: Lots of Ask HNs again",
-          "value": 253,
-          "url": "https://news.ycombinator.com/item?id=50649864"
+          "text": "Company Culture = Slack Emoji ÷ √Headcount",
+          "value": 332,
+          "url": "https://lia.mg/posts/measuring-company-culture-with-slack-emoji/"
         },
         {
-          "text": "Show HN: Synth Patch Hero",
-          "value": 30,
-          "url": "https://swarkentin.github.io/synth-patch-hero/"
+          "text": "Intel One Mono font (2023)",
+          "value": 520,
+          "url": "https://github.com/intel/intel-one-mono"
         }
       ]
     },
@@ -65,58 +65,58 @@
       "id": "github",
       "label": "GitHub 近 45 天新建高星仓库",
       "status": "ok",
-      "fetchedAt": "2026-11-26T09:06:42Z",
+      "fetchedAt": "2026-11-27T09:23:12Z",
       "error": null,
       "highlights": [
         {
           "text": "Gathin23/cleanyourtv: Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
-          "value": 61080,
+          "value": 61297,
           "url": "https://github.com/Gathin23/cleanyourtv"
         },
         {
           "text": "storytold/craft-anything: Craft Anything: understand how any software works, and craft your own.",
-          "value": 43783,
+          "value": 44337,
           "url": "https://github.com/storytold/craft-anything"
         },
         {
           "text": "ccch1mneyyy/dsh-Go: dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-          "value": 32305,
+          "value": 32988,
           "url": "https://github.com/ccch1mneyyy/dsh-Go"
         },
         {
           "text": "deepseek-ai/DeepInfer: DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
-          "value": 26386,
+          "value": 26407,
           "url": "https://github.com/deepseek-ai/DeepInfer"
         },
         {
           "text": "deepseek-ai/dsh-superagent-prototype: Towards a More Autonomous Agent System",
-          "value": 24630,
+          "value": 24717,
           "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
         },
         {
           "text": "heydamir/unslop: A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
-          "value": 21882,
+          "value": 22349,
           "url": "https://github.com/heydamir/unslop"
         },
         {
           "text": "Zagitta/gpu-unlock: Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
-          "value": 21095,
+          "value": 21243,
           "url": "https://github.com/Zagitta/gpu-unlock"
         },
         {
           "text": "anefzaoui/misterdownloadmanager: misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac",
-          "value": 18311,
+          "value": 18715,
           "url": "https://github.com/anefzaoui/misterdownloadmanager"
         },
         {
-          "text": "seedds/nxnative: Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE host, NVN→Metal)",
-          "value": 16763,
-          "url": "https://github.com/seedds/nxnative"
+          "text": "libracoder/kiri: A small, fast container runtime for macOS, Windows and Linux with free Ngrok alternative",
+          "value": 13925,
+          "url": "https://github.com/libracoder/kiri"
         },
         {
-          "text": "libracoder/kiri: A small, fast container runtime for macOS, Windows and Linux with free Ngrok alternative",
-          "value": 13595,
-          "url": "https://github.com/libracoder/kiri"
+          "text": "JuneYaooo/rea-video: Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. Breakdowns in the open VIDEO.md format. 逆向一切",
+          "value": 13805,
+          "url": "https://github.com/JuneYaooo/rea-video"
         }
       ]
     },
@@ -124,58 +124,58 @@
       "id": "wikipedia",
       "label": "Wikipedia 英文站每日浏览量榜",
       "status": "ok",
-      "fetchedAt": "2026-11-26T09:06:43Z",
+      "fetchedAt": "2026-11-27T09:23:13Z",
       "error": null,
       "highlights": [
         {
-          "text": "Miss Universe 2026",
-          "value": 394056,
-          "url": "https://en.wikipedia.org/wiki/Miss_Universe_2026"
-        },
-        {
-          "text": "Ramayana: Part 1",
-          "value": 268083,
-          "url": "https://en.wikipedia.org/wiki/Ramayana:_Part_1"
-        },
-        {
-          "text": "Ezra Frech",
-          "value": 260732,
-          "url": "https://en.wikipedia.org/wiki/Ezra_Frech"
-        },
-        {
-          "text": "Dancing with the Stars (American TV series) season 35",
-          "value": 205438,
-          "url": "https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_TV_series)_season_35"
-        },
-        {
-          "text": "Grand Theft Auto VI",
-          "value": 151092,
-          "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI"
-        },
-        {
-          "text": "Jennifer Barreto",
-          "value": 149785,
-          "url": "https://en.wikipedia.org/wiki/Jennifer_Barreto"
-        },
-        {
-          "text": "Deaths in 2026",
-          "value": 136608,
-          "url": "https://en.wikipedia.org/wiki/Deaths_in_2026"
-        },
-        {
           "text": "Andy Taylor (guitarist)",
-          "value": 135665,
+          "value": 318400,
           "url": "https://en.wikipedia.org/wiki/Andy_Taylor_(guitarist)"
         },
         {
+          "text": "Ramayana: Part 1",
+          "value": 256714,
+          "url": "https://en.wikipedia.org/wiki/Ramayana:_Part_1"
+        },
+        {
+          "text": "Aaron Rodgers",
+          "value": 183037,
+          "url": "https://en.wikipedia.org/wiki/Aaron_Rodgers"
+        },
+        {
           "text": "Mike McCarthy",
-          "value": 128019,
+          "value": 178864,
           "url": "https://en.wikipedia.org/wiki/Mike_McCarthy"
         },
         {
+          "text": "Duran Duran",
+          "value": 164045,
+          "url": "https://en.wikipedia.org/wiki/Duran_Duran"
+        },
+        {
+          "text": "Wu-Tang Clan",
+          "value": 147607,
+          "url": "https://en.wikipedia.org/wiki/Wu-Tang_Clan"
+        },
+        {
+          "text": "Deaths in 2026",
+          "value": 134094,
+          "url": "https://en.wikipedia.org/wiki/Deaths_in_2026"
+        },
+        {
           "text": "List of highest-grossing Indian films",
-          "value": 127151,
+          "value": 125901,
           "url": "https://en.wikipedia.org/wiki/List_of_highest-grossing_Indian_films"
+        },
+        {
+          "text": "Grand Theft Auto VI",
+          "value": 123574,
+          "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI"
+        },
+        {
+          "text": "Ezra Frech",
+          "value": 119420,
+          "url": "https://en.wikipedia.org/wiki/Ezra_Frech"
         }
       ]
     }
